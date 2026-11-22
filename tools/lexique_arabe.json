@@ -1,0 +1,18 @@
+{
+  "_doc": "Prononciation des mots arabes pour la voix Kokoro ff_siwis (API phonétique). Clé = graphie utilisée dans le champ tts ; valeur = phonèmes. Choisis le 22/11/2026 en comparant des variantes avec la reconnaissance vocale arabe Whisper small (moyenne sur 3 vitesses). Éviter « ʔ » en début de mot (entendu comme d/s) et « ɾ » isolé ; « h » après voyelle peut être entendu comme r : à tester mot par mot.",
+  "Allah": "alˈaː",
+  "Mouhammad": "mohˈammad",
+  "Marib": "ˈmaɣɾib",
+  "Magrib": "ˈmaɣɾib",
+  "rak'ates": "ʁakaʔˈaːt",
+  "Zakate": "zakˈaːt",
+  "Salate": "salˈaːt",
+  "Mouslim": "mˈʊslɪm",
+  "Ibrahim": "ibʁahˈim",
+  "Roukou": "ʁukˈuːʔ",
+  "Nouh": "nˈuh",
+  "Issa": "ˈiːsaː",
+  "Kaaba": "kˈaʔba",
+  "woudou": "wuˈduː",
+  "Woudou": "wuˈduː"
+}

@@ -35,3 +35,20 @@ python3 tools/ph.py "Woudou"                    # prononciation d'un mot ; « (e
 ```
 ffmpeg -i tools/out/<slug>/<slug>.mp4 -c:v libx264 -preset slow -crf 24 -pix_fmt yuv420p -c:a copy -movflags +faststart videos/<slug>.mp4
 ```
+
+## Prononciation des mots arabes
+
+`tools/lexique_arabe.json` remplace, au moment de la synthèse, certains mots du champ `tts` par leurs phonèmes (API phonétique de Kokoro). Les petits mots juste avant (le, la, de, à, et, en) perdent leur accent, et « en » fait la liaison (« en Allah »).
+
+Pour tester un nouveau mot : ajouter des variantes dans un fichier comme `tools/prononciation/cases.json` (graphie `tts`, mot arabe visé, phonèmes à essayer), puis
+```
+QM_ASR=models/sherpa-onnx-whisper-small python3 tools/prononciation/eval.py tools/prononciation/cases.json
+```
+Le script fait lire chaque variante par la voix, la fait transcrire par Whisper small en arabe (modèle sherpa-onnx, publié sur GitHub dans k2-fsa/sherpa-onnx, release « asr-models ») et classe les variantes par ressemblance au mot visé. C'est un indicateur, pas une garantie : la décision finale se fait à l'écoute.
+
+## Nachid de fond
+
+```
+python3 tools/mix_nasheed.py tools/out/<slug>/<slug>.mp4 audio/nasheed-60.mp3 videos/<slug>.mp4 [--offset-db 3]
+```
+Voir `audio/README.md`.

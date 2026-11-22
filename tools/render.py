@@ -530,23 +530,70 @@ def check_bounds(name, els):
         print(f"  ! {name} : contenu de y={top} à y={bottom} (risque de sortir du cadre / sous l'interface TikTok)")
 
 # ---------- voix ----------
+LEXIQUE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "lexique_arabe.json")
+
+def load_lexique():
+    try:
+        d = json.load(open(LEXIQUE_PATH, encoding="utf-8"))
+    except FileNotFoundError:
+        return {}
+    return {k: v for k, v in d.items() if not k.startswith("_")}
+
+def to_phonemes(kok, txt, lex):
+    """Texte français -> phonèmes, en remplaçant les mots du lexique arabe par leurs phonèmes."""
+    if not lex:
+        return None
+    import re
+    pat = re.compile(r"(?<![\w'’])(" + "|".join(re.escape(k) for k in sorted(lex, key=len, reverse=True)) + r")(?![\w'’])")
+    if not pat.search(txt):
+        return None
+    out = []
+    for i, part in enumerate(pat.split(txt)):
+        if i % 2:
+            out.append(lex[part])
+        elif part.strip(" "):
+            lead = " " if part[:1] == " " else ""
+            trail = " " if part[-1:] == " " else ""
+            core = part.strip(" ")
+            ph = kok.tokenizer.phonemize(core, TTS_LANG) if re.search(r"\w", core) else core
+            if trail and ph:
+                # petit mot juste avant un mot arabe (le, la, de, à, et, en…) : pas d'accent, liaison « en » -> « ɑ̃n »
+                toks = ph.split(" ")
+                last = toks[-1].replace("ˈ", "").replace("ˌ", "")
+                if len(last) <= 3 and re.match(r"^[^\W\d_]+$", last.replace("\u0303", "")):
+                    nxt = pat.split(txt)[i + 1] if i + 1 < len(pat.split(txt)) else ""
+                    if last == "ɑ̃" and lex.get(nxt, "x")[:1] in "aeiouɑɛɔəyøœʊɪ":
+                        last = "ɑ̃n"
+                    toks[-1] = last
+                ph = " ".join(toks)
+            out.append(lead + ph + trail)
+        else:
+            out.append(part)
+    return re.sub(r" {2,}", " ", "".join(out)).strip()
+
 def tts_all(scenes):
     """Retourne [(chemin_wav ou None, durée_s)] ; cache par hash(texte, voix, vitesse, langue)."""
     os.makedirs(TTS_CACHE, exist_ok=True)
     import soundfile as sf
     kok, res = None, []
+    lex = load_lexique()
+    lex_sig = hashlib.sha1(json.dumps(lex, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8] if lex else ""
     for i, sc in enumerate(scenes, 1):
         txt = (sc.get("tts") or sc.get("narration") or "").strip()
         if not txt:
             res.append((None, 0.0)); continue
-        key = hashlib.sha1(f"{TTS_VOICE}|{TTS_SPEED}|{TTS_LANG}|{txt}".encode()).hexdigest()[:16]
+        key = hashlib.sha1(f"{TTS_VOICE}|{TTS_SPEED}|{TTS_LANG}|{lex_sig}|{txt}".encode()).hexdigest()[:16]
         path = os.path.join(TTS_CACHE, key + ".wav")
         if not os.path.exists(path):
             if kok is None:
                 from kokoro_onnx import Kokoro
                 kok = Kokoro(TTS_MODEL, TTS_VOICES)
             t0 = time.time()
-            a, sr = kok.create(txt, voice=TTS_VOICE, speed=TTS_SPEED, lang=TTS_LANG)
+            ph = to_phonemes(kok, txt, lex)
+            if ph:
+                a, sr = kok.create(ph, voice=TTS_VOICE, speed=TTS_SPEED, lang=TTS_LANG, is_phonemes=True)
+            else:
+                a, sr = kok.create(txt, voice=TTS_VOICE, speed=TTS_SPEED, lang=TTS_LANG)
             sf.write(path + ".tmp.wav", a, sr, subtype="PCM_16")
             os.replace(path + ".tmp.wav", path)
             print(f"  voix scène {i} : {len(a) / sr:.2f} s (générée en {time.time() - t0:.1f} s)")
