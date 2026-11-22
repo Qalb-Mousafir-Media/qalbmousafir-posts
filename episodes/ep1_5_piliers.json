@@ -1,0 +1,137 @@
+{
+ "episode": 1,
+ "slug": "test_ep1",
+ "title": "Les 5 piliers de l'islam",
+ "timing": {
+  "tail": 1.0,
+  "min_by_type": {
+   "hook": 4.2,
+   "quote": 6.0,
+   "step": 6.3,
+   "recap": 6.0,
+   "outro": 5.0
+  }
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 1 · LES BASES",
+   "arabic": "أركان الإسلام",
+   "title": "Les 5 piliers de l'islam",
+   "subtitle": "Tu les connais vraiment ?",
+   "narration": "Les 5 piliers de l'islam. Tu les connais vraiment ?",
+   "tts": "Les cinq piliers de l'islam. Tu les connais vraiment ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ",
+   "translation": "« L'islam est bâti sur cinq piliers »",
+   "source": "Rapporté par al-Bukhari et Muslim",
+   "narration": "Le Prophète ﷺ a dit : l'islam est bâti sur cinq piliers. Rapporté par al-Bukhari et Muslim.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : l'islam est bâti sur cinq piliers. Rapporté par al-Boukhari et Mouslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "PILIER",
+   "arabic": "الشهادة",
+   "title": "Shahada",
+   "subtitle": "La profession de foi",
+   "text": "Attester qu'il n'y a de divinité qu'Allah, et que Muhammad ﷺ est Son messager.",
+   "narration": "Premier pilier : la Shahada, la profession de foi. Attester qu'il n'y a de divinité qu'Allah, et que Muhammad ﷺ est Son messager.",
+   "tts": "Premier pilier : la Chahada, la profession de foi. Attester qu'il n'y a de divinité qu'Allah, et que Mouhammad, paix et salut sur lui, est Son messager."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "PILIER",
+   "arabic": "الصلاة",
+   "title": "Salat",
+   "subtitle": "La prière",
+   "text": "Accomplir les 5 prières quotidiennes : Fajr, Dhuhr, Asr, Maghrib et Isha.",
+   "narration": "Deuxième pilier : la Salat, la prière. Accomplir les 5 prières quotidiennes : Fajr, Dhuhr, Asr, Maghrib et Isha.",
+   "tts": "Deuxième pilier : la Salate, la prière. Accomplir les cinq prières quotidiennes : Fadjr, Dhohr, Asr, Magrib et Ichâ."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "PILIER",
+   "arabic": "الزكاة",
+   "title": "Zakat",
+   "subtitle": "L'aumône obligatoire",
+   "text": "Donner 2,5 % de son épargne lorsqu'elle atteint le seuil (nissab) pendant une année lunaire.",
+   "narration": "Troisième pilier : la Zakat, l'aumône obligatoire. Donner 2,5 % de son épargne, lorsqu'elle atteint le seuil, le nissab, pendant une année lunaire.",
+   "tts": "Troisième pilier : la Zakate, l'aumône obligatoire. Donner deux virgule cinq pour cent de son épargne, lorsqu'elle atteint le seuil, le nissab, pendant une année lunaire."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "PILIER",
+   "arabic": "الصوم",
+   "title": "Sawm",
+   "subtitle": "Le jeûne",
+   "text": "Jeûner pendant le mois de Ramadan, de l'aube jusqu'au coucher du soleil.",
+   "narration": "Quatrième pilier : le Sawm, le jeûne. Jeûner pendant le mois de Ramadan, de l'aube jusqu'au coucher du soleil.",
+   "tts": "Quatrième pilier : le Saoum, le jeûne. Jeûner pendant le mois de Ramadan, de l'aube jusqu'au coucher du soleil."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "PILIER",
+   "arabic": "الحج",
+   "title": "Hajj",
+   "subtitle": "Le pèlerinage",
+   "text": "Se rendre à La Mecque une fois dans sa vie, pour celui qui en a la capacité.",
+   "narration": "Cinquième pilier : le Hajj, le pèlerinage. Se rendre à La Mecque une fois dans sa vie, pour celui qui en a la capacité.",
+   "tts": "Cinquième pilier : le Hadj, le pèlerinage. Se rendre à La Mecque une fois dans sa vie, pour celui qui en a la capacité."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Shahada",
+     "subtitle": "La profession de foi",
+     "arabic": "الشهادة"
+    },
+    {
+     "title": "Salat",
+     "subtitle": "La prière",
+     "arabic": "الصلاة"
+    },
+    {
+     "title": "Zakat",
+     "subtitle": "L'aumône obligatoire",
+     "arabic": "الزكاة"
+    },
+    {
+     "title": "Sawm",
+     "subtitle": "Le jeûne",
+     "arabic": "الصوم"
+    },
+    {
+     "title": "Hajj",
+     "subtitle": "Le pèlerinage",
+     "arabic": "الحج"
+    }
+   ],
+   "narration": "En résumé : la Shahada, la Salat, la Zakat, le Sawm, et le Hajj.",
+   "tts": "En résumé : la Chahada, la Salate, la Zakate, le Saoum, et le Hadj."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Comment faire les ablutions",
+   "next_arabic": "الوضوء",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Dans le prochain épisode : comment faire les ablutions. Abonne-toi pour ne pas le rater.",
+   "tts": "Dans le prochain épisode : comment faire les ablutions. Abonne-toi pour ne pas le rater."
+  }
+ ]
+}

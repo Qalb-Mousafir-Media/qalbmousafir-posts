@@ -1,0 +1,144 @@
+{
+ "episode": 4,
+ "slug": "ep4_6_piliers_foi",
+ "title": "Les 6 piliers de la foi",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 4 · LES BASES",
+   "arabic": "أَرْكَانُ الْإِيمَانِ",
+   "title": "Les 6 piliers de la foi",
+   "subtitle": "Al-Iman, d'après le hadith de Jibril",
+   "narration": "L'islam a cinq piliers. Mais la foi, elle, en a six. Tu les connais ?",
+   "tts": "L'islam a cinq piliers. Mais la foi, elle, en a six. Tu les connais ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Jibril, venu sous l'apparence d'un homme, a demandé : « Parle-moi de la foi. » Le Prophète ﷺ a répondu :",
+   "arabic": "أَنْ تُؤْمِنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
+   "translation": "« C'est que tu croies en Allah, en Ses anges, en Ses livres, en Ses messagers, au Jour dernier, et que tu croies au destin, son bien et son mal. »",
+   "source": "Rapporté par Muslim (n° 8)",
+   "narration": "L'ange Jibril, venu sous l'apparence d'un homme, a demandé au Prophète, paix et salut sur lui : « Parle-moi de la foi. » Il a répondu : « C'est que tu croies en Allah, en Ses anges, en Ses livres, en Ses messagers, au Jour dernier, et que tu croies au destin, son bien et son mal. » Rapporté par Muslim.",
+   "tts": "L'ange Djibril, venu sous l'apparence d'un homme, a demandé au Prophète, paix et salut sur lui : « Parle-moi de la foi. » Il a répondu : « C'est que tu croies en Allah, en Ses anges, en Ses livres, en Ses messagers, au Jour dernier, et que tu croies au destin, son bien et son mal. » Rapporté par Mouslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "اللَّهُ",
+   "title": "Allah",
+   "subtitle": "Croire en Allah",
+   "text": "Allah est unique, sans associé. Lui seul mérite d'être adoré.",
+   "narration": "Un : croire en Allah. L'Unique, sans associé. Lui seul mérite d'être adoré.",
+   "tts": "Un : croire en Allah. L'Unique, sans associé. Lui seul mérite d'être adoré."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "الْمَلَائِكَةُ",
+   "title": "Al-Mala'ika",
+   "subtitle": "Ses anges",
+   "text": "Créés de lumière, ils obéissent à Allah. Jibril apportait la révélation.",
+   "narration": "Deux : Ses anges. Créés de lumière, ils obéissent à Allah. Comme Jibril, qui apportait la révélation.",
+   "tts": "Deux : Ses anges. Créés de lumière, ils obéissent à Allah. Comme Djibril, qui apportait la révélation."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "الْكُتُبُ",
+   "title": "Al-Kutub",
+   "subtitle": "Ses livres",
+   "text": "Tels qu'Allah les a révélés : la Torah, les Psaumes, l'Évangile… et le Coran, le dernier, préservé.",
+   "narration": "Trois : Ses livres, tels qu'Allah les a révélés. La Torah, les Psaumes, l'Évangile… et le Coran, le dernier, préservé par Allah.",
+   "tts": "Trois : Ses livres, tels qu'Allah les a révélés. La Torah, les Psaumes, l'Évangile… et le Coran, le dernier, préservé par Allah."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "الرُّسُلُ",
+   "title": "Ar-Rusul",
+   "subtitle": "Ses messagers",
+   "text": "Nouh, Ibrahim, Moussa, 'Issa… et Muhammad ﷺ, le dernier des prophètes.",
+   "narration": "Quatre : Ses messagers. Nouh, Ibrahim, Moussa, 'Issa, paix sur eux… et Muhammad, paix et salut sur lui, le dernier des prophètes.",
+   "tts": "Quatre : Ses messagers. Nouh, Ibrahim, Moussa, Issa, paix sur eux… et Mouhammad, paix et salut sur lui, le dernier des prophètes."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "الْيَوْمُ الْآخِرُ",
+   "title": "Al-Yawm al-Akhir",
+   "subtitle": "Le Jour dernier",
+   "text": "La résurrection, le Jugement, puis le Paradis ou l'Enfer.",
+   "narration": "Cinq : le Jour dernier. La résurrection, le Jugement, puis le Paradis ou l'Enfer.",
+   "tts": "Cinq : le Jour dernier. La résurrection, le Jugement, puis le Paradis ou l'Enfer."
+  },
+  {
+   "type": "step",
+   "index": 6,
+   "total": 6,
+   "label": "PILIER",
+   "arabic": "الْقَدَرُ",
+   "title": "Al-Qadar",
+   "subtitle": "Le destin, son bien et son mal",
+   "text": "Rien n'arrive sans qu'Allah le sache et le veuille, le bien comme le mal.",
+   "narration": "Six : le destin, al-qadar. Rien n'arrive sans qu'Allah le sache et le veuille, le bien comme le mal.",
+   "tts": "Six : le destin, al-Qadar. Rien n'arrive sans qu'Allah le sache et le veuille, le bien comme le mal."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Allah",
+     "subtitle": "L'Unique",
+     "arabic": "اللَّهُ"
+    },
+    {
+     "title": "Ses anges",
+     "subtitle": "Al-Mala'ika",
+     "arabic": "الْمَلَائِكَةُ"
+    },
+    {
+     "title": "Ses livres",
+     "subtitle": "Al-Kutub",
+     "arabic": "الْكُتُبُ"
+    },
+    {
+     "title": "Ses messagers",
+     "subtitle": "Ar-Rusul",
+     "arabic": "الرُّسُلُ"
+    },
+    {
+     "title": "Le Jour dernier",
+     "subtitle": "Al-Yawm al-Akhir",
+     "arabic": "الْيَوْمُ الْآخِرُ"
+    },
+    {
+     "title": "Le destin",
+     "subtitle": "Al-Qadar",
+     "arabic": "الْقَدَرُ"
+    }
+   ],
+   "narration": "En résumé : Allah, Ses anges, Ses livres, Ses messagers, le Jour dernier et le destin. Six piliers, une seule foi.",
+   "tts": "En résumé : Allah, Ses anges, Ses livres, Ses messagers, le Jour dernier et le destin. Six piliers, une seule foi."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Comment faire la prière — partie 1",
+   "next_arabic": "صِفَةُ الصَّلَاةِ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : comment faire la prière, partie un. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : comment faire la prière, partie un. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

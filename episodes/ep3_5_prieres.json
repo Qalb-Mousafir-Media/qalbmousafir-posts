@@ -1,0 +1,127 @@
+{
+ "episode": 3,
+ "slug": "ep3_5_prieres",
+ "title": "Les 5 prières du jour",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 3 · LES BASES",
+   "arabic": "الصَّلَوَاتُ الْخَمْسُ",
+   "title": "Les 5 prières du jour",
+   "subtitle": "Leurs noms, leurs moments, leurs rak'at",
+   "narration": "Cinq rendez-vous avec Allah, chaque jour. Tu connais leurs noms ? En une minute, tu vas les retenir.",
+   "tts": "Cinq rendez-vous avec Allah, chaque jour. Tu connais leurs noms ? En une minute, tu vas les retenir."
+  },
+  {
+   "type": "quote",
+   "intro": "« Quelle œuvre Allah aime-t-Il le plus ? » Le Prophète ﷺ a répondu :",
+   "arabic": "الصَّلَاةُ عَلَى وَقْتِهَا",
+   "translation": "« La prière accomplie à son heure. »",
+   "source": "Rapporté par al-Bukhari (n° 527)",
+   "narration": "On a demandé au Prophète, paix et salut sur lui, quelle œuvre Allah aime le plus. Il a répondu : « La prière accomplie à son heure. » Rapporté par al-Bukhari.",
+   "tts": "On a demandé au Prophète, paix et salut sur lui, quelle œuvre Allah aime le plus. Il a répondu : « La prière accomplie à son heure. » Rapporté par al-Boukhari."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "PRIÈRE",
+   "arabic": "الْفَجْرُ",
+   "title": "Fajr",
+   "subtitle": "L'aube · 2 rak'at",
+   "text": "De l'aube jusqu'au lever du soleil. Une rak'a = une unité de prière.",
+   "narration": "Un : le Fajr, à l'aube, avant le lever du soleil. Deux rak'at. Une rak'a, c'est une unité de prière.",
+   "tts": "Un : le Fadjr, à l'aube, avant le lever du soleil. Deux rak'ates. Une rak'a, c'est une unité de prière."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "PRIÈRE",
+   "arabic": "الظُّهْرُ",
+   "title": "Dhuhr",
+   "subtitle": "Le milieu de journée · 4 rak'at",
+   "text": "Juste après que le soleil a passé son point le plus haut et commence à décliner.",
+   "narration": "Deux : le Dhuhr, en milieu de journée, quand le soleil commence à décliner. Quatre rak'at.",
+   "tts": "Deux : le Dhohr, en milieu de journée, quand le soleil commence à décliner. Quatre rak'ates."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "PRIÈRE",
+   "arabic": "الْعَصْرُ",
+   "title": "Asr",
+   "subtitle": "L'après-midi · 4 rak'at",
+   "text": "Plus tard dans l'après-midi, quand les ombres s'allongent.",
+   "narration": "Trois : l'Asr, plus tard dans l'après-midi, quand les ombres s'allongent. Quatre rak'at.",
+   "tts": "Trois : l'Asr, plus tard dans l'après-midi, quand les ombres s'allongent. Quatre rak'ates."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "PRIÈRE",
+   "arabic": "الْمَغْرِبُ",
+   "title": "Maghrib",
+   "subtitle": "Le coucher du soleil · 3 rak'at",
+   "text": "Juste après le coucher du soleil. C'est la seule des 5 prières à 3 rak'at.",
+   "narration": "Quatre : le Maghrib, juste après le coucher du soleil. Trois rak'at, la seule des cinq prières à trois.",
+   "tts": "Quatre : le Marib, juste après le coucher du soleil. Trois rak'ates, la seule des cinq prières à trois."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "PRIÈRE",
+   "arabic": "الْعِشَاءُ",
+   "title": "Isha",
+   "subtitle": "La nuit · 4 rak'at",
+   "text": "À la nuit tombée, quand la lueur du crépuscule a disparu.",
+   "narration": "Cinq : l'Isha, à la nuit tombée, quand la lueur du crépuscule a disparu. Quatre rak'at.",
+   "tts": "Cinq : l'Ichâ, à la nuit tombée, quand la lueur du crépuscule a disparu. Quatre rak'ates."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Fajr",
+     "subtitle": "L'aube · 2 rak'at",
+     "arabic": "الْفَجْرُ"
+    },
+    {
+     "title": "Dhuhr",
+     "subtitle": "Milieu de journée · 4 rak'at",
+     "arabic": "الظُّهْرُ"
+    },
+    {
+     "title": "Asr",
+     "subtitle": "Après-midi · 4 rak'at",
+     "arabic": "الْعَصْرُ"
+    },
+    {
+     "title": "Maghrib",
+     "subtitle": "Coucher du soleil · 3 rak'at",
+     "arabic": "الْمَغْرِبُ"
+    },
+    {
+     "title": "Isha",
+     "subtitle": "La nuit · 4 rak'at",
+     "arabic": "الْعِشَاءُ"
+    }
+   ],
+   "narration": "En résumé : deux, quatre, quatre, trois, quatre. Dix-sept rak'at obligatoires par jour, quand tu n'es pas en voyage. Les horaires exacts changent selon ta ville : utilise un calendrier de prière fiable.",
+   "tts": "En résumé : deux, quatre, quatre, trois, quatre. Dix-sept rak'ates obligatoires par jour, quand tu n'es pas en voyage. Les horaires exacts changent selon ta ville : utilise un calendrier de prière fiable."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Les 6 piliers de la foi",
+   "next_arabic": "أَرْكَانُ الْإِيمَانِ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : les six piliers de la foi. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : les six piliers de la foi. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "episode": 2,
+ "slug": "ep2_woudou",
+ "title": "Comment faire les ablutions",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 2 · LES BASES",
+   "arabic": "الْوُضُوءُ",
+   "title": "Comment faire les ablutions",
+   "subtitle": "Étape par étape",
+   "narration": "Et si l'eau des ablutions effaçait tes petits péchés ? Voici le woudou', étape par étape.",
+   "tts": "Et si l'eau des ablutions effaçait tes petits péchés ? Voici le woudou, étape par étape."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "مَنْ تَوَضَّأَ فَأَحْسَنَ الْوُضُوءَ خَرَجَتْ خَطَايَاهُ مِنْ جَسَدِهِ حَتَّى تَخْرُجَ مِنْ تَحْتِ أَظْفَارِهِ",
+   "translation": "« Celui qui fait ses ablutions et les fait bien, ses péchés sortent de son corps, jusqu'à sortir de sous ses ongles. »",
+   "source": "Rapporté par Muslim (n° 245)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Celui qui fait bien ses ablutions, ses péchés sortent de son corps, jusqu'à sortir de sous ses ongles. » Rapporté par Muslim.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Celui qui fait bien ses ablutions, ses péchés sortent de son corps, jusqu'à sortir de sous ses ongles. » Rapporté par Mouslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "النِّيَّةُ",
+   "title": "An-Niyya",
+   "subtitle": "L'intention et Bismillah",
+   "text": "Fais l'intention, dans ton cœur, de faire le woudou'. Puis dis : « Bismillah ».",
+   "narration": "Un : l'intention, an-niyya, dans ton cœur. Puis dis : Bismillah.",
+   "tts": "Un : l'intention, anniya, dans ton cœur. Puis dis : Bissmilâh."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الْكَفَّانِ",
+   "title": "Les mains",
+   "subtitle": "3 fois",
+   "text": "Lave tes deux mains jusqu'aux poignets, trois fois.",
+   "narration": "Deux : lave tes deux mains, jusqu'aux poignets, trois fois.",
+   "tts": "Deux : lave tes deux mains, jusqu'aux poignets, trois fois."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الْفَمُ وَالْأَنْفُ",
+   "title": "La bouche et le nez",
+   "subtitle": "3 fois",
+   "text": "Rince ta bouche. Puis aspire un peu d'eau par le nez et rejette-la. Trois fois.",
+   "narration": "Trois : rince ta bouche, puis ton nez : aspire un peu d'eau, et rejette-la. Trois fois.",
+   "tts": "Trois : rince ta bouche, puis ton nez : aspire un peu d'eau, et rejette-la. Trois fois."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الْوَجْهُ",
+   "title": "Le visage",
+   "subtitle": "3 fois",
+   "text": "Lave tout ton visage, trois fois.",
+   "narration": "Quatre : lave tout ton visage, trois fois.",
+   "tts": "Quatre : lave tout ton visage, trois fois."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الْيَدَانِ",
+   "title": "Les bras",
+   "subtitle": "Coudes compris · 3 fois",
+   "text": "Lave le bras droit, coude compris, trois fois. Puis le bras gauche, de la même façon.",
+   "narration": "Cinq : le bras droit, coude compris, trois fois. Puis le bras gauche, pareil.",
+   "tts": "Cinq : le bras droit, coude compris, trois fois. Puis le bras gauche, pareil."
+  },
+  {
+   "type": "step",
+   "index": 6,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "مَسْحُ الرَّأْسِ",
+   "title": "La tête et les oreilles",
+   "subtitle": "Essuyer, sans laver",
+   "text": "Passe tes mains mouillées sur ta tête. Puis essuie tes oreilles.",
+   "narration": "Six : passe tes mains mouillées sur ta tête. Puis essuie tes oreilles.",
+   "tts": "Six : passe tes mains mouillées sur ta tête. Puis essuie tes oreilles."
+  },
+  {
+   "type": "step",
+   "index": 7,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الرِّجْلَانِ",
+   "title": "Les pieds",
+   "subtitle": "Chevilles comprises · 3 fois",
+   "text": "Lave le pied droit, chevilles comprises, trois fois. Puis le pied gauche, de la même façon.",
+   "narration": "Sept : le pied droit, chevilles comprises, trois fois. Puis le pied gauche.",
+   "tts": "Sept : le pied droit, chevilles comprises, trois fois. Puis le pied gauche."
+  },
+  {
+   "type": "step",
+   "index": 8,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الذِّكْرُ",
+   "title": "L'invocation",
+   "subtitle": "Après le woudou'",
+   "text": "Après un woudou' bien fait, dis l'attestation de foi : les 8 portes du Paradis s'ouvrent (Muslim, n° 234).",
+   "narration": "Huit : après un woudou' bien fait, dis : Achhadou an lâ ilâha illa Allah, wahdahou lâ charîka lah, wa achhadou anna Muhammadan 'abdouhou wa rassoulouh. Les huit portes du Paradis s'ouvrent pour toi.",
+   "tts": "Huit : après un woudou bien fait, dis : Achhadou anne la ilaha illa Allah, ouahdahou la charika lah, wa achhadou anna Mouhammadane abdouhou wa rassoulouh. Les huit portes du Paradis s'ouvrent pour toi."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "L'intention",
+     "subtitle": "Et Bismillah",
+     "arabic": "النِّيَّةُ"
+    },
+    {
+     "title": "Les mains",
+     "subtitle": "3 fois",
+     "arabic": "الْكَفَّانِ"
+    },
+    {
+     "title": "Bouche et nez",
+     "subtitle": "3 fois",
+     "arabic": "الْفَمُ وَالْأَنْفُ"
+    },
+    {
+     "title": "Le visage",
+     "subtitle": "3 fois",
+     "arabic": "الْوَجْهُ"
+    },
+    {
+     "title": "Les bras",
+     "subtitle": "3 fois · droit puis gauche",
+     "arabic": "الْيَدَانِ"
+    },
+    {
+     "title": "Tête et oreilles",
+     "subtitle": "Essuyer",
+     "arabic": "الرَّأْسُ"
+    },
+    {
+     "title": "Les pieds",
+     "subtitle": "3 fois · droit puis gauche",
+     "arabic": "الرِّجْلَانِ"
+    },
+    {
+     "title": "L'invocation",
+     "subtitle": "Achhadou an lâ ilâha illa Allah…",
+     "arabic": "الذِّكْرُ"
+    }
+   ],
+   "narration": "En résumé : laver chaque partie une fois, en entier, suffit ; trois fois, c'est la Sunna. Les détails varient selon les écoles : en cas de doute, demande à un imam de confiance.",
+   "tts": "En résumé : laver chaque partie une fois, en entier, suffit ; trois fois, c'est la Soûnna. Les détails varient selon les écoles : en cas de doute, demande à un imam de confiance."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Les 5 prières du jour",
+   "next_arabic": "الصَّلَوَاتُ الْخَمْسُ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : les cinq prières du jour. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : les cinq prières du jour. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+models/
+tools/cache/
+tools/out/
+out/
+__pycache__/
+*.tmp.mp4

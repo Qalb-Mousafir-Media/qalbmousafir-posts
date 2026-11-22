@@ -1,0 +1,178 @@
+{
+ "episode": 5,
+ "slug": "ep5_priere_partie1",
+ "title": "Comment faire la prière — partie 1 : les étapes d'une rak'a",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 5 · LES BASES",
+   "arabic": "صِفَةُ الصَّلَاةِ",
+   "title": "Comment faire la prière",
+   "subtitle": "Partie 1 : une rak'a, quand tu pries seul",
+   "narration": "Tu pries, mais tu n'es pas sûr de l'ordre des gestes ? Voici les étapes d'une rak'a, quand tu pries seul.",
+   "tts": "Tu pries, mais tu n'es pas sûr de l'ordre des gestes ? Voici les étapes d'une rak'a, quand tu pries seul."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "صَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي",
+   "translation": "« Priez comme vous m'avez vu prier. »",
+   "source": "Rapporté par al-Bukhari (n° 631)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Priez comme vous m'avez vu prier. » Rapporté par al-Bukhari.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Priez comme vous m'avez vu prier. » Rapporté par al-Boukhari."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الطَّهَارَةُ",
+   "title": "Tahara et Qibla",
+   "subtitle": "Pur et tourné vers la Kaaba",
+   "text": "Sois en état de pureté (le woudou', épisode 2) et tourne-toi vers la qibla, la direction de la Kaaba.",
+   "narration": "Un : avant de commencer, sois en état de pureté, avec ton woudou'. Et tourne-toi vers la qibla, la direction de la Kaaba.",
+   "tts": "Un : avant de commencer, sois en état de pureté, avec ton woudou. Et tourne-toi vers la qibla, la direction de la Kaaba."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "النِّيَّةُ",
+   "title": "Niyya",
+   "subtitle": "L'intention",
+   "text": "Dans ton cœur, l'intention de la prière que tu vas faire : Fajr, Dhuhr, Asr…",
+   "narration": "Deux : l'intention, dans ton cœur, de la prière que tu vas faire.",
+   "tts": "Deux : l'intention, dans ton cœur, de la prière que tu vas faire."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "تَكْبِيرَةُ الْإِحْرَامِ",
+   "title": "Takbirat al-Ihram",
+   "subtitle": "« Allahu akbar »",
+   "text": "Dis « Allahu akbar » : ta prière commence.",
+   "narration": "Trois : dis « Allahu akbar ». C'est la Takbirat al-Ihram : ta prière commence.",
+   "tts": "Trois : dis « Allahou akbar ». C'est la Takbirate al-Ihrame : ta prière commence."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الْقِيَامُ",
+   "title": "Qiyam",
+   "subtitle": "Debout · al-Fatiha",
+   "text": "Debout. Quand tu pries seul, récite la sourate al-Fatiha.",
+   "narration": "Quatre : debout, et quand tu pries seul, récite la sourate al-Fatiha.",
+   "tts": "Quatre : debout, et quand tu pries seul, récite la sourate al-Fatiha."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الرُّكُوعُ",
+   "title": "Ruku'",
+   "subtitle": "L'inclinaison",
+   "text": "Incline-toi, le dos droit, et reste un instant immobile.",
+   "narration": "Cinq : le ruku'. Incline-toi, le dos droit, et reste un instant immobile.",
+   "tts": "Cinq : le Roukou. Incline-toi, le dau droit, et reste un instant immobile."
+  },
+  {
+   "type": "step",
+   "index": 6,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "الِاعْتِدَالُ",
+   "title": "I'tidal",
+   "subtitle": "Se redresser",
+   "text": "Redresse-toi jusqu'à être bien debout, calmement.",
+   "narration": "Six : redresse-toi, jusqu'à être bien debout, calmement.",
+   "tts": "Six : redresse-toi, jusqu'à être bien debout, calmement."
+  },
+  {
+   "type": "step",
+   "index": 7,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "السُّجُودُ",
+   "title": "Sujud",
+   "subtitle": "Deux prosternations",
+   "text": "Prosterne-toi, le front au sol. Assois-toi un instant, puis prosterne-toi à nouveau.",
+   "narration": "Sept : le sujud. Prosterne-toi, le front au sol. Assois-toi un instant, puis prosterne-toi à nouveau. Ta rak'a est terminée : pour la suivante, relève-toi et reprends à l'étape quatre.",
+   "tts": "Sept : le Soudjoude. Prosterne-toi, le front au sol. Assois-toi un instant, puis prosterne-toi à nouveau. Ta rak'a est terminée : pour la suivante, relève-toi et reprends à l'étape quatre."
+  },
+  {
+   "type": "step",
+   "index": 8,
+   "total": 8,
+   "label": "ÉTAPE",
+   "arabic": "التَّسْلِيمُ",
+   "title": "Tashahhud et Taslim",
+   "subtitle": "La fin de la prière",
+   "text": "À la fin de la prière : assis, récite le tashahhud, puis termine par « As-salamu 'alaykum ».",
+   "narration": "Huit : à la fin de la prière, assis, récite le tashahhud. Puis termine par le salam : « As-salamu 'alaykum ».",
+   "tts": "Huit : à la fin de la prière, assis, récite le Tachahhoude. Puis termine par le salam : « Assalamou alaïkoum »."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Pureté et qibla",
+     "subtitle": "Avant de commencer",
+     "arabic": "الطَّهَارَةُ"
+    },
+    {
+     "title": "Niyya",
+     "subtitle": "L'intention",
+     "arabic": "النِّيَّةُ"
+    },
+    {
+     "title": "Allahu akbar",
+     "subtitle": "Takbirat al-Ihram",
+     "arabic": "التَّكْبِيرُ"
+    },
+    {
+     "title": "Qiyam",
+     "subtitle": "Debout · al-Fatiha",
+     "arabic": "الْقِيَامُ"
+    },
+    {
+     "title": "Ruku'",
+     "subtitle": "L'inclinaison",
+     "arabic": "الرُّكُوعُ"
+    },
+    {
+     "title": "I'tidal",
+     "subtitle": "Se redresser",
+     "arabic": "الِاعْتِدَالُ"
+    },
+    {
+     "title": "Sujud",
+     "subtitle": "2 prosternations",
+     "arabic": "السُّجُودُ"
+    },
+    {
+     "title": "Tashahhud et Taslim",
+     "subtitle": "La fin",
+     "arabic": "التَّسْلِيمُ"
+    }
+   ],
+   "narration": "En résumé : debout, inclinaison, redressement, deux prosternations. Les détails des gestes varient selon les écoles : apprends-les auprès d'un imam de confiance.",
+   "tts": "En résumé : debout, inclinaison, redressement, deux prosternations. Les détails des gestes varient selon les écoles : apprends-les auprès d'un imam de confiance."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Comment faire la prière — partie 2",
+   "next_arabic": "صِفَةُ الصَّلَاةِ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode, partie deux : la sourate après al-Fatiha, et les prières de trois et quatre rak'at. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode, partie deux : la sourate après al-Fatiha, et les prières de trois et quatre rak'ates. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

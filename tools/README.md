@@ -1,0 +1,37 @@
+# Moteur vidéo Qalb Mousafir
+
+Rend une vidéo TikTok 1080×1920, 30 i/s, avec voix off française, à partir d'un script JSON (format : `docs/SCHEMA.md`).
+
+## Installation
+
+```
+tools/setup.sh        # dépendances Python + modèle de voix Kokoro dans models/
+```
+Il faut aussi `ffmpeg` et Pillow compilé avec raqm (texte arabe).
+
+## Utilisation
+
+```
+python3 tools/render.py episodes/ep2_woudou.json --preview   # une image par scène + planche contact (≈ 1 s)
+python3 tools/render.py episodes/ep2_woudou.json             # rendu complet -> tools/out/<slug>/<slug>.mp4
+python3 tools/render.py episodes/ep2_woudou.json --only 3 5  # refaire les scènes 3 et 5
+```
+Options : `--jobs N` (processus en parallèle, `--jobs 1` si la machine est chargée), `--force` (ignore le cache).
+
+- Types de scènes : `hook`, `quote`, `step`, `recap`, `outro`.
+- Durée d'une scène = durée de la voix + 1,0 s (minimum 3,5 s) ; la voix démarre à 0,3 s.
+- Audio : passe-haut 70 Hz, compression douce, normalisation à −15 LUFS, AAC 192k.
+- Temps de rendu : environ 2 à 3 min pour 60 s de vidéo sur 2 cœurs.
+
+## Contrôles avant publication
+
+```
+python3 tools/check.py episodes/<script>.json   # JSON, longueur des textes, largeur de l'arabe, prononciation, durée de voix
+python3 tools/ph.py "Woudou"                    # prononciation d'un mot ; « (en) » = lu à l'anglaise, changer la graphie
+```
+
+## Compression pour l'hébergement
+
+```
+ffmpeg -i tools/out/<slug>/<slug>.mp4 -c:v libx264 -preset slow -crf 24 -pix_fmt yuv420p -c:a copy -movflags +faststart videos/<slug>.mp4
+```
