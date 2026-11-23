@@ -1,0 +1,11 @@
+# Voix off - ep3_5_prieres - Les 5 prières du jour
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Cinq rendez-vous avec Allah, chaque jour. Tu connais leurs noms ? En une minute, tu vas les retenir.
+02|On a demandé au Prophète, paix et salut sur lui, quelle œuvre Allah aime le plus. Il a répondu : « La prière accomplie à son heure. » Rapporté par [ar:البُخَارِي|al-Bukhari].
+03|Un : le [ar:فَجْر|Fajr], à l'aube, avant le lever du soleil. Deux [ar:رَكَعَات|rak'at]. Une [ar:رَكْعَة|rak'a], c'est une unité de prière.
+04|Deux : le [ar:ظُهْر|Dhuhr], en milieu de journée, quand le soleil commence à décliner. Quatre [ar:رَكَعَات|rak'at].
+05|Trois : [ar:العَصْر|l'Asr], plus tard dans l'après-midi, quand les ombres s'allongent. Quatre [ar:رَكَعَات|rak'at].
+06|Quatre : le [ar:مَغْرِب|Maghrib], juste après le coucher du soleil. Trois [ar:رَكَعَات|rak'at], la seule des cinq prières à trois.
+07|Cinq : [ar:العِشَاء|l'Isha], à la nuit tombée, quand la lueur du crépuscule a disparu. Quatre [ar:رَكَعَات|rak'at].
+08|En résumé : deux, quatre, quatre, trois, quatre. Dix-sept [ar:رَكَعَات|rak'at] obligatoires par jour, quand tu n'es pas en voyage. Les horaires exacts changent selon ta ville : utilise un calendrier de prière fiable.
+09|Prochain épisode : les six piliers de la foi. Abonne-toi pour ne pas le rater !

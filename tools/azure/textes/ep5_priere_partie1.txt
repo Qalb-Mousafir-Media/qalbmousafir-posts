@@ -1,0 +1,14 @@
+# Voix off - ep5_priere_partie1 - Comment faire la prière — partie 1 : les étapes d'une rak'a
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Tu pries, mais tu n'es pas sûr de l'ordre des gestes ? Voici les étapes d'une [ar:رَكْعَة|rak'a], quand tu pries seul.
+02|Le Prophète, paix et salut sur lui, a dit : « Priez comme vous m'avez vu prier. » Rapporté par [ar:البُخَارِي|al-Bukhari].
+03|Un : avant de commencer, sois en état de pureté, avec ton [ar:وُضُوء|woudou']. Et tourne-toi vers la [ar:قِبْلَة|qibla], la direction de la [ar:كَعْبَة|Kaaba].
+04|Deux : l'intention, dans ton cœur, de la prière que tu vas faire.
+05|Trois : dis « [ar:اللهُ أَكْبَر|Allahu akbar] ». C'est la [ar:تَكْبِيرَةُ الإِحْرَام|Takbirat al-Ihram] : ta prière commence.
+06|Quatre : debout, et quand tu pries seul, récite la sourate [ar:الفَاتِحَة|al-Fatiha].
+07|Cinq : le [ar:رُكُوع|ruku']. Incline-toi, le dos droit, et reste un instant immobile.
+08|Six : redresse-toi, jusqu'à être bien debout, calmement.
+09|Sept : le [ar:سُجُود|sujud]. Prosterne-toi, le front au sol. Assois-toi un instant, puis prosterne-toi à nouveau. Ta [ar:رَكْعَة|rak'a] est terminée : pour la suivante, relève-toi et reprends à l'étape quatre.
+10|Huit : à la fin de la prière, assis, récite le [ar:تَشَهُّد|tashahhud]. Puis termine par le [ar:سَلَام|salam] : « [ar:السَّلَامُ عَلَيْكُمْ|As-salamu 'alaykum] ».
+11|En résumé : debout, inclinaison, redressement, deux prosternations. Les détails des gestes varient selon les écoles : apprends-les auprès d'un imam de confiance.
+12|Prochain épisode, partie deux : la sourate après [ar:الفَاتِحَة|al-Fatiha], et les prières de trois et quatre [ar:رَكَعَات|rak'at]. Abonne-toi pour ne pas le rater !

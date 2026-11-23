@@ -1,0 +1,12 @@
+# Voix off - ep4_6_piliers_foi - Les 6 piliers de la foi
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|L'islam a cinq piliers. Mais la foi, elle, en a six. Tu les connais ?
+02|L'ange [ar:جِبْرِيل|Jibril], venu sous l'apparence d'un homme, a demandé au Prophète, paix et salut sur lui : « Parle-moi de la foi. » Il a répondu : « C'est que tu croies en Allah, en Ses anges, en Ses livres, en Ses messagers, au Jour dernier, et que tu croies au destin, son bien et son mal. » Rapporté par [ar:مُسْلِم|Muslim].
+03|Un : croire en Allah. L'Unique, sans associé. Lui seul mérite d'être adoré.
+04|Deux : Ses anges. Créés de lumière, ils obéissent à Allah. Comme [ar:جِبْرِيل|Jibril], qui apportait la révélation.
+05|Trois : Ses livres, tels qu'Allah les a révélés. La Torah, les Psaumes, l'Évangile… et le Coran, le dernier, préservé par Allah.
+06|Quatre : Ses messagers. [ar:نُوح|Nouh], [ar:إِبْرَاهِيم|Ibrahim], [ar:مُوسَى|Moussa], [ar:عِيسَى|'Issa], paix sur eux… et [ar:مُحَمَّد|Muhammad], paix et salut sur lui, le dernier des prophètes.
+07|Cinq : le Jour dernier. La résurrection, le Jugement, puis le Paradis ou l'Enfer.
+08|Six : le destin, [ar:القَدَر|al-qadar]. Rien n'arrive sans qu'Allah le sache et le veuille, le bien comme le mal.
+09|En résumé : Allah, Ses anges, Ses livres, Ses messagers, le Jour dernier et le destin. Six piliers, une seule foi.
+10|Prochain épisode : comment faire la prière, partie un. Abonne-toi pour ne pas le rater !
