@@ -1,0 +1,99 @@
+{
+ "episode": 1,
+ "slug": "comp1_umar_al_faruq",
+ "series": "Les Compagnons",
+ "title": "'Umar al-Faruq : l'homme par qui Allah a renforcé l'islam",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "LES COMPAGNONS · ÉPISODE 1",
+   "arabic": "عُمَرُ الفَارُوقُ رَضِيَ اللهُ عَنْهُ",
+   "title": "'Umar al-Faruq",
+   "subtitle": "L'homme par qui Allah a renforcé l'islam",
+   "narration": "Le Prophète, paix et salut sur lui, a prié Allah de renforcer l'islam par l'un de deux hommes. Ce fut 'Umar, qu'Allah l'agrée.",
+   "tts": "Le Prophète, paix et salut sur lui, a prié Allah de renforcer l'islam par l'un de deux hommes. Ce fut 'Umar, qu'Allah l'agrée."
+  },
+  {
+   "type": "story",
+   "decor": "desert_nuit",
+   "caption": "La Mecque, aux débuts de l'islam : peu de musulmans, souvent cachés",
+   "arabic": "مَكَّةُ",
+   "narration": "La Mecque, aux débuts de l'islam. Les musulmans sont peu nombreux, souvent cachés.",
+   "tts": "La Mecque, aux débuts de l'islam. Les musulmans sont peu nombreux, souvent cachés."
+  },
+  {
+   "type": "story",
+   "decor": "traces_sable",
+   "caption": "Avant son islam, 'Umar attache son beau-frère et sa sœur, musulmans (al-Bukhari 3867)",
+   "arabic": "عُمَرُ بْنُ الخَطَّابِ",
+   "narration": "'Umar ibn al-Khattab est contre eux. Il a même attaché son beau-frère, Sa'id ibn Zayd, et sa sœur, à cause de leur islam. Rapporté par al-Bukhari.",
+   "tts": "'Umar ibn al-Khattab est contre eux. Il a même attaché son beau-frère, Sa'id ibn Zayd, et sa sœur, à cause de leur islam. Rapporté par al-Bukhari."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a invoqué :",
+   "arabic": "اللَّهُمَّ أَعِزَّ الإِسْلَامَ بِأَحَبِّ هَذَيْنِ الرَّجُلَيْنِ إِلَيْكَ: بِأَبِي جَهْلٍ أَوْ بِعُمَرَ بْنِ الخَطَّابِ",
+   "translation": "« Ô Allah, renforce l'islam par celui de ces deux hommes que Tu aimes le plus : Abu Jahl ou 'Umar ibn al-Khattab. »",
+   "source": "Rapporté par at-Tirmidhi (n° 3681) : « hasan sahih gharib » ; authentifié par al-Albani",
+   "narration": "Le Prophète, paix et salut sur lui, invoque : « Ô Allah, renforce l'islam par celui de ces deux hommes que Tu aimes le plus : Abu Jahl, ou 'Umar ibn al-Khattab. » Rapporté par at-Tirmidhi.",
+   "tts": "Le Prophète, paix et salut sur lui, invoque : « Ô Allah, renforce l'islam par celui de ces deux hommes que Tu aimes le plus : Abu Jahl, ou 'Umar ibn al-Khattab. » Rapporté par at-Tirmidhi."
+  },
+  {
+   "type": "story",
+   "decor": "desert_aube",
+   "caption": "« Le plus aimé des deux auprès d'Allah était 'Umar » : il devient musulman",
+   "arabic": "أَسْلَمَ عُمَرُ",
+   "narration": "Le plus aimé des deux auprès d'Allah, c'était 'Umar : il devient musulman. Comment ? Les récits détaillés n'ont pas de chaîne sûre. Mais la suite est authentique.",
+   "tts": "Le plus aimé des deux auprès d'Allah, c'était 'Umar : il devient musulman. Comment ? Les récits détaillés n'ont pas de chaîne sûre. Mais la suite est authentique."
+  },
+  {
+   "type": "story",
+   "decor": "kaaba_loin",
+   "caption": "Une foule devant sa maison : « 'Umar a changé de religion ! » (al-Bukhari 3865)",
+   "arabic": "صَبَا عُمَرُ",
+   "narration": "Une foule se masse devant sa maison : « 'Umar a changé de religion ! » Sur le toit, son fils 'Abdallah, enfant, regarde.",
+   "tts": "Une foule se masse devant sa maison : « 'Umar a changé de religion ! » Sur le toit, son fils 'Abdallah, enfant, regarde."
+  },
+  {
+   "type": "story",
+   "decor": "lanterne",
+   "caption": "Al-'As ibn Wa'il : « Je le protège. » La foule se disperse.",
+   "arabic": "فَأَنَا لَهُ جَارٌ",
+   "narration": "Un notable, al-'As ibn Wa'il, lance : « Je le protège. » La foule se disperse.",
+   "tts": "Un notable, al-'As ibn Wa'il, lance : « Je le protège. » La foule se disperse."
+  },
+  {
+   "type": "story",
+   "decor": "parchemin",
+   "caption": "« Nous n'avons cessé d'être forts depuis que 'Umar est devenu musulman » (al-Bukhari 3684)",
+   "arabic": "مَا زِلْنَا أَعِزَّةً مُنْذُ أَسْلَمَ عُمَرُ",
+   "narration": "Plus tard, 'Abdallah ibn Mas'ud dira : « Nous n'avons cessé d'être forts depuis que 'Umar est devenu musulman. » Rapporté par al-Bukhari.",
+   "tts": "Plus tard, 'Abdallah ibn Mas'ud dira : « Nous n'avons cessé d'être forts depuis que 'Umar est devenu musulman. » Rapporté par al-Bukhari."
+  },
+  {
+   "type": "story",
+   "decor": "palmeraie",
+   "caption": "Al-Faruq : celui qui sépare le vrai du faux",
+   "arabic": "الفَارُوقُ",
+   "narration": "On le surnommera al-Faruq : celui qui sépare le vrai du faux. Toi aussi, ta sincérité peut rendre les autres plus forts.",
+   "tts": "On le surnommera al-Faruq : celui qui sépare le vrai du faux. Toi aussi, ta sincérité peut rendre les autres plus forts."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Le chemin que le Shaytan évite",
+   "next_arabic": "فَجًّا غَيْرَ فَجِّكَ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : pourquoi le Shaytan changeait de chemin devant 'Umar. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : pourquoi le Shaytan changeait de chemin devant 'Umar. Abonne-toi pour ne pas le rater !"
+  }
+ ],
+ "sources": [
+  "Invocation « اللَّهُمَّ أَعِزَّ الإِسْلَامَ بِأَحَبِّ هَذَيْنِ الرَّجُلَيْنِ إِلَيْكَ » et « وَكَانَ أَحَبَّهُمَا إِلَيْهِ عُمَرُ » : at-Tirmidhi n° 3681 (« hasan sahih gharib » selon at-Tirmidhi ; sahih selon al-Albani, Sahih at-Tirmidhi ; hasan selon Darussalam ; renforcé par ses témoins selon Ibn Hajar) ; Ahmad n° 5696 (« فَكَانَ أَحَبُّهُمَا إِلَى اللهِ عُمَرَ بْنَ الخَطَّابِ »)",
+  "Sa'id ibn Zayd attaché par 'Umar avec la sœur de 'Umar (Fatima bint al-Khattab selon Ibn Hajar) à cause de leur islam : al-Bukhari n° 3867 (et n° 3862)",
+  "La foule devant la maison de 'Umar (« صَبَا عُمَرُ »), 'Abdallah ibn 'Umar enfant sur le toit, protection d'al-'As ibn Wa'il : al-Bukhari n° 3865 (et n° 3864)",
+  "Ibn Mas'ud : « مَا زِلْنَا أَعِزَّةً مُنْذُ أَسْلَمَ عُمَرُ » : al-Bukhari n° 3684 (et n° 3863)",
+  "Surnom al-Faruq : établi ; les rapports divergent sur qui l'a employé en premier (al-Zuhri chez Ibn Sa'd et at-Tabari : les gens du Livre). L'attribution du surnom au Prophète ﷺ n'est pas retenue (chaînes très faibles)",
+  "Récits détaillés de la conversion (sœur, sourate Taha, etc.) : aucune chaîne sûre — non présentés (islamqa n° 327548)"
+ ]
+}

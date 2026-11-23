@@ -1,0 +1,11 @@
+# Voix off - ep6_priere_partie2 - Comment faire la prière — partie 2
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Deux [ar:رَكَعَات|rak'at], ça va. Mais quatre ? Quand t'asseoir, quand te relever ? Voici la suite.
+02|Le Prophète, paix et salut sur lui, récitait, dans les deux premières [ar:رَكَعَات|rak'at] du [ar:ظُهْر|Dhuhr], [ar:الفَاتِحَة|al-Fatiha] et deux sourates. Rapporté par [ar:البُخَارِي|al-Bukhari].
+03|Un : quand tu pries seul, dans chacune des deux premières [ar:رَكَعَات|rak'at], après [ar:الفَاتِحَة|al-Fatiha], tu récites une sourate ou quelques versets. Par exemple, [ar:الإِخْلَاص|al-Ikhlas].
+04|Deux : dans une prière de trois ou quatre [ar:رَكَعَات|rak'at], après la deuxième [ar:رَكْعَة|rak'a], tu t'assois pour le [ar:تَشَهُّد|tashahhud].
+05|Trois : tu te relèves pour la ou les [ar:رَكَعَات|rak'at] qui restent, et tu dis « [ar:اللهُ أَكْبَر|Allahu akbar] ». Quand tu pries seul, tu y récites [ar:الفَاتِحَة|al-Fatiha].
+06|Quatre : après la dernière [ar:رَكْعَة|rak'a], tu t'assois pour le [ar:تَشَهُّد|tashahhud] final et la prière sur le Prophète, paix et salut sur lui. Puis tu termines par le [ar:سَلَام|salam].
+07|Cinq : le [ar:فَجْر|Fajr], deux [ar:رَكَعَات|rak'at], donc un seul [ar:تَشَهُّد|tashahhud], à la fin. Le [ar:مَغْرِب|Maghrib], trois. Le [ar:ظُهْر|Dhuhr], [ar:العَصْر|l'Asr] et [ar:العِشَاء|l'Isha], quatre, hors voyage.
+08|En résumé : la sourate dans les deux premières [ar:رَكَعَات|rak'at], le [ar:تَشَهُّد|tashahhud] après la deuxième [ar:رَكْعَة|rak'a] et à la fin, puis le [ar:سَلَام|salam]. Les détails varient selon les écoles : demande à un imam de confiance.
+09|Prochain épisode : la [ar:شَهَادَة|Shahada], mot à mot. Abonne-toi pour ne pas le rater !

@@ -1,0 +1,11 @@
+# Voix off - ep7_chahada - La Shahada, mot à mot
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Une seule phrase, dite avec conviction, fait entrer dans l'islam. Tu la connais… mais sais-tu ce que dit chaque mot ?
+02|Le Prophète, paix et salut sur lui, a dit : « Celui qui meurt en sachant qu'il n'y a de divinité qu'Allah entrera au Paradis. » Rapporté par [ar:مُسْلِم|Muslim]. Il y entrera au final, même si ses péchés peuvent l'en retarder. « En sachant » : apprenons son sens.
+03|Un : [ar:أَشْهَدُ|ash-hadu], j'atteste. Ce n'est pas juste dire : c'est savoir, en être convaincu, et le déclarer.
+04|Deux : [ar:لَا إِلٰهَ|la ilaha], pas de divinité digne d'adoration. D'abord, on dit non : rien ni personne ne mérite d'être adoré…
+05|Trois : [ar:إِلَّا الله|illa Allah], sauf Allah. Non à tout le reste, oui à Lui seul.
+06|Quatre : [ar:وَأَشْهَدُ أَنَّ مُحَمَّدًا|wa ash-hadu anna Muhammadan]. Et j'atteste que [ar:مُحَمَّد|Muhammad], paix et salut sur lui, le dernier des prophètes…
+07|Cinq : [ar:رَسُولُ الله|rasul Allah], est le messager d'Allah. Tu crois ce qu'il a transmis, et tu suis son exemple.
+08|Tout ensemble : [ar:أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا الله، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ الله|ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah]. J'atteste qu'il n'y a pas de divinité digne d'adoration sauf Allah, et que [ar:مُحَمَّد|Muhammad], paix et salut sur lui, est Son messager.
+09|Prochain épisode : [ar:الإِحْسَان|al-Ihsan], le plus haut degré de la religion. Abonne-toi pour ne pas le rater !

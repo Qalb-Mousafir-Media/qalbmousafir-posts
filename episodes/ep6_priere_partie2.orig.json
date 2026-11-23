@@ -1,0 +1,127 @@
+{
+ "episode": 6,
+ "slug": "ep6_priere_partie2",
+ "title": "Comment faire la prière — partie 2",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 6 · LES BASES",
+   "arabic": "صِفَةُ الصَّلَاةِ",
+   "title": "Comment faire la prière",
+   "subtitle": "Partie 2 : la sourate, et les prières de 3 et 4 rak'at",
+   "narration": "Deux rak'at, ça va. Mais quatre ? Quand t'asseoir, quand te relever ? Voici la suite.",
+   "tts": "Deux rak'at, ça va. Mais quatre ? Quand t'asseoir, quand te relever ? Voici la suite."
+  },
+  {
+   "type": "quote",
+   "intro": "Abu Qatada rapporte :",
+   "arabic": "كَانَ النَّبِيُّ ﷺ يَقْرَأُ فِي الرَّكْعَتَيْنِ الْأُولَيَيْنِ مِنْ صَلَاةِ الظُّهْرِ بِفَاتِحَةِ الْكِتَابِ وَسُورَتَيْنِ",
+   "translation": "« Le Prophète ﷺ récitait, dans les deux premières rak'at du Dhuhr, al-Fatiha et deux sourates. »",
+   "source": "Rapporté par al-Bukhari (n° 759)",
+   "narration": "Le Prophète, paix et salut sur lui, récitait, dans les deux premières rak'at du Dhuhr, al-Fatiha et deux sourates. Rapporté par al-Bukhari.",
+   "tts": "Le Prophète, paix et salut sur lui, récitait, dans les deux premières rak'at du Dhuhr, al-Fatiha et deux sourates. Rapporté par al-Bukhari."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "ÉTAPE",
+   "arabic": "السُّورَةُ",
+   "title": "La sourate",
+   "subtitle": "Rak'at 1 et 2 · après al-Fatiha",
+   "text": "Quand tu pries seul, dans les 2 premières rak'at : après al-Fatiha, récite une sourate ou des versets.",
+   "narration": "Un : quand tu pries seul, dans les deux premières rak'at, après al-Fatiha, récite une sourate ou quelques versets. Par exemple, al-Ikhlas.",
+   "tts": "Un : quand tu pries seul, dans les deux premières rak'at, après al-Fatiha, récite une sourate ou quelques versets. Par exemple, al-Ikhlas."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "ÉTAPE",
+   "arabic": "التَّشَهُّدُ الْأَوَّلُ",
+   "title": "Le premier tashahhud",
+   "subtitle": "Après la 2e rak'a",
+   "text": "Prière de 3 ou 4 rak'at : après les 2 sujud de la 2e rak'a, ne te relève pas. Reste assis : tashahhud.",
+   "narration": "Deux : une prière de trois ou quatre rak'at ? Après la deuxième rak'a, ne te relève pas : reste assis, et récite le tashahhud.",
+   "tts": "Deux : une prière de trois ou quatre rak'at ? Après la deuxième rak'a, ne te relève pas : reste assis, et récite le tashahhud."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "ÉTAPE",
+   "arabic": "الْقِيَامُ",
+   "title": "Se relever",
+   "subtitle": "Pour la 3e et la 4e rak'a",
+   "text": "Relève-toi avec « Allahu akbar ». On y récite al-Fatiha ; le reste varie selon les écoles.",
+   "narration": "Trois : relève-toi avec « Allahu akbar », pour la ou les rak'at qui restent. On y récite al-Fatiha ; pour le reste, demande à ton imam.",
+   "tts": "Trois : relève-toi avec « Allahu akbar », pour la ou les rak'at qui restent. On y récite al-Fatiha ; pour le reste, demande à ton imam."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "ÉTAPE",
+   "arabic": "التَّشَهُّدُ الْأَخِيرُ",
+   "title": "Le tashahhud final",
+   "subtitle": "Puis le salam",
+   "text": "Après la dernière rak'a, assis : le tashahhud final et la prière sur le Prophète ﷺ puis le salam.",
+   "narration": "Quatre : après la dernière rak'a, assieds-toi pour le tashahhud final et la prière sur le Prophète, paix et salut sur lui. Puis termine par le salam.",
+   "tts": "Quatre : après la dernière rak'a, assieds-toi pour le tashahhud final et la prière sur le Prophète, paix et salut sur lui. Puis termine par le salam."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "ÉTAPE",
+   "arabic": "عَدَدُ الرَّكَعَاتِ",
+   "title": "Combien de rak'at ?",
+   "subtitle": "2 · 4 · 4 · 3 · 4",
+   "text": "Fajr 2 · Dhuhr 4 · Asr 4 · Maghrib 3 · Isha 4 (hors voyage). Au Fajr, un seul tashahhud : à la fin.",
+   "narration": "Cinq : le Fajr, deux rak'at, donc un seul tashahhud, à la fin. Le Maghrib, trois. Le Dhuhr, l'Asr et l'Isha, quatre.",
+   "tts": "Cinq : le Fajr, deux rak'at, donc un seul tashahhud, à la fin. Le Maghrib, trois. Le Dhuhr, l'Asr et l'Isha, quatre."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "La sourate",
+     "subtitle": "Rak'at 1 et 2, après al-Fatiha",
+     "arabic": "السُّورَةُ"
+    },
+    {
+     "title": "1er tashahhud",
+     "subtitle": "Après la 2e rak'a (prières de 3 et 4)",
+     "arabic": "التَّشَهُّدُ"
+    },
+    {
+     "title": "Se relever",
+     "subtitle": "« Allahu akbar »",
+     "arabic": "الْقِيَامُ"
+    },
+    {
+     "title": "Tashahhud final",
+     "subtitle": "Puis le salam",
+     "arabic": "التَّسْلِيمُ"
+    },
+    {
+     "title": "2 · 4 · 4 · 3 · 4",
+     "subtitle": "Fajr, Dhuhr, Asr, Maghrib, Isha",
+     "arabic": "الرَّكَعَاتُ"
+    }
+   ],
+   "narration": "En résumé : la sourate dans les deux premières rak'at, le tashahhud au milieu et à la fin, puis le salam. Les détails varient selon les écoles : demande à un imam de confiance.",
+   "tts": "En résumé : la sourate dans les deux premières rak'at, le tashahhud au milieu et à la fin, puis le salam. Les détails varient selon les écoles : demande à un imam de confiance."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "La Chahada, mot à mot",
+   "next_arabic": "الشَّهَادَةُ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : la Chahada, mot à mot. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : la Chahada, mot à mot. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

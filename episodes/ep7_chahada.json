@@ -1,0 +1,122 @@
+{
+ "episode": 7,
+ "slug": "ep7_chahada",
+ "title": "La Shahada, mot à mot",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 7 · LES BASES",
+   "arabic": "الشَّهَادَةُ",
+   "title": "La Shahada, mot à mot",
+   "subtitle": "L'attestation de foi",
+   "narration": "Une seule phrase, dite avec conviction, fait entrer dans l'islam. Tu la connais… mais sais-tu ce que dit chaque mot ?",
+   "tts": "Une seule phrase, dite avec conviction, fait entrer dans l'islam. Tu la connais… mais sais-tu ce que dit chaque mot ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "مَنْ مَاتَ وَهُوَ يَعْلَمُ أَنَّهُ لَا إِلَهَ إِلَّا اللَّهُ دَخَلَ الْجَنَّةَ",
+   "translation": "« Celui qui meurt en sachant qu'il n'y a de divinité qu'Allah entrera au Paradis. »",
+   "source": "Rapporté par Muslim (n° 26)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Celui qui meurt en sachant qu'il n'y a de divinité qu'Allah entrera au Paradis. » Rapporté par Muslim. Il y entrera au final, même si ses péchés peuvent l'en retarder. « En sachant » : apprenons son sens.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Celui qui meurt en sachant qu'il n'y a de divinité qu'Allah entrera au Paradis. » Rapporté par Muslim. Il y entrera au final, même si ses péchés peuvent l'en retarder. « En sachant » : apprenons son sens."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "MOT",
+   "arabic": "أَشْهَدُ",
+   "title": "Ash-hadu",
+   "subtitle": "J'atteste",
+   "text": "Attester, ce n'est pas juste dire : c'est savoir, en être convaincu dans ton cœur, et le déclarer.",
+   "narration": "Un : ash-hadu, j'atteste. Ce n'est pas juste dire : c'est savoir, en être convaincu, et le déclarer.",
+   "tts": "Un : ash-hadu, j'atteste. Ce n'est pas juste dire : c'est savoir, en être convaincu, et le déclarer."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "MOT",
+   "arabic": "لَا إِلٰهَ",
+   "title": "La ilaha",
+   "subtitle": "Pas de divinité",
+   "text": "« Ilah » : ce qu'on adore. D'abord, on dit non : rien ni personne ne mérite d'être adoré…",
+   "narration": "Deux : la ilaha, pas de divinité digne d'adoration. D'abord, on dit non : rien ni personne ne mérite d'être adoré…",
+   "tts": "Deux : la ilaha, pas de divinité digne d'adoration. D'abord, on dit non : rien ni personne ne mérite d'être adoré…"
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "MOT",
+   "arabic": "إِلَّا اللهُ",
+   "title": "Illa Allah",
+   "subtitle": "Sauf Allah",
+   "text": "… sauf Allah. Non à tout le reste, oui à Lui seul : Il est le seul à mériter l'adoration.",
+   "narration": "Trois : illa Allah, sauf Allah. Non à tout le reste, oui à Lui seul.",
+   "tts": "Trois : illa Allah, sauf Allah. Non à tout le reste, oui à Lui seul."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "MOT",
+   "arabic": "مُحَمَّدًا",
+   "title": "Muhammad ﷺ",
+   "subtitle": "Wa ash-hadu anna Muhammadan",
+   "text": "Et j'atteste que Muhammad ﷺ … Le dernier des prophètes.",
+   "narration": "Quatre : wa ash-hadu anna Muhammadan. Et j'atteste que Muhammad, paix et salut sur lui, le dernier des prophètes…",
+   "tts": "Quatre : wa ash-hadu anna Muhammadan. Et j'atteste que Muhammad, paix et salut sur lui, le dernier des prophètes…"
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "MOT",
+   "arabic": "رَسُولُ اللهِ",
+   "title": "Rasul Allah",
+   "subtitle": "Le messager d'Allah",
+   "text": "… est le messager d'Allah. Tu crois ce qu'il a transmis, et tu suis son exemple.",
+   "narration": "Cinq : rasul Allah, est le messager d'Allah. Tu crois ce qu'il a transmis, et tu suis son exemple.",
+   "tts": "Cinq : rasul Allah, est le messager d'Allah. Tu crois ce qu'il a transmis, et tu suis son exemple."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Ash-hadu",
+     "subtitle": "J'atteste",
+     "arabic": "أَشْهَدُ"
+    },
+    {
+     "title": "La ilaha",
+     "subtitle": "Pas de divinité digne d'adoration",
+     "arabic": "لَا إِلٰهَ"
+    },
+    {
+     "title": "Illa Allah",
+     "subtitle": "Sauf Allah",
+     "arabic": "إِلَّا اللهُ"
+    },
+    {
+     "title": "Rasul Allah",
+     "subtitle": "Le messager d'Allah",
+     "arabic": "مُحَمَّدٌ رَسُولُ اللهِ ﷺ"
+    }
+   ],
+   "narration": "Tout ensemble : ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah. J'atteste qu'il n'y a pas de divinité digne d'adoration sauf Allah, et que Muhammad, paix et salut sur lui, est Son messager.",
+   "tts": "Tout ensemble : ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah. J'atteste qu'il n'y a pas de divinité digne d'adoration sauf Allah, et que Muhammad, paix et salut sur lui, est Son messager."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Al-Ihsan, le plus haut degré de la religion",
+   "next_arabic": "الْإِحْسَانُ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : al-Ihsan, le plus haut degré de la religion. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : al-Ihsan, le plus haut degré de la religion. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

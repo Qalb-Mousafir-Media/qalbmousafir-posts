@@ -5,6 +5,23 @@ import json, os, re, sys
 
 # (texte de la narration, arabe vocalisé). Les plus longs d'abord. Si un article français précède, l'arabe est sans « al- ».
 MOTS = [
+    # Les Compagnons (comp1) : noms longs avant leurs préfixes ('Umar, 'Abdallah)
+    ("'Umar ibn al-Khattab", "عُمَرُ بْنُ الخَطَّاب"),
+    ("'Abdallah ibn Mas'ud", "عَبْدُ اللهِ بْنُ مَسْعُود"),
+    ("al-'As ibn Wa'il", "العَاصُ بْنُ وَائِل"),
+    ("Sa'id ibn Zayd", "سَعِيدُ بْنُ زَيْد"),
+    ("at-Tirmidhi", "التِّرْمِذِي"),
+    ("Abu Jahl", "أَبُو جَهْل"),
+    ("al-Faruq", "الفَارُوق"),
+    ("'Abdallah", "عَبْدُ الله"),
+    ("Shaytan", "شَيْطَان"),
+    ("'Umar", "عُمَر"),
+    ("ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah", "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا الله، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ الله"),
+    ("wa ash-hadu anna Muhammadan", "وَأَشْهَدُ أَنَّ مُحَمَّدًا"),
+    ("ash-hadu", "أَشْهَدُ"),
+    ("la ilaha", "لَا إِلٰهَ"),
+    ("illa Allah", "إِلَّا الله"),
+    ("rasul Allah", "رَسُولُ الله"),
     ("As-salamu 'alaykum", "السَّلَامُ عَلَيْكُمْ"),
     ("Takbirat al-Ihram", "تَكْبِيرَةُ الإِحْرَام"),
     ("Allahu akbar", "اللهُ أَكْبَر"),
@@ -32,6 +49,11 @@ MOTS = [
     ("sujud", "سُجُود"),
     ("tashahhud", "تَشَهُّد"),
     ("salam", "سَلَام"),
+    ("al-Ikhlas", "الإِخْلَاص"),
+    ("Shahada", "شَهَادَة"),
+    ("al-Ihsan", "الإِحْسَان"),
+    ("l'ihsan", "الإِحْسَان"),
+    ("l'iman", "الإِيمَان"),
 ]
 PAT = re.compile(r"(?<![\w'])(" + "|".join(re.escape(m) for m, _ in MOTS) + r")(?![\w])")
 AR = dict(MOTS)

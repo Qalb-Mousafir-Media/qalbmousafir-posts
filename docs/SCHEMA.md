@@ -29,9 +29,23 @@ Fichier : episodes/epN_slug.json
 }
 ```
 
+Scène « story » (série « Les Compagnons ») :
+
+```json
+{"type": "story", "decor": "medine_nuit", "caption": "Une phrase de 90 caractères maximum.",
+ "arabic": "texte arabe vocalisé ou \"\"", "narration": "...", "tts": "..."}
+```
+- "decor" (obligatoire) : `desert_nuit`, `desert_aube`, `medine_nuit`, `kaaba_loin`, `lanterne`, `traces_sable`,
+  `parchemin`, `palmeraie` (détails dans tools/README.md, section « Scènes story et décors »).
+- "caption" : ≤ 90 caractères (au-delà : avertissement et police réduite). "arabic" : vide ("") = non affiché.
+- Aucun être humain ni animal à l'écran : les décors ne montrent que des paysages et des objets ; le récit passe par la voix et la légende.
+- hook, quote et outro acceptent aussi un "decor" optionnel (même liste) qui remplace le fond ciel + rosace.
+- Deux scènes consécutives avec le même décor s'enchaînent sans coupure ; sinon fondu enchaîné.
+
 Règles :
 - "label" d'un step : « ÉTAPE », « PILIER », « PRIÈRE »… ; "total" = nombre de steps.
 - recap : 3 à 8 items.
+- story : "decor" obligatoire, "caption" ≤ 90 caractères.
 - "arabic" peut être vide ("") si aucun mot arabe n'a de sens.
 - Durée cible totale : 50 à 75 s de voix (≈ 150 mots par minute en français).
 - "tts" : réécrire les mots arabes pour que la voix française les prononce bien. Graphies testées qui marchent :

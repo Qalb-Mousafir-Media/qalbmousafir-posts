@@ -6,8 +6,8 @@
 
 $ErrorActionPreference = "Stop"
 $dossier = Split-Path -Parent $MyInvocation.MyCommand.Path
-$voixListe = @("fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural")
-$modes     = @("ar", "fr")
+$voixListe = @("fr-FR-VivienneMultilingualNeural")
+$modes     = @("ar")
 $vitesse   = "-4%"
 
 $cle = $env:AZURE_SPEECH_KEY

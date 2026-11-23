@@ -1,0 +1,29 @@
+{
+  "episode": 0,
+  "slug": "test_story",
+  "title": "Test des scènes story et des décors",
+  "scenes": [
+    {"type": "hook", "decor": "desert_nuit", "pill": "TEST · LES COMPAGNONS", "arabic": "",
+     "title": "Test des décors", "subtitle": "Scène hook sur un décor",
+     "narration": "Test de la scène d'accroche sur un décor.", "tts": "Test de la scène d'accroche sur un décor."},
+    {"type": "story", "decor": "desert_nuit", "caption": "Test du décor desert_nuit", "arabic": "",
+     "narration": "Test du décor désert de nuit.", "tts": "Test du décor désert de nuit."},
+    {"type": "story", "decor": "desert_aube", "caption": "Test du décor desert_aube, avec une légende un peu plus longue sur deux lignes", "arabic": "اختبار",
+     "narration": "Test du décor désert à l'aube.", "tts": "Test du décor désert à l'aube."},
+    {"type": "story", "decor": "medine_nuit", "caption": "Test du décor medine_nuit", "arabic": "اختبار",
+     "narration": "Test du décor Médine de nuit.", "tts": "Test du décor Médine de nuit."},
+    {"type": "story", "decor": "kaaba_loin", "caption": "Test du décor kaaba_loin", "arabic": "",
+     "narration": "Test du décor de la Kaaba vue de loin.", "tts": "Test du décor de la Kaaba vue de loin."},
+    {"type": "story", "decor": "lanterne", "caption": "Test du décor lanterne", "arabic": "اختبار",
+     "narration": "Test du décor lanterne.", "tts": "Test du décor lanterne."},
+    {"type": "story", "decor": "traces_sable", "caption": "Test du décor traces_sable", "arabic": "",
+     "narration": "Test du décor traces dans le sable.", "tts": "Test du décor traces dans le sable."},
+    {"type": "story", "decor": "parchemin", "caption": "Test du décor parchemin : la légende s'écrit sur la feuille", "arabic": "اختبار",
+     "narration": "Test du décor parchemin.", "tts": "Test du décor parchemin."},
+    {"type": "story", "decor": "palmeraie", "caption": "Test du décor palmeraie", "arabic": "",
+     "narration": "Test du décor palmeraie.", "tts": "Test du décor palmeraie."},
+    {"type": "outro", "next_label": "Prochain épisode", "next_title": "Titre de test",
+     "next_arabic": "", "cta": "Abonne-toi pour ne pas le rater",
+     "narration": "Fin du test.", "tts": "Fin du test."}
+  ]
+}

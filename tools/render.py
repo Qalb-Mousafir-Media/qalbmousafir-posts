@@ -6,6 +6,9 @@ Usage :
     python3 render.py chemin/epN.json --preview  # 1 JPEG par scène + planche contact
     python3 render.py chemin/epN.json --only 3 5 # ne rend que les scènes 3 et 5 (pas de montage final)
 
+Scènes « story » (série Les Compagnons) : décor procédural animé (tools/decors.py) + légende dans un
+bandeau sombre ; un champ "decor" optionnel sur hook/quote/outro remplace le fond ciel + rosace.
+
 Look identique à le moteur de l'épisode 1 : mêmes couleurs, fond, rosace, étoiles,
 animations, mise en page centrée automatique, décalage CX vers la gauche.
 """
@@ -14,6 +17,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import decors
 W, H, FPS = 1080, 1920, 30
 
 FONTS = os.environ.get("QM_FONTS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts"))
@@ -341,7 +346,7 @@ def background(t):
 def ease(x):
     x = max(0.0, min(1.0, x)); return 1 - (1 - x) ** 3
 
-def put(frame, el, cx, y, lt, t_in, dur, fade_in=0.6, out_at=None, fade_out=0.35, rise=40):
+def put(frame, el, cx, y, lt, t_in, dur, fade_in=0.6, out_at=None, fade_out=0.35, rise=40, x=None):
     if lt < t_in: return
     a = ease((lt - t_in) / fade_in)
     if out_at is not None and lt > out_at:
@@ -351,7 +356,7 @@ def put(frame, el, cx, y, lt, t_in, dur, fade_in=0.6, out_at=None, fade_out=0.35
     e = el
     if a < 0.999:
         e = el.copy(); e.putalpha(el.getchannel("A").point(lambda v: int(v * a)))
-    frame.alpha_composite(e, (int(cx - el.width / 2), int(y + dy)))
+    frame.alpha_composite(e, (int(cx - el.width / 2) if x is None else int(x), int(y + dy)))
 
 CX = W // 2 - 20  # décalage à gauche des boutons TikTok
 
@@ -470,16 +475,115 @@ def scene_outro(sc):
     els.append((text_block("Qalb Mousafir", INTER % "Medium", 40, MUTED, shadow=False), -20, 2.1))
     return els
 
-BUILDERS = {"hook": scene_hook, "quote": scene_quote, "step": scene_step, "recap": scene_recap, "outro": scene_outro}
+# ---------- scène « story » (récits des Compagnons) ----------
+# Zone sûre TikTok : rien d'important au-dessus de y=250, sous y≈1500 (1920-420) ni à droite de x≈940.
+STORY_TEXT_Y = (1140, 1480)       # zone du texte (centre ≈ 1310), dans un bandeau dégradé sombre
+STORY_TEXT_MAX_W = 820             # centré sur CX=520 => x de 90 à 930
+CAPTION_MAX = 90
+INK = (58, 38, 26)                 # encre du parchemin
+INK_GOLD = (150, 100, 34)          # arabe sur le parchemin (or foncé, lisible sur crème)
+DECOR_VEIL = 0.5                   # assombrissement d'un décor sous une scène hook/quote/outro
+XFADE = 0.9                        # fondu enchaîné entre deux fonds différents (s)
+
+def story_band():
+    """Bandeau sombre en dégradé (sans bord visible) derrière la légende."""
+    h = 560
+    ys = np.arange(h, dtype=np.float32)
+    a = np.interp(ys, [0, 120, 200, 420, 560], [0, 0.48, 0.62, 0.55, 0.0])
+    arr = np.zeros((h, W + 40, 4), np.uint8)
+    arr[..., :3] = (5, 8, 20)
+    arr[..., 3] = (a[:, None] * 255).astype(np.uint8)
+    return Image.fromarray(arr, "RGBA")
+
+def _story_text(sc):
+    """Images de l'arabe et de la légende, réduites si le bloc dépasse la zone de texte."""
+    cap, ar = _s(sc, "caption").strip(), _s(sc, "arabic").strip()
+    zone = STORY_TEXT_Y[1] - STORY_TEXT_Y[0]
+    for ar_size, cap_size in ((86, 58), (80, 54), (74, 50), (68, 46), (62, 42)):
+        a_img = arabic_fit(ar, ar_size, max_w=STORY_TEXT_MAX_W, max_lines=2) if ar else None
+        c_img = text_block(cap, SERIF % "SemiBold", cap_size, CREAM, max_w=STORY_TEXT_MAX_W, no_orphan=True,
+                           ar_size=int(cap_size * 1.2)) if cap else None
+        hgt = sum(i.height for i in (a_img, c_img) if i) + (_ar_gap(ar_size) if a_img and c_img else 0)
+        if hgt <= zone:
+            break
+    return a_img, c_img, (_ar_gap(ar_size) if a_img and c_img else 0)
+
+def _ar_gap(ar_size):
+    return -int(ar_size * 0.22)       # l'image arabe a une marge transparente (halo) : on rapproche la légende
+
+def scene_story(sc):
+    """Éléments à positions absolues : (image, y, t_in, options). Le décor est dessiné par le fond."""
+    if sc.get("decor") == "parchemin":
+        return []                     # le texte s'écrit sur le parchemin (voir parchment_texts)
+    a_img, c_img, gap = _story_text(sc)
+    if not (a_img or c_img):
+        return []
+    els = [(story_band(), STORY_TEXT_Y[0] - 150, 0.0, {"rise": 0, "x": -20})]
+    hgt = sum(i.height for i in (a_img, c_img) if i) + gap
+    y = int((STORY_TEXT_Y[0] + STORY_TEXT_Y[1]) / 2 - hgt / 2)
+    t = 0.45
+    if a_img:
+        els.append((a_img, y, t, {"rise": 24})); y += a_img.height + gap; t += 0.6
+    if c_img:
+        els.append((c_img, y, t, {"rise": 24}))
+    return els
+
+def parchment_texts(sc, dur, offset_in_run, last):
+    """Préparation du texte écrit sur le parchemin : [(img, x, y, t0, t1, rtl, lh, off)] + fonction ctx(lt)."""
+    cap, ar = _s(sc, "caption").strip(), _s(sc, "arabic").strip()
+    x0, y0, x1, y1 = decors.PARCH_BOX
+    sw, sh = x1 - x0, y1 - y0
+    inner_w, inner_h = sw - 150, sh - 140
+    for ar_size, cap_size in ((92, 58), (84, 54), (76, 50), (68, 46), (60, 42)):
+        a_img = arabic_fit(ar, ar_size, max_w=inner_w, max_lines=3, color=INK_GOLD, glow=False) if ar else None
+        c_img = text_block(cap, SERIF % "SemiBold", cap_size, INK, max_w=inner_w, no_orphan=True, shadow=False,
+                           ar_size=int(cap_size * 1.2)) if cap else None
+        gap = 26 if a_img and c_img else 0
+        hgt = sum(i.height for i in (a_img, c_img) if i) + gap
+        if hgt <= inner_h:
+            break
+    items = []
+    y = sh / 2 - hgt / 2
+    start = max(0.35, decors.PARCH_UNROLL_END + 0.1 - offset_in_run)
+    end_max = max(start + 0.8, dur - VISIBLE_BEFORE_END)
+    durs = []
+    if a_img: durs.append(min(2.2, max(1.0, 0.07 * len(ar))))
+    if c_img: durs.append(min(3.0, max(1.2, 0.035 * len(cap))))
+    k = min(1.0, (end_max - start) / max(0.01, sum(durs) + 0.2 * (len(durs) - 1)))
+    t = start
+    if a_img:
+        d = durs.pop(0) * k
+        items.append((np.asarray(a_img), (sw - a_img.width) / 2, y, t, t + d, True, a_img.height, 0))
+        y += a_img.height + gap; t += d + 0.2 * k
+    if c_img:
+        d = durs.pop(0) * k
+        lh = int(cap_size * 1.28)
+        items.append((np.asarray(c_img), (sw - c_img.width) / 2, y, t, t + d, False, lh, 10 + int(cap_size * 0.25)))
+    out_at = None if last else dur - 0.4
+    def ctx(lt):
+        al = 1.0 if out_at is None or lt <= out_at else max(0.0, 1 - (lt - out_at) / 0.35)
+        return {"texts": [(img, x, yy, min(1.0, max(0.0, (lt - a) / (b - a))), rtl, al, lh, off)
+                          for img, x, yy, a, b, rtl, lh, off in items]}
+    return items, ctx
+
+BUILDERS = {"hook": scene_hook, "quote": scene_quote, "step": scene_step, "recap": scene_recap, "outro": scene_outro,
+            "story": scene_story}
+DECOR_TYPES = ("story", "hook", "quote", "outro")   # types qui acceptent un champ "decor"
 
 def build_els(sc, dur):
-    """Éléments positionnés + délais d'apparition comprimés si la scène est courte."""
-    els = layout(BUILDERS[sc["type"]](sc))
-    last_in = max(t for _, _, t in els)
+    """Éléments positionnés + délais d'apparition comprimés si la scène est courte.
+    Chaque élément : (image, y, t_in) ou, pour les scènes story, (image, y, t_in, options)."""
+    if sc["type"] == "story":
+        els = scene_story(sc)
+    else:
+        els = layout(BUILDERS[sc["type"]](sc))
+    if not els:
+        return els
+    last_in = max(e[2] for e in els)
     budget = dur - VISIBLE_BEFORE_END - FADE_IN
     if last_in > budget > 0:
         k = budget / last_in
-        els = [(el, y, round(t * k, 3)) for el, y, t in els]
+        els = [(e[0], e[1], round(e[2] * k, 3)) + tuple(e[3:]) for e in els]
     return els
 
 CENTER_Y = 900
@@ -493,11 +597,52 @@ def layout(items):
         y += el.height
     return out
 
-def draw(els, dur, lt, gt, last=False):
-    fr = background(gt)
+# ---------- fonds : ciel + rosace (historique) ou décor, avec fondu enchaîné ----------
+def _bg_np(spec, gt, ctx=None):
+    """Fond float32 (H, W, 3) d'une spécification {"decor", "veil", "t0", "dur"} (None = ciel + rosace)."""
+    if spec is None:
+        return np.asarray(background(gt).convert("RGB")).astype(np.float32)
+    t = max(0.0, gt - spec["t0"])
+    f = decors.get(spec["decor"]).frame(t, t / max(spec["dur"], 0.1), ctx)
+    if spec.get("veil"):
+        f *= (1.0 - spec["veil"])
+    return f
+
+def _same_bg(a, b):
+    return (a or {}).get("decor") == (b or {}).get("decor") and (a or {}).get("veil", 0) == (b or {}).get("veil", 0)
+
+def make_bg(job, sc=None):
+    """Renvoie bgf(lt, gt) -> image RGBA du fond pour cette scène."""
+    cur, prev = job.get("bg"), job.get("bg_prev")
+    ctxf = None
+    if cur and cur["decor"] == "parchemin" and sc is not None and sc["type"] == "story":
+        _, ctxf = parchment_texts(sc, job["dur"], job["f0"] / FPS - cur["t0"], job.get("last", False))
+    if cur is None and prev is None:
+        return lambda lt, gt: background(gt)          # chemin historique, inchangé
+    def bgf(lt, gt):
+        ctx = ctxf(lt) if ctxf else None
+        if prev is not None and lt < XFADE:
+            a = 0.5 - 0.5 * math.cos(math.pi * lt / XFADE)
+            if prev.get("decor") and cur and prev["decor"] == cur["decor"]:   # même décor, seul le voile change
+                spec = dict(cur, veil=prev.get("veil", 0) + (cur.get("veil", 0) - prev.get("veil", 0)) * a)
+                f = _bg_np(spec, gt, ctx)
+            else:
+                f = _bg_np(prev, gt) * (1 - a) + _bg_np(cur, gt, ctx) * a
+        else:
+            if cur is None:
+                return background(gt)
+            f = _bg_np(cur, gt, ctx)
+        u8 = decors.cv2.convertScaleAbs(f) if decors.cv2 is not None else np.clip(f, 0, 255).astype(np.uint8)
+        return Image.fromarray(u8, "RGB").convert("RGBA")
+    return bgf
+
+def draw(els, dur, lt, gt, last=False, bgf=None):
+    fr = bgf(lt, gt) if bgf else background(gt)
     out_at = None if last else dur - 0.4
-    for el, y, t_in in els:
-        put(fr, el, CX, y, lt, t_in, dur, out_at=out_at)
+    for e in els:
+        el, y, t_in = e[:3]
+        opt = e[3] if len(e) > 3 else {}
+        put(fr, el, CX, y, lt, t_in, dur, out_at=out_at, rise=opt.get("rise", 40), x=opt.get("x"))
     if last and lt > dur - 0.8:  # fondu au noir à la toute fin
         k = (lt - (dur - 0.8)) / 0.8
         fr = Image.blend(fr, Image.new("RGBA", fr.size, (0, 0, 0, 255)), min(1, k))
@@ -522,10 +667,24 @@ def validate(ep):
             if len(sc.get("text", "")) > 140: warns.append(f"scène {i} : text long ({len(sc['text'])} car.)")
         if t == "recap" and not 3 <= len(sc.get("items", [])) <= 8:
             errs.append(f"scène {i} : recap avec {len(sc.get('items', []))} items (3..8)")
+        dec = sc.get("decor")
+        if t == "story":
+            if dec not in decors.DECORS:
+                errs.append(f"scène {i} : story sans décor valide ({dec!r}) ; choix : {', '.join(decors.DECORS)}")
+            if len(_s(sc, "caption")) > CAPTION_MAX:
+                warns.append(f"scène {i} : caption de {len(_s(sc, 'caption'))} caractères (> {CAPTION_MAX}, police réduite)")
+        elif dec:
+            if t not in DECOR_TYPES:
+                warns.append(f"scène {i} : \"decor\" ignoré sur une scène {t} (seulement hook, quote, outro, story)")
+            elif dec not in decors.DECORS:
+                errs.append(f"scène {i} : décor inconnu {dec!r} ; choix : {', '.join(decors.DECORS)}")
     return errs, warns
 
 def check_bounds(name, els):
-    top = min(y for _, y, _ in els); bottom = max(y + el.height for el, y, _ in els)
+    els = [e for e in els if not (len(e) > 3 and e[3].get("x") is not None)]   # bandeau plein écran exclu
+    if not els:
+        return
+    top = min(e[1] for e in els); bottom = max(e[1] + e[0].height for e in els)
     if top < 150 or bottom > 1650:
         print(f"  ! {name} : contenu de y={top} à y={bottom} (risque de sortir du cadre / sous l'interface TikTok)")
 
@@ -660,7 +819,31 @@ def plan(ep, voices):
         name = f"{i + 1:02d}_{sc['type']}"
         out.append({"i": i, "name": name, "dur": dur, "nf": nf, "f0": f0, "voice": vd})
         f0 += nf
+    assign_backgrounds(ep, out)
     return out, f0
+
+def assign_backgrounds(ep, jobs):
+    """Fond de chaque scène : None (ciel + rosace) ou décor. Les scènes consécutives qui partagent un décor
+    forment une « série » : le temps du décor y est continu (pas de saut de caméra ni de fondu)."""
+    def dec(sc):
+        d = sc.get("decor")
+        return d if d in decors.DECORS and sc["type"] in DECOR_TYPES else None
+    i = 0
+    while i < len(jobs):
+        d = dec(ep["scenes"][jobs[i]["i"]])
+        j = i
+        while d and j + 1 < len(jobs) and dec(ep["scenes"][jobs[j + 1]["i"]]) == d:
+            j += 1
+        t0 = jobs[i]["f0"] / FPS
+        rdur = sum(jobs[k]["nf"] for k in range(i, j + 1)) / FPS
+        for k in range(i, j + 1):
+            sc = ep["scenes"][jobs[k]["i"]]
+            jobs[k]["bg"] = {"decor": d, "veil": 0.0 if sc["type"] == "story" else DECOR_VEIL,
+                             "t0": round(t0, 4), "dur": round(rdur, 4)} if d else None
+        i = j + 1
+    for k, jb in enumerate(jobs):
+        prev = jobs[k - 1]["bg"] if k else None
+        jb["bg_prev"] = prev if k and not _same_bg(prev, jb["bg"]) else None
 
 # ---------- rendu ----------
 _EP = None  # épisode, partagé avec les processus (fork)
@@ -670,13 +853,14 @@ def render_scene(job):
     t0 = time.time()
     dur, nf, f0, last = job["dur"], job["nf"], job["f0"], job["last"]
     els = build_els(sc, dur)
+    bgf = make_bg(job, sc)
     tmp, final = job["path"][:-4] + ".tmp.mp4", job["path"]
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
                           "-crf", "18", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
     for f in range(nf):
         lt = f / FPS
-        p.stdin.write(draw(els, dur, lt, (f0 + f) / FPS, last).tobytes())
+        p.stdin.write(draw(els, dur, lt, (f0 + f) / FPS, last, bgf).tobytes())
     p.stdin.close()
     ok = p.wait() == 0
     if ok:
@@ -686,8 +870,8 @@ def render_scene(job):
 
 def scene_key(sc, job):
     d = {k: v for k, v in sc.items() if k not in ("narration", "tts")}
-    d.update(dur=job["dur"], nf=job["nf"], f0=job["f0"], last=job["last"])
-    src = open(os.path.abspath(__file__), "rb").read()
+    d.update(dur=job["dur"], nf=job["nf"], f0=job["f0"], last=job["last"], bg=job.get("bg"), bg_prev=job.get("bg_prev"))
+    src = open(os.path.abspath(__file__), "rb").read() + open(decors.__file__, "rb").read()
     return hashlib.sha1(json.dumps(d, sort_keys=True, ensure_ascii=False).encode() + src).hexdigest()
 
 def preview(ep, jobs, outdir):
@@ -698,7 +882,7 @@ def preview(ep, jobs, outdir):
         els = build_els(sc, j["dur"])
         check_bounds(j["name"], els)
         lt = j["dur"] - (0.9 if j["last"] else 0.6)  # moment le plus chargé (tout est affiché, pas de fondu)
-        img = draw(els, j["dur"], lt, j["f0"] / FPS + lt, j["last"])
+        img = draw(els, j["dur"], lt, j["f0"] / FPS + lt, j["last"], make_bg(j, sc))
         p = os.path.join(pdir, f"prev_{j['name']}.jpg"); img.save(p, quality=88)
         thumbs.append((j, img))
     tw, th, cols = 360, 640, 5
@@ -765,6 +949,9 @@ def main():
     n = max(1, min(len(todo) or 1, a.jobs or os.cpu_count() or 1))
     print(f"[2/4] rendu de {len(todo)} scène(s) sur {n} processus")
     _EP = ep
+    for name in sorted({(j.get("bg") or {}).get("decor") for j in todo} - {None}
+                       | {(j.get("bg_prev") or {}).get("decor") for j in todo} - {None}):
+        decors.get(name)          # construits une fois ici, partagés par les processus (fork)
     t = time.time(); stats = []
     if todo:
         with mp.get_context("fork").Pool(n) as pool:

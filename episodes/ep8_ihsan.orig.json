@@ -1,0 +1,144 @@
+{
+ "episode": 8,
+ "slug": "ep8_ihsan",
+ "title": "Al-Ihsan, le plus haut degré de la foi",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 8 · LES BASES",
+   "arabic": "الْإِحْسَانُ",
+   "title": "Al-Ihsan",
+   "subtitle": "Le plus haut degré de la foi",
+   "narration": "Et si tu priais comme si tu voyais Allah ? Ce niveau a un nom : l'ihsan.",
+   "tts": "Et si tu priais comme si tu voyais Allah ? Ce niveau a un nom : l'ihsan."
+  },
+  {
+   "type": "quote",
+   "intro": "Jibril, venu sous l'apparence d'un homme, a demandé : « Parle-moi de l'ihsan. » Le Prophète ﷺ a répondu :",
+   "arabic": "أَنْ تَعْبُدَ اللهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ",
+   "translation": "« C'est que tu adores Allah comme si tu Le voyais ; car si tu ne Le vois pas, Lui te voit. »",
+   "source": "Rapporté par Muslim (n° 8)",
+   "narration": "Jibril a demandé au Prophète, paix et salut sur lui : « Parle-moi de l'ihsan. » Il a répondu : « C'est que tu adores Allah comme si tu Le voyais. Car si tu ne Le vois pas, Lui te voit. » Rapporté par Muslim.",
+   "tts": "Jibril a demandé au Prophète, paix et salut sur lui : « Parle-moi de l'ihsan. » Il a répondu : « C'est que tu adores Allah comme si tu Le voyais. Car si tu ne Le vois pas, Lui te voit. » Rapporté par Muslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 6,
+   "label": "NIVEAU",
+   "arabic": "الْإِسْلَامُ",
+   "title": "Islam",
+   "subtitle": "Les actes · épisode 1",
+   "text": "Les 5 piliers : la Chahada, la prière, la zakat, le jeûne du Ramadan et le hajj.",
+   "narration": "Les trois niveaux de la religion. Un : l'islam, les actes : les cinq piliers, vus à l'épisode un.",
+   "tts": "Les trois niveaux de la religion. Un : l'islam, les actes : les cinq piliers, vus à l'épisode un."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 6,
+   "label": "NIVEAU",
+   "arabic": "الْإِيمَانُ",
+   "title": "Iman",
+   "subtitle": "La foi du cœur · épisode 4",
+   "text": "Les 6 piliers de la foi : Allah, Ses anges, Ses livres, Ses messagers, le Jour dernier, le destin.",
+   "narration": "Deux : l'iman, la foi du cœur. Les six piliers, vus à l'épisode quatre.",
+   "tts": "Deux : l'iman, la foi du cœur. Les six piliers, vus à l'épisode quatre."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 6,
+   "label": "NIVEAU",
+   "arabic": "الْإِحْسَانُ",
+   "title": "Ihsan",
+   "subtitle": "L'excellence",
+   "text": "Le sommet : adorer Allah comme si tu Le voyais, en sachant qu'Il te voit.",
+   "narration": "Trois : l'ihsan, l'excellence. Le sommet : adorer Allah en sachant qu'Il te voit.",
+   "tts": "Trois : l'ihsan, l'excellence. Le sommet : adorer Allah en sachant qu'Il te voit."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 6,
+   "label": "AU QUOTIDIEN",
+   "arabic": "فِي الصَّلَاةِ",
+   "title": "Dans ta prière",
+   "subtitle": "Être présent",
+   "text": "Ne te presse pas. Pense au sens de ce que tu récites. Allah te voit.",
+   "narration": "Et au quotidien ? Dans ta prière : ne te presse pas, pense au sens de ce que tu récites. Allah te voit.",
+   "tts": "Et au quotidien ? Dans ta prière : ne te presse pas, pense au sens de ce que tu récites. Allah te voit."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 6,
+   "label": "AU QUOTIDIEN",
+   "arabic": "فِي الْعَمَلِ",
+   "title": "Dans ton travail",
+   "subtitle": "Bien faire, même seul",
+   "text": "« Allah a prescrit l'excellence en toute chose » (Muslim, n° 1955). Même quand personne ne regarde.",
+   "narration": "Dans ton travail : fais-le bien, même quand personne ne regarde. Le Prophète, paix et salut sur lui, a dit : « Allah a prescrit l'excellence en toute chose. »",
+   "tts": "Dans ton travail : fais-le bien, même quand personne ne regarde. Le Prophète, paix et salut sur lui, a dit : « Allah a prescrit l'excellence en toute chose. »"
+  },
+  {
+   "type": "step",
+   "index": 6,
+   "total": 6,
+   "label": "AU QUOTIDIEN",
+   "arabic": "مَعَ النَّاسِ",
+   "title": "Avec les autres",
+   "subtitle": "Le bon comportement",
+   "text": "Sois doux avec tes parents, tiens parole, souris. Le Coran demande l'ihsan envers les parents (17:23).",
+   "narration": "Avec les autres : sois doux avec tes parents, tiens parole, souris. Le Coran demande l'ihsan envers les parents.",
+   "tts": "Avec les autres : sois doux avec tes parents, tiens parole, souris. Le Coran demande l'ihsan envers les parents."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Islam",
+     "subtitle": "Les actes",
+     "arabic": "الْإِسْلَامُ"
+    },
+    {
+     "title": "Iman",
+     "subtitle": "La foi du cœur",
+     "arabic": "الْإِيمَانُ"
+    },
+    {
+     "title": "Ihsan",
+     "subtitle": "L'excellence",
+     "arabic": "الْإِحْسَانُ"
+    },
+    {
+     "title": "Dans ta prière",
+     "subtitle": "Être présent",
+     "arabic": "الصَّلَاةُ"
+    },
+    {
+     "title": "Dans ton travail",
+     "subtitle": "Bien faire, même seul",
+     "arabic": "الْعَمَلُ"
+    },
+    {
+     "title": "Avec les autres",
+     "subtitle": "Le bon comportement",
+     "arabic": "الْأَخْلَاقُ"
+    }
+   ],
+   "narration": "En résumé : l'islam, les actes ; l'iman, la foi ; l'ihsan, l'excellence : tout faire comme sous le regard d'Allah.",
+   "tts": "En résumé : l'islam, les actes ; l'iman, la foi ; l'ihsan, l'excellence : tout faire comme sous le regard d'Allah."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Bientôt une nouvelle série",
+   "next_arabic": "",
+   "cta": "Abonne-toi pour ne pas la rater",
+   "narration": "Prochain épisode : bientôt, une nouvelle série. Abonne-toi pour ne pas la rater !",
+   "tts": "Prochain épisode : bientôt, une nouvelle série. Abonne-toi pour ne pas la rater !"
+  }
+ ]
+}
