@@ -52,3 +52,12 @@ Le script fait lire chaque variante par la voix, la fait transcrire par Whisper 
 python3 tools/mix_nasheed.py tools/out/<slug>/<slug>.mp4 audio/nasheed-60.mp3 videos/<slug>.mp4 [--offset-db 3]
 ```
 Voir `audio/README.md`.
+
+## Voix Azure (Vivienne, retenue le 22/11/2026)
+
+1. `python3 tools/azure/make_textes.py episodes/<script>.json` crée `tools/azure/textes/<slug>.txt` (mots arabes marqués `[ar:ARABE|français]`, liste dans `make_textes.py`).
+2. Sur le PC de Karim : copier le .txt dans `Documents\QalbMousafir-voix\textes\`, puis
+   `powershell -ExecutionPolicy Bypass -File .\generer-voix.ps1` (clé `AZURE_SPEECH_KEY`, région `canadacentral`).
+3. Récupérer `audio\vivienne-ar\<slug>\NN.mp3`, les copier dans `audio/voix/vivienne-ar/<slug>/`, puis
+   `python3 tools/render.py episodes/<script>.json --voix-dir audio/voix/vivienne-ar/<slug>`
+4. Ajouter le nachid avec `tools/mix_nasheed.py`.

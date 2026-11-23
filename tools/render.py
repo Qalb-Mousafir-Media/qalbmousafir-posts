@@ -571,7 +571,25 @@ def to_phonemes(kok, txt, lex):
             out.append(part)
     return re.sub(r" {2,}", " ", "".join(out)).strip()
 
-def tts_all(scenes):
+def external_voice(voix_dir, i):
+    """Convertit voix_dir/NN.mp3 (ou .wav) en WAV 24 kHz mono dans le cache, silences de début/fin réduits."""
+    for ext in (".mp3", ".wav"):
+        src = os.path.join(voix_dir, f"{i:02d}{ext}")
+        if os.path.exists(src):
+            break
+    else:
+        return None
+    key = hashlib.sha1(open(src, "rb").read()).hexdigest()[:16]
+    dst = os.path.join(TTS_CACHE, "ext_" + key + ".wav")
+    if not os.path.exists(dst):
+        trim = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.05," \
+               "areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.15,areverse"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-af", trim, "-ac", "1", "-ar", "24000",
+                        "-c:a", "pcm_s16le", dst + ".tmp.wav"], check=True)
+        os.replace(dst + ".tmp.wav", dst)
+    return dst
+
+def tts_all(scenes, voix_dir=None):
     """Retourne [(chemin_wav ou None, durée_s)] ; cache par hash(texte, voix, vitesse, langue)."""
     os.makedirs(TTS_CACHE, exist_ok=True)
     import soundfile as sf
@@ -582,6 +600,12 @@ def tts_all(scenes):
         txt = (sc.get("tts") or sc.get("narration") or "").strip()
         if not txt:
             res.append((None, 0.0)); continue
+        if voix_dir:
+            ext = external_voice(voix_dir, i)
+            if ext:
+                info = sf.info(ext)
+                res.append((ext, round(info.frames / info.samplerate, 2))); continue
+            print(f"  ! scène {i} : pas de fichier dans {voix_dir}, voix Kokoro utilisée")
         key = hashlib.sha1(f"{TTS_VOICE}|{TTS_SPEED}|{TTS_LANG}|{lex_sig}|{txt}".encode()).hexdigest()[:16]
         path = os.path.join(TTS_CACHE, key + ".wav")
         if not os.path.exists(path):
@@ -698,6 +722,7 @@ def main():
     ap.add_argument("--only", type=int, nargs="+", help="numéros de scènes (1..N) à rendre ; pas de montage final")
     ap.add_argument("--jobs", type=int, default=0, help="processus en parallèle (défaut : nb de cœurs)")
     ap.add_argument("--force", action="store_true", help="re-rendre même les scènes inchangées")
+    ap.add_argument("--voix-dir", help="dossier de voix déjà générées (ex. Azure) : NN.mp3 par scène, à la place de Kokoro")
     a = ap.parse_args()
 
     T0 = time.time()
@@ -712,7 +737,7 @@ def main():
     sdir = os.path.join(outdir, "scenes"); os.makedirs(sdir, exist_ok=True)
 
     print(f"[1/4] voix ({len(ep['scenes'])} scènes)")
-    t = time.time(); voices = tts_all(ep["scenes"]); t_tts = time.time() - t
+    t = time.time(); voices = tts_all(ep["scenes"], a.voix_dir); t_tts = time.time() - t
     jobs, total_frames = plan(ep, voices)
     for j in jobs:
         j["last"] = j["i"] == len(jobs) - 1
