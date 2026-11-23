@@ -1,0 +1,5 @@
+# Test de voix : 4 phrases avec des mots arabes
+t1|Deux : le [ar:ظُهْر|Dhuhr], en milieu de journée, quand le soleil commence à décliner. Quatre [ar:رَكَعَات|rak'at].
+t2|Un : [ar:أَشْهَدُ|ash-hadu], j'atteste. Ce n'est pas juste dire : c'est savoir, en être convaincu, et le déclarer.
+t3|Le Prophète, paix et salut sur lui, a prié Allah de renforcer l'islam par l'un de deux hommes. Ce fut [ar:عُمَر|'Umar], qu'Allah l'agrée.
+t4|Trois : dis « [ar:اللهُ أَكْبَر|Allahu akbar] ». C'est la [ar:تَكْبِيرَةُ الإِحْرَام|Takbirat al-Ihram] : ta prière commence.
