@@ -1,0 +1,91 @@
+{
+ "episode": 1,
+ "slug": "special1_la_boucle",
+ "series": "Spécial",
+ "title": "La boucle : ce qu'ils voient, ils le deviennent",
+ "exception_charte": "Exception validée par Karim le 26/11/2026 pour cette vidéo seulement : personnages dessinés (papa, enfant, grand-père). Images générées hors du moteur (Canva IA), voir docs/SPECIAL1_LA_BOUCLE.md.",
+ "scenes": [
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/01_jour1.png",
+   "label": "JOUR 1",
+   "caption": "",
+   "narration": "Jour 1. Il prie. Son bébé dort à côté de lui.",
+   "tts": "Jour un. Il prie. Son bébé dort à côté de lui."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/02_2mois.png",
+   "label": "2 MOIS",
+   "caption": "",
+   "narration": "2 mois. Allongé juste devant le tapis.",
+   "tts": "Deux mois. Allongé juste devant le tapis."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/03_6mois.png",
+   "label": "6 MOIS",
+   "caption": "",
+   "narration": "6 mois. Il rampe autour de lui. À gauche, à droite.",
+   "tts": "Six mois. Il rampe autour de lui. À gauche, à droite."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/04_10mois.png",
+   "label": "10 MOIS",
+   "caption": "Le Prophète ﷺ priait en portant sa petite-fille Umama (al-Bukhari 516, Muslim 543)",
+   "narration": "10 mois. Il grimpe sur son dos. Et le papa attend, patiemment.",
+   "tts": "Dix mois. Il grimpe sur son dos. Et le papa attend, patiemment."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/05_2ans.png",
+   "label": "2 ANS",
+   "caption": "",
+   "narration": "2 ans. Il l'imite… avec un temps de retard.",
+   "tts": "Deux ans. Il l'imite… avec un temps de retard."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/06_5ans.png",
+   "label": "5 ANS",
+   "caption": "",
+   "narration": "5 ans. Il apporte son petit tapis, et prie à côté de lui.",
+   "tts": "Cinq ans. Il apporte son petit tapis, et prie à côté de lui."
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/07_12ans.png",
+   "label": "12 ANS",
+   "caption": "« Baba, c'est l'heure ! »",
+   "narration": "12 ans. C'est lui qui vient le chercher : « Baba, c'est l'heure ! »",
+   "tts": "Douze ans. C'est lui qui vient le chercher : « Baba, c'est l'heure ! »"
+  },
+  {
+   "type": "illustration",
+   "image": "images/special1_la_boucle/08_25ans.png",
+   "label": "25 ANS",
+   "caption": "",
+   "narration": "25 ans. Il prie à son tour. Et sur son dos… son propre bébé.",
+   "tts": "Vingt-cinq ans. Il prie à son tour. Et sur son dos… son propre bébé."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "كُلُّكُمْ رَاعٍ، وَكُلُّكُمْ مَسْئُولٌ عَنْ رَعِيَّتِهِ",
+   "translation": "« Chacun de vous est un berger, et chacun de vous est responsable de son troupeau. »",
+   "source": "Rapporté par al-Bukhari (n° 893) et Muslim (n° 1829)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Chacun de vous est un berger, et chacun est responsable de son troupeau. »",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Chacun de vous est un berger, et chacun est responsable de son troupeau. »"
+  },
+  {
+   "type": "outro",
+   "next_label": "Qalb Mousafir",
+   "next_title": "Ce qu'ils voient, ils le deviennent",
+   "next_arabic": "",
+   "cta": "Envoie-la à un papa",
+   "narration": "Ce qu'ils voient, ils le deviennent.",
+   "tts": "Ce qu'ils voient, ils le deviennent."
+  }
+ ]
+}

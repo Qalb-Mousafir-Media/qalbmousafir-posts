@@ -1,0 +1,12 @@
+# Voix off - special1_la_boucle - La boucle : ce qu'ils voient, ils le deviennent
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Jour 1. Il prie. Son bébé dort à côté de lui.
+02|2 mois. Allongé juste devant le tapis.
+03|6 mois. Il rampe autour de lui. À gauche, à droite.
+04|10 mois. Il grimpe sur son dos. Et le papa attend, patiemment.
+05|2 ans. Il l'imite… avec un temps de retard.
+06|5 ans. Il apporte son petit tapis, et prie à côté de lui.
+07|12 ans. C'est lui qui vient le chercher : « Baba, c'est l'heure ! »
+08|25 ans. Il prie à son tour. Et sur son dos… son propre bébé.
+09|Le Prophète, paix et salut sur lui, a dit : « Chacun de vous est un berger, et chacun est responsable de son troupeau. »
+10|Ce qu'ils voient, ils le deviennent.
