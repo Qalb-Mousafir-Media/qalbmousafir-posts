@@ -1,0 +1,11 @@
+# Voix off - ep9_coran - Le Coran, la parole d'Allah
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Le livre le plus appris par cœur au monde. Tu sais comment il est arrivé ?
+02|Allah, exalté soit-Il, dit : « C'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes les gardiens. »
+03|Un : le Coran est la parole d'Allah, révélée au Prophète [ar:مُحَمَّد|Muhammad], paix et salut sur lui, par l'ange [ar:جِبْرِيل|Jibril], paix sur lui.
+04|Deux : tout commence dans la grotte de [ar:حِرَاء|Hira], près de La Mecque, par un seul mot : « Lis ! »
+05|Trois : la révélation a duré environ vingt-trois ans, verset après verset, selon les événements.
+06|Quatre : cent quatorze sourates. Dans l'ordre du [ar:مُصْحَف|Mushaf], [ar:الفَاتِحَة|al-Fatiha] est la première, et [ar:النَّاس|an-Nas] la dernière.
+07|Cinq : il a été révélé en arabe, et des millions de musulmans le connaissent par cœur, en entier. Les traductions aident à comprendre le sens, mais on le récite en arabe.
+08|En résumé : la parole d'Allah, révélée par [ar:جِبْرِيل|Jibril], pendant vingt-trois ans, en cent quatorze sourates, en arabe.
+09|Prochain épisode : qui est le Prophète [ar:مُحَمَّد|Muhammad], paix et salut sur lui ? Abonne-toi pour ne pas le rater !

@@ -1,0 +1,127 @@
+{
+ "episode": 11,
+ "slug": "ep11_ramadan",
+ "title": "Le jeûne du Ramadan",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 11 · LES BASES",
+   "arabic": "صِيَامُ رَمَضَانَ",
+   "title": "Le jeûne du Ramadan",
+   "subtitle": "Les bases, en une minute",
+   "narration": "Un mois sans manger ni boire, de l'aube au coucher du soleil. Pourquoi ?",
+   "tts": "Un mois sans manger ni boire, de l'aube au coucher du soleil. Pourquoi ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Allah, exalté soit-Il, dit :",
+   "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+   "translation": "« Ô vous qui croyez ! On vous a prescrit le jeûne comme on l'a prescrit à ceux d'avant vous, afin que vous atteigniez la piété. »",
+   "source": "Coran, sourate al-Baqara (2:183)",
+   "narration": "Allah, exalté soit-Il, dit : « Ô vous qui croyez ! On vous a prescrit le jeûne comme on l'a prescrit à ceux d'avant vous, afin que vous atteigniez la piété. »",
+   "tts": "Allah, exalté soit-Il, dit : « Ô vous qui croyez ! On vous a prescrit le jeûne comme on l'a prescrit à ceux d'avant vous, afin que vous atteigniez la piété. »"
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الرُّكْنُ الرَّابِعُ",
+   "title": "Un pilier",
+   "subtitle": "Le 4e pilier de l'islam",
+   "text": "Le jeûne du mois de Ramadan est le quatrième pilier de l'islam.",
+   "narration": "Un : le jeûne du mois de Ramadan est le quatrième pilier de l'islam.",
+   "tts": "Un : le jeûne du mois de Ramadan est le quatrième pilier de l'islam."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "مِنَ الْفَجْرِ إِلَى الْمَغْرِبِ",
+   "title": "De l'aube au coucher",
+   "subtitle": "Du Fajr au Maghrib",
+   "text": "Avec l'intention de jeûner pour Allah : ni manger, ni boire, ni relations intimes, de l'aube au coucher.",
+   "narration": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube, le Fajr, au coucher du soleil, le Maghrib.",
+   "tts": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube, le Fajr, au coucher du soleil, le Maghrib."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "السَّحُورُ وَالْإِفْطَارُ",
+   "title": "Sahour et iftar",
+   "subtitle": "Les deux repas",
+   "text": "Le sahour : le repas avant l'aube. L'iftar : le repas de rupture, au coucher du soleil.",
+   "narration": "Trois : le sahour, c'est le repas avant l'aube. L'iftar, c'est le repas de rupture, au coucher du soleil.",
+   "tts": "Trois : le sahour, c'est le repas avant l'aube. L'iftar, c'est le repas de rupture, au coucher du soleil."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الرُّخْصَةُ",
+   "title": "Les dispenses",
+   "subtitle": "Malades, voyageurs, règles",
+   "text": "Malade, voyageur, femme en période de règles : on rattrape plus tard. Si c'est impossible à vie : la fidya.",
+   "narration": "Quatre : le malade, le voyageur et la femme pendant ses règles rattrapent les jours plus tard. Celui qui ne pourra jamais jeûner nourrit un pauvre pour chaque jour.",
+   "tts": "Quatre : le malade, le voyageur et la femme pendant ses règles rattrapent les jours plus tard. Celui qui ne pourra jamais jeûner nourrit un pauvre pour chaque jour."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "أَكْثَرُ مِنَ الطَّعَامِ",
+   "title": "Pas que le ventre",
+   "subtitle": "La langue et les actes",
+   "text": "« Qui ne délaisse pas le mensonge… Allah n'a pas besoin qu'il délaisse sa nourriture » (al-Bukhari 1903).",
+   "narration": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : celui qui ne délaisse pas le mensonge, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson.",
+   "tts": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : celui qui ne délaisse pas le mensonge, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Un pilier",
+     "subtitle": "Le 4e pilier de l'islam",
+     "arabic": "الرُّكْنُ الرَّابِعُ"
+    },
+    {
+     "title": "De l'aube au coucher",
+     "subtitle": "Du Fajr au Maghrib",
+     "arabic": "الصِّيَامُ"
+    },
+    {
+     "title": "Sahour et iftar",
+     "subtitle": "Les deux repas",
+     "arabic": "السَّحُورُ وَالْإِفْطَارُ"
+    },
+    {
+     "title": "Les dispenses",
+     "subtitle": "Malades, voyageurs, règles",
+     "arabic": "الرُّخْصَةُ"
+    },
+    {
+     "title": "Pas que le ventre",
+     "subtitle": "La langue et les actes",
+     "arabic": "أَكْثَرُ مِنَ الطَّعَامِ"
+    }
+   ],
+   "narration": "En résumé : un pilier, de l'aube au coucher du soleil, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps.",
+   "tts": "En résumé : un pilier, de l'aube au coucher du soleil, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "La zakat",
+   "next_arabic": "الزَّكَاةُ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : la zakat. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : la zakat. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

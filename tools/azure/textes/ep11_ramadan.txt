@@ -1,0 +1,11 @@
+# Voix off - ep11_ramadan - Le jeûne du Ramadan
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Un mois sans manger ni boire, de l'aube au coucher du soleil. Pourquoi ?
+02|Allah, exalté soit-Il, dit : « Ô vous qui croyez ! On vous a prescrit le jeûne comme on l'a prescrit à ceux d'avant vous, afin que vous atteigniez la piété. »
+03|Un : le jeûne du mois de Ramadan est le quatrième pilier de l'islam.
+04|Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube, le [ar:فَجْر|Fajr], au coucher du soleil, le [ar:مَغْرِب|Maghrib].
+05|Trois : le [ar:سَحُور|sahour], c'est le repas avant l'aube. [ar:الإِفْطَار|L'iftar], c'est le repas de rupture, au coucher du soleil.
+06|Quatre : le malade, le voyageur et la femme pendant ses règles rattrapent les jours plus tard. Celui qui ne pourra jamais jeûner nourrit un pauvre pour chaque jour.
+07|Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : celui qui ne délaisse pas le mensonge, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson.
+08|En résumé : un pilier, de l'aube au coucher du soleil, le [ar:سَحُور|sahour] et l'iftar, des dispenses, et un jeûne de tout le corps.
+09|Prochain épisode : la zakat. Abonne-toi pour ne pas le rater !

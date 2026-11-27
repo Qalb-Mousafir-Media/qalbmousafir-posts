@@ -183,3 +183,61 @@ Réserve (si moins de 10 réponses à H+1, publier et épingler à la place) :
 3. **Ép. 5** : jeu de hashtags nouveau (pas dans le plan de croissance) et commentaire épinglé nouveau (pas dans le plan communauté).
 4. **Hashtags** : comme le demande le plan de croissance, taper chaque hashtag dans la recherche TikTok avant de publier pour vérifier qu'il est actif (volumes non vérifiés).
 5. **Sous-titres automatiques** : les activer et les vérifier à chaque publication (plan de croissance §1.3), ils renforcent le référencement par mot-clé.
+
+---
+
+# Légendes programmées le 27/11/2026 : ép. 6 à 8 et Compagnons 1
+
+Programmées dans Metricool (TikTok, 13 h 00, heure de Toronto), un épisode par jour, à la demande de Karim. Vidéos : `videos/<fichier>.mp4` (rendues le 23/11 après relecture).
+
+| Date | Vidéo | Durée |
+|---|---|---|
+| Ven 27/11 | ep6-priere-partie2.mp4 | 80 s |
+| Sam 28/11 | ep7-shahada.mp4 | 79 s |
+| Dim 29/11 | ep8-ihsan.mp4 | 78 s |
+| Lun 30/11 | comp1-umar-al-faruq.mp4 | 87 s |
+
+## Épisode 6 : Comment faire la prière, partie 2
+
+```
+Comment faire la prière (salat), partie 2 : la sourate après al-Fatiha et les prières de 3 et 4 rak'at 🕌
+Les bases · Épisode 6 · Hadith : al-Bukhari n° 759
+Les détails varient selon les écoles : apprends-les auprès d'un imam de confiance.
+Tu pries déjà les 5 prières ? Oui, j'apprends, ou bientôt 👇
+Envoie-la à quelqu'un qui apprend à prier 🤲
+📌 Prochain épisode : la Shahada, mot à mot
+#islam #priere #salat #apprendrelislam #lesbasesdelislam #qalbmousafir
+```
+
+## Épisode 7 : La Shahada, mot à mot
+
+```
+La Shahada, l'attestation de foi en islam, expliquée mot à mot ☝️
+Les bases · Épisode 7 · Hadith : Muslim n° 26
+Tu connaissais le sens de chaque mot ? 👇
+Envoie-la à quelqu'un qui découvre l'islam 🤲
+📌 Prochain épisode : al-Ihsan, le plus haut degré de la religion
+#islam #shahada #converti #apprendrelislam #lesbasesdelislam #qalbmousafir
+```
+
+## Épisode 8 : Al-Ihsan
+
+```
+Al-Ihsan en islam : adorer Allah comme si tu Le voyais ✨
+Les bases · Épisode 8 · Hadith de Jibril : Muslim n° 8
+Dans quel moment de ta journée tu veux le vivre le plus ? 👇
+Envoie-la à quelqu'un qui veut progresser dans sa foi 🤲
+📌 Demain : une nouvelle série, les Compagnons du Prophète ﷺ
+#islam #ihsan #iman #lesbasesdelislam #qalbmousafir
+```
+
+## Les Compagnons, épisode 1 : 'Umar al-Faruq
+
+```
+'Umar ibn al-Khattab, al-Faruq : l'homme par qui Allah a renforcé l'islam 🌙
+Les Compagnons · Épisode 1 · Hadiths : at-Tirmidhi n° 3681 ; al-Bukhari n° 3684
+Quel Compagnon tu veux qu'on raconte ensuite ? 👇
+Envoie-la à quelqu'un qui aime l'histoire de l'islam 🤲
+📌 Prochain épisode : le chemin que le Shaytan évite
+#islam #sahaba #umar #histoiredelislam #compagnons #qalbmousafir
+```
