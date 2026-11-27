@@ -9,8 +9,8 @@
    "arabic": "حُسْنُ الْخُلُقِ",
    "title": "Le bon comportement",
    "subtitle": "Le poids le plus lourd",
-   "narration": "Ce qui pèsera le plus lourd dans ta balance le Jour dernier. Tu devines ?",
-   "tts": "Ce qui pèsera le plus lourd dans ta balance le Jour dernier. Tu devines ?"
+   "narration": "Ce qui pèsera le plus lourd dans ta balance, le Jour de la Résurrection. Tu devines ?",
+   "tts": "Ce qui pèsera le plus lourd dans ta balance, le Jour de la Résurrection. Tu devines ?"
   },
   {
    "type": "quote",
@@ -29,9 +29,9 @@
    "arabic": "فِي الْمِيزَانِ",
    "title": "Dans la balance",
    "subtitle": "Le plus lourd",
-   "text": "Rien ne pèse plus lourd dans la balance du croyant que le bon comportement (Abu Dawud, at-Tirmidhi).",
-   "narration": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour dernier, que le bon comportement.",
-   "tts": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour dernier, que le bon comportement."
+   "text": "Rien n'est plus lourd dans la balance du croyant que le bon comportement (Abu Dawud 4799, Tirmidhi 2002).",
+   "narration": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour de la Résurrection, que le bon comportement. Rapporté par Abu Dawud et at-Tirmidhi.",
+   "tts": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour de la Résurrection, que le bon comportement. Rapporté par Abu Dawud et at-Tirmidhi."
   },
   {
    "type": "step",
@@ -54,8 +54,8 @@
    "title": "La parole",
    "subtitle": "Vérité et promesses",
    "text": "Dire la vérité, tenir ses promesses, ne pas médire.",
-   "narration": "Trois : concrètement, c'est dire la vérité, tenir ses promesses, et ne pas médire.",
-   "tts": "Trois : concrètement, c'est dire la vérité, tenir ses promesses, et ne pas médire."
+   "narration": "Trois : c'est dire la vérité, tenir ses promesses, et ne pas médire.",
+   "tts": "Trois : c'est dire la vérité, tenir ses promesses, et ne pas médire."
   },
   {
    "type": "step",
@@ -66,8 +66,8 @@
    "title": "Les autres",
    "subtitle": "Parents et voisins",
    "text": "Respecter ses parents, aider son voisin, sourire, pardonner.",
-   "narration": "Quatre : c'est aussi respecter ses parents, aider son voisin, sourire, et pardonner.",
-   "tts": "Quatre : c'est aussi respecter ses parents, aider son voisin, sourire, et pardonner."
+   "narration": "Quatre : c'est respecter ses parents, aider son voisin, sourire, et pardonner.",
+   "tts": "Quatre : c'est respecter ses parents, aider son voisin, sourire, et pardonner."
   },
   {
    "type": "step",
@@ -78,8 +78,8 @@
    "title": "Un exemple",
    "subtitle": "Sans un mot",
    "text": "Un bon comportement est la plus belle façon de montrer l'islam aux autres.",
-   "narration": "Cinq : un bon comportement, c'est aussi la plus belle façon de montrer l'islam aux autres, sans un mot.",
-   "tts": "Cinq : un bon comportement, c'est aussi la plus belle façon de montrer l'islam aux autres, sans un mot."
+   "narration": "Cinq : un bon comportement, c'est la plus belle façon de montrer l'islam aux autres, sans un mot.",
+   "tts": "Cinq : un bon comportement, c'est la plus belle façon de montrer l'islam aux autres, sans un mot."
   },
   {
    "type": "recap",
@@ -91,8 +91,8 @@
      "arabic": "فِي الْمِيزَانِ"
     },
     {
-     "title": "Le modèle",
-     "subtitle": "Notre modèle",
+     "title": "Notre modèle",
+     "subtitle": "Une moralité immense",
      "arabic": "خُلُقٍ عَظِيمٍ"
     },
     {
@@ -111,8 +111,8 @@
      "arabic": "بِلَا كَلَامٍ"
     }
    ],
-   "narration": "En résumé : le poids le plus lourd, le modèle du Prophète, la parole vraie, le respect des autres, et l'exemple.",
-   "tts": "En résumé : le poids le plus lourd, le modèle du Prophète, la parole vraie, le respect des autres, et l'exemple."
+   "narration": "En résumé : le poids le plus lourd, le modèle du Prophète, paix et salut sur lui, la parole vraie, le respect des autres, et l'exemple.",
+   "tts": "En résumé : le poids le plus lourd, le modèle du Prophète, paix et salut sur lui, la parole vraie, le respect des autres, et l'exemple."
   },
   {
    "type": "outro",
@@ -120,8 +120,8 @@
    "next_title": "Les Compagnons : Abou Bakr",
    "next_arabic": "أَبُو بَكْرٍ الصِّدِّيقُ",
    "cta": "Merci d'avoir appris avec nous",
-   "narration": "Avec cet épisode, la série des bases se termine. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée.",
-   "tts": "Avec cet épisode, la série des bases se termine. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée."
+   "narration": "La série des bases se termine ici. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée.",
+   "tts": "La série des bases se termine ici. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée."
   }
  ]
 }

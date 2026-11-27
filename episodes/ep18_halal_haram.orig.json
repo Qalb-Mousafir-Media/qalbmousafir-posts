@@ -1,0 +1,127 @@
+{
+ "episode": 18,
+ "slug": "ep18_halal_haram",
+ "title": "Le halal et le haram",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 18 · LES BASES",
+   "arabic": "الْحَلَالُ وَالْحَرَامُ",
+   "title": "Halal et haram",
+   "subtitle": "Pas que la viande",
+   "narration": "Halal, ce n'est pas que la viande. Voici les bases.",
+   "tts": "Halal, ce n'est pas que la viande. Voici les bases."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا مُشْتَبِهَاتٌ",
+   "translation": "« Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. »",
+   "source": "Rapporté par al-Bukhari (n° 52) et Muslim (n° 1599)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. » Rapporté par al-Bukhari et Muslim.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. » Rapporté par al-Bukhari et Muslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "حَلَالٌ وَحَرَامٌ",
+   "title": "Les mots",
+   "subtitle": "Permis et interdit",
+   "text": "Halal veut dire permis. Haram veut dire interdit.",
+   "narration": "Un : halal, ça veut dire permis. Haram, ça veut dire interdit.",
+   "tts": "Un : halal, ça veut dire permis. Haram, ça veut dire interdit."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْأَصْلُ الْإِبَاحَةُ",
+   "title": "La règle de base",
+   "subtitle": "Dans la vie courante",
+   "text": "Pour la nourriture, les objets et les échanges, les bonnes choses sont permises ; les interdits sont précis.",
+   "narration": "Deux : dans la nourriture, les objets et les échanges, la règle de base, c'est que les bonnes choses sont permises, et les interdits sont précis.",
+   "tts": "Deux : dans la nourriture, les objets et les échanges, la règle de base, c'est que les bonnes choses sont permises, et les interdits sont précis."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْعِبَادَاتُ",
+   "title": "L'adoration",
+   "subtitle": "C'est l'inverse",
+   "text": "Pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné.",
+   "narration": "Trois : mais pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné.",
+   "tts": "Trois : mais pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْمُحَرَّمَاتُ",
+   "title": "Des interdits clairs",
+   "subtitle": "Dans l'alimentation",
+   "text": "Le porc, l'alcool et tout ce qui enivre, le sang, la bête morte ou mal abattue (Coran 5:3, 5:90).",
+   "narration": "Quatre : parmi les interdits clairs dans l'alimentation : le porc, l'alcool et tout ce qui enivre, le sang, et la bête morte ou qui n'a pas été abattue selon les règles.",
+   "tts": "Quatre : parmi les interdits clairs dans l'alimentation : le porc, l'alcool et tout ce qui enivre, le sang, et la bête morte ou qui n'a pas été abattue selon les règles."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الشُّبُهَاتُ",
+   "title": "Le douteux",
+   "subtitle": "La prudence",
+   "text": "Le halal, c'est toute la vie. Quand c'est douteux, on s'abstient et on demande à une personne de savoir.",
+   "narration": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et quand c'est douteux, on s'abstient, et on demande à une personne de savoir.",
+   "tts": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et quand c'est douteux, on s'abstient, et on demande à une personne de savoir."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Les mots",
+     "subtitle": "Permis et interdit",
+     "arabic": "حَلَالٌ وَحَرَامٌ"
+    },
+    {
+     "title": "La règle de base",
+     "subtitle": "Dans la vie courante",
+     "arabic": "الْأَصْلُ الْإِبَاحَةُ"
+    },
+    {
+     "title": "L'adoration",
+     "subtitle": "C'est l'inverse",
+     "arabic": "الْعِبَادَاتُ"
+    },
+    {
+     "title": "Des interdits clairs",
+     "subtitle": "Dans l'alimentation",
+     "arabic": "الْمُحَرَّمَاتُ"
+    },
+    {
+     "title": "Le douteux",
+     "subtitle": "La prudence",
+     "arabic": "الشُّبُهَاتُ"
+    }
+   ],
+   "narration": "En résumé : permis et interdit, la règle de base, l'adoration, les interdits clairs, et la prudence face au douteux.",
+   "tts": "En résumé : permis et interdit, la règle de base, l'adoration, les interdits clairs, et la prudence face au douteux."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Le bon comportement",
+   "next_arabic": "الْأَخْلَاقُ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : le bon comportement, le dernier épisode des bases. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : le bon comportement, le dernier épisode des bases. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

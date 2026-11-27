@@ -16,6 +16,9 @@ MOTS = [
     ("'Abdallah", "عَبْدُ الله"),
     ("Shaytan", "شَيْطَان"),
     ("'Umar", "عُمَر"),
+    # Les bases, ép. 18 et 19
+    ("Abou Bakr as-Siddiq", "أَبُو بَكْرٍ الصِّدِّيق"),
+    ("Sunna", "سُنَّة"),
     # Les bases, ép. 15 à 17
     ("Bismillah", "بِسْمِ الله"),
     ("al-hamdu lillah", "الحَمْدُ لِله"),

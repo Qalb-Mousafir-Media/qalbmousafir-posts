@@ -1,0 +1,127 @@
+{
+ "episode": 19,
+ "slug": "ep19_comportement",
+ "title": "Le bon comportement",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 19 · LES BASES",
+   "arabic": "حُسْنُ الْخُلُقِ",
+   "title": "Le bon comportement",
+   "subtitle": "Le poids le plus lourd",
+   "narration": "Ce qui pèsera le plus lourd dans ta balance le Jour dernier. Tu devines ?",
+   "tts": "Ce qui pèsera le plus lourd dans ta balance le Jour dernier. Tu devines ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "إِنَّ خِيَارَكُمْ أَحَاسِنُكُمْ أَخْلَاقًا",
+   "translation": "« Les meilleurs d'entre vous sont ceux qui ont le meilleur comportement. »",
+   "source": "Rapporté par al-Bukhari (n° 6035)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Les meilleurs d'entre vous sont ceux qui ont le meilleur comportement. » Rapporté par al-Bukhari.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Les meilleurs d'entre vous sont ceux qui ont le meilleur comportement. » Rapporté par al-Bukhari."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "فِي الْمِيزَانِ",
+   "title": "Dans la balance",
+   "subtitle": "Le plus lourd",
+   "text": "Rien ne pèse plus lourd dans la balance du croyant que le bon comportement (Abu Dawud, at-Tirmidhi).",
+   "narration": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour dernier, que le bon comportement.",
+   "tts": "Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour dernier, que le bon comportement."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "خُلُقٍ عَظِيمٍ",
+   "title": "Le Prophète ﷺ",
+   "subtitle": "Notre modèle",
+   "text": "Allah décrit Son Prophète ﷺ : « Et tu es d'une moralité immense » (Coran 68:4).",
+   "narration": "Deux : Allah, exalté soit-Il, décrit Son Prophète, paix et salut sur lui, comme ayant une moralité immense.",
+   "tts": "Deux : Allah, exalté soit-Il, décrit Son Prophète, paix et salut sur lui, comme ayant une moralité immense."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الصِّدْقُ",
+   "title": "La parole",
+   "subtitle": "Vérité et promesses",
+   "text": "Dire la vérité, tenir ses promesses, ne pas médire.",
+   "narration": "Trois : concrètement, c'est dire la vérité, tenir ses promesses, et ne pas médire.",
+   "tts": "Trois : concrètement, c'est dire la vérité, tenir ses promesses, et ne pas médire."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْإِحْسَانُ",
+   "title": "Les autres",
+   "subtitle": "Parents et voisins",
+   "text": "Respecter ses parents, aider son voisin, sourire, pardonner.",
+   "narration": "Quatre : c'est aussi respecter ses parents, aider son voisin, sourire, et pardonner.",
+   "tts": "Quatre : c'est aussi respecter ses parents, aider son voisin, sourire, et pardonner."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "بِلَا كَلَامٍ",
+   "title": "Un exemple",
+   "subtitle": "Sans un mot",
+   "text": "Un bon comportement est la plus belle façon de montrer l'islam aux autres.",
+   "narration": "Cinq : un bon comportement, c'est aussi la plus belle façon de montrer l'islam aux autres, sans un mot.",
+   "tts": "Cinq : un bon comportement, c'est aussi la plus belle façon de montrer l'islam aux autres, sans un mot."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Dans la balance",
+     "subtitle": "Le plus lourd",
+     "arabic": "فِي الْمِيزَانِ"
+    },
+    {
+     "title": "Le modèle",
+     "subtitle": "Notre modèle",
+     "arabic": "خُلُقٍ عَظِيمٍ"
+    },
+    {
+     "title": "La parole",
+     "subtitle": "Vérité et promesses",
+     "arabic": "الصِّدْقُ"
+    },
+    {
+     "title": "Les autres",
+     "subtitle": "Parents et voisins",
+     "arabic": "الْإِحْسَانُ"
+    },
+    {
+     "title": "Un exemple",
+     "subtitle": "Sans un mot",
+     "arabic": "بِلَا كَلَامٍ"
+    }
+   ],
+   "narration": "En résumé : le poids le plus lourd, le modèle du Prophète, la parole vraie, le respect des autres, et l'exemple.",
+   "tts": "En résumé : le poids le plus lourd, le modèle du Prophète, la parole vraie, le respect des autres, et l'exemple."
+  },
+  {
+   "type": "outro",
+   "next_label": "Nouvelle série",
+   "next_title": "Les Compagnons : Abou Bakr",
+   "next_arabic": "أَبُو بَكْرٍ الصِّدِّيقُ",
+   "cta": "Merci d'avoir appris avec nous",
+   "narration": "Avec cet épisode, la série des bases se termine. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée.",
+   "tts": "Avec cet épisode, la série des bases se termine. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée."
+  }
+ ]
+}

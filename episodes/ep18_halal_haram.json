@@ -17,7 +17,7 @@
    "intro": "Le Prophète ﷺ a dit :",
    "arabic": "إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا مُشْتَبِهَاتٌ",
    "translation": "« Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. »",
-   "source": "Rapporté par al-Bukhari (n° 52) et Muslim (n° 1599)",
+   "source": "Rapporté par al-Bukhari (n° 52) et Muslim (n° 1599) ; texte de Muslim",
    "narration": "Le Prophète, paix et salut sur lui, a dit : « Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. » Rapporté par al-Bukhari et Muslim.",
    "tts": "Le Prophète, paix et salut sur lui, a dit : « Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. » Rapporté par al-Bukhari et Muslim."
   },
@@ -41,9 +41,9 @@
    "arabic": "الْأَصْلُ الْإِبَاحَةُ",
    "title": "La règle de base",
    "subtitle": "Dans la vie courante",
-   "text": "Pour la nourriture, les objets et les échanges, les bonnes choses sont permises ; les interdits sont précis.",
-   "narration": "Deux : dans la nourriture, les objets et les échanges, la règle de base, c'est que les bonnes choses sont permises, et les interdits sont précis.",
-   "tts": "Deux : dans la nourriture, les objets et les échanges, la règle de base, c'est que les bonnes choses sont permises, et les interdits sont précis."
+   "text": "Nourriture, objets, échanges : pour la majorité des savants, la base est la permission (Coran 5:4).",
+   "narration": "Deux : pour la nourriture, les objets et les échanges, la majorité des savants enseigne que la base est la permission. Les interdits sont précis.",
+   "tts": "Deux : pour la nourriture, les objets et les échanges, la majorité des savants enseigne que la base est la permission. Les interdits sont précis."
   },
   {
    "type": "step",
@@ -53,9 +53,9 @@
    "arabic": "الْعِبَادَاتُ",
    "title": "L'adoration",
    "subtitle": "C'est l'inverse",
-   "text": "Pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné.",
-   "narration": "Trois : mais pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné.",
-   "tts": "Trois : mais pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné."
+   "text": "Pour l'adoration, c'est l'inverse : on suit ce qui a été enseigné dans le Coran et la Sunna.",
+   "narration": "Trois : mais pour l'adoration, c'est l'inverse : on suit ce qui a été enseigné dans le Coran et la Sunna.",
+   "tts": "Trois : mais pour l'adoration, c'est l'inverse : on suit ce qui a été enseigné dans le Coran et la Sunna."
   },
   {
    "type": "step",
@@ -65,9 +65,9 @@
    "arabic": "الْمُحَرَّمَاتُ",
    "title": "Des interdits clairs",
    "subtitle": "Dans l'alimentation",
-   "text": "Le porc, l'alcool et tout ce qui enivre, le sang, la bête morte ou mal abattue (Coran 5:3, 5:90).",
-   "narration": "Quatre : parmi les interdits clairs dans l'alimentation : le porc, l'alcool et tout ce qui enivre, le sang, et la bête morte ou qui n'a pas été abattue selon les règles.",
-   "tts": "Quatre : parmi les interdits clairs dans l'alimentation : le porc, l'alcool et tout ce qui enivre, le sang, et la bête morte ou qui n'a pas été abattue selon les règles."
+   "text": "Le porc, le sang, la bête morte ou mal abattue (Coran 5:3), et tout ce qui enivre (5:90 ; Muslim 2003).",
+   "narration": "Quatre : dans l'alimentation, Allah, exalté soit-Il, interdit clairement le porc, le sang, et la bête morte ou non abattue selon les règles. Et tout ce qui enivre est interdit.",
+   "tts": "Quatre : dans l'alimentation, Allah, exalté soit-Il, interdit clairement le porc, le sang, et la bête morte ou non abattue selon les règles. Et tout ce qui enivre est interdit."
   },
   {
    "type": "step",
@@ -77,9 +77,9 @@
    "arabic": "الشُّبُهَاتُ",
    "title": "Le douteux",
    "subtitle": "La prudence",
-   "text": "Le halal, c'est toute la vie. Quand c'est douteux, on s'abstient et on demande à une personne de savoir.",
-   "narration": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et quand c'est douteux, on s'abstient, et on demande à une personne de savoir.",
-   "tts": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et quand c'est douteux, on s'abstient, et on demande à une personne de savoir."
+   "text": "Le halal, c'est toute la vie. Dans le doute, mieux vaut s'écarter et demander à une personne de savoir.",
+   "narration": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et dans le doute, mieux vaut s'écarter, et demander à une personne de savoir.",
+   "tts": "Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et dans le doute, mieux vaut s'écarter, et demander à une personne de savoir."
   },
   {
    "type": "recap",
