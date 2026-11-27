@@ -1,0 +1,11 @@
+# Voix off - ep19_comportement - Le bon comportement
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Ce qui pèsera le plus lourd dans ta balance le Jour dernier. Tu devines ?
+02|Le Prophète, paix et salut sur lui, a dit : « Les meilleurs d'entre vous sont ceux qui ont le meilleur comportement. » Rapporté par [ar:البُخَارِي|al-Bukhari].
+03|Un : le Prophète, paix et salut sur lui, a dit que rien ne pèse plus lourd dans la balance du croyant, le Jour dernier, que le bon comportement.
+04|Deux : Allah, exalté soit-Il, décrit Son Prophète, paix et salut sur lui, comme ayant une moralité immense.
+05|Trois : concrètement, c'est dire la vérité, tenir ses promesses, et ne pas médire.
+06|Quatre : c'est aussi respecter ses parents, aider son voisin, sourire, et pardonner.
+07|Cinq : un bon comportement, c'est aussi la plus belle façon de montrer l'islam aux autres, sans un mot.
+08|En résumé : le poids le plus lourd, le modèle du Prophète, la parole vraie, le respect des autres, et l'exemple.
+09|Avec cet épisode, la série des bases se termine. Merci d'avoir appris avec nous ! La suite : les Compagnons du Prophète, paix et salut sur lui, en commençant par Abou Bakr as-Siddiq, qu'Allah l'agrée.

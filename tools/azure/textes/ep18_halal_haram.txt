@@ -1,0 +1,11 @@
+# Voix off - ep18_halal_haram - Le halal et le haram
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Halal, ce n'est pas que la viande. Voici les bases.
+02|Le Prophète, paix et salut sur lui, a dit : « Le licite est clair, l'illicite est clair, et entre les deux il y a des choses douteuses. » Rapporté par [ar:البُخَارِي|al-Bukhari] et [ar:مُسْلِم|Muslim].
+03|Un : halal, ça veut dire permis. Haram, ça veut dire interdit.
+04|Deux : dans la nourriture, les objets et les échanges, la règle de base, c'est que les bonnes choses sont permises, et les interdits sont précis.
+05|Trois : mais pour l'adoration, c'est l'inverse : on ne fait que ce qui a été enseigné.
+06|Quatre : parmi les interdits clairs dans l'alimentation : le porc, l'alcool et tout ce qui enivre, le sang, et la bête morte ou qui n'a pas été abattue selon les règles.
+07|Cinq : le halal, c'est toute la vie : un argent gagné honnêtement, une parole vraie. Et quand c'est douteux, on s'abstient, et on demande à une personne de savoir.
+08|En résumé : permis et interdit, la règle de base, l'adoration, les interdits clairs, et la prudence face au douteux.
+09|Prochain épisode : le bon comportement, le dernier épisode des bases. Abonne-toi pour ne pas le rater !
