@@ -16,6 +16,9 @@ MOTS = [
     ("'Abdallah", "عَبْدُ الله"),
     ("Shaytan", "شَيْطَان"),
     ("'Umar", "عُمَر"),
+    # Les bases, ép. 15 à 17
+    ("Bismillah", "بِسْمِ الله"),
+    ("al-hamdu lillah", "الحَمْدُ لِله"),
     # Les bases, ép. 12 à 14
     ("Dhou al-Hijja", "ذُو الحِجَّة"),
     ("nisab", "نِصَاب"),

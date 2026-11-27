@@ -1,0 +1,11 @@
+# Voix off - ep16_anges - Les anges
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Ils sont autour de toi en ce moment, et tu ne les vois pas.
+02|Le Prophète, paix et salut sur lui, a dit : « Les anges ont été créés de lumière. » Rapporté par [ar:مُسْلِم|Muslim].
+03|Un : croire aux anges est l'un des six piliers de la foi, vus à l'épisode quatre.
+04|Deux : ils ne désobéissent jamais à Allah, et font ce qui leur est ordonné.
+05|Trois : [ar:جِبْرِيل|Jibril], paix sur lui, a apporté la révélation aux prophètes.
+06|Quatre : d'autres anges ont un rôle connu : l'ange de la mort reprend les âmes, et un ange soufflera dans la trompe le Jour dernier. Paix sur eux.
+07|Cinq : Allah, exalté soit-Il, nous dit que des anges notent nos actes, bons et mauvais. Savoir ça change notre manière d'agir, même quand on est seul.
+08|En résumé : un pilier de la foi, des créatures obéissantes, [ar:جِبْرِيل|Jibril], d'autres rôles, et les nobles scribes.
+09|Prochain épisode : les invocations du quotidien. Abonne-toi pour ne pas le rater !

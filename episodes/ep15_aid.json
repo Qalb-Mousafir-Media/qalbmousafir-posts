@@ -1,0 +1,127 @@
+{
+ "episode": 15,
+ "slug": "ep15_aid",
+ "title": "Les deux fêtes de l'islam",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 15 · LES BASES",
+   "arabic": "الْعِيدَانِ",
+   "title": "Les deux fêtes",
+   "subtitle": "L'Aïd al-Fitr et l'Aïd al-Adha",
+   "narration": "En islam, il y a deux grandes fêtes. Tu connais les deux ?",
+   "tts": "En islam, il y a deux grandes fêtes. Tu connais les deux ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Anas, qu'Allah l'agrée, rapporte que le Prophète ﷺ a dit :",
+   "arabic": "قَدْ أَبْدَلَكُمُ اللهُ بِهِمَا خَيْرًا مِنْهُمَا: يَوْمَ الْأَضْحَى وَيَوْمَ الْفِطْرِ",
+   "translation": "« Allah vous les a remplacées par deux jours meilleurs : le jour de l'Adha et le jour du Fitr. »",
+   "source": "Rapporté par Abu Dawud (n° 1134)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à la place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à la place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "عِيدُ الْفِطْرِ",
+   "title": "L'Aïd al-Fitr",
+   "subtitle": "La fête de la rupture",
+   "text": "Elle arrive juste après le mois de Ramadan, le 1er du mois de Shawwal.",
+   "narration": "Un : l'Aïd al-Fitr, la fête de la rupture. Elle arrive juste après le mois de Ramadan.",
+   "tts": "Un : l'Aïd al-Fitr, la fête de la rupture. Elle arrive juste après le mois de Ramadan."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "زَكَاةُ الْفِطْرِ",
+   "title": "La zakat al-fitr",
+   "subtitle": "Avant la prière",
+   "text": "On la donne pour soi et pour sa famille à charge, pour que les pauvres puissent aussi fêter.",
+   "narration": "Deux : avant la prière de l'Aïd, on donne la zakat al-fitr, pour soi et pour sa famille à charge, pour que les pauvres puissent aussi fêter.",
+   "tts": "Deux : avant la prière de l'Aïd, on donne la zakat al-fitr, pour soi et pour sa famille à charge, pour que les pauvres puissent aussi fêter."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "عِيدُ الْأَضْحَى",
+   "title": "L'Aïd al-Adha",
+   "subtitle": "La fête du sacrifice",
+   "text": "Le 10 du mois de Dhou al-Hijja, pendant le hajj. Elle rappelle l'obéissance d'Ibrahim, paix sur lui.",
+   "narration": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix du mois de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui, et Allah a remplacé son fils par un bélier.",
+   "tts": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix du mois de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui, et Allah a remplacé son fils par un bélier."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْأُضْحِيَّةُ",
+   "title": "Le sacrifice",
+   "subtitle": "Pour qui le peut",
+   "text": "Ceux qui le peuvent sacrifient une bête et partagent la viande avec la famille, les voisins et les pauvres.",
+   "narration": "Quatre : ceux qui le peuvent sacrifient une bête, et partagent la viande avec la famille, les voisins et les pauvres.",
+   "tts": "Quatre : ceux qui le peuvent sacrifient une bête, et partagent la viande avec la famille, les voisins et les pauvres."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "صَلَاةُ الْعِيدِ",
+   "title": "La prière de l'Aïd",
+   "subtitle": "Le matin, en groupe",
+   "text": "Les deux fêtes commencent le matin par une prière en groupe, suivie d'un sermon. Puis : « Aïd moubarak ! »",
+   "narration": "Cinq : les deux fêtes commencent le matin par une prière en groupe, suivie d'un sermon. Puis on se souhaite : Aïd moubarak !",
+   "tts": "Cinq : les deux fêtes commencent le matin par une prière en groupe, suivie d'un sermon. Puis on se souhaite : Aïd moubarak !"
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "L'Aïd al-Fitr",
+     "subtitle": "La fête de la rupture",
+     "arabic": "عِيدُ الْفِطْرِ"
+    },
+    {
+     "title": "La zakat al-fitr",
+     "subtitle": "Avant la prière",
+     "arabic": "زَكَاةُ الْفِطْرِ"
+    },
+    {
+     "title": "L'Aïd al-Adha",
+     "subtitle": "La fête du sacrifice",
+     "arabic": "عِيدُ الْأَضْحَى"
+    },
+    {
+     "title": "Le sacrifice",
+     "subtitle": "Pour qui le peut",
+     "arabic": "الْأُضْحِيَّةُ"
+    },
+    {
+     "title": "La prière de l'Aïd",
+     "subtitle": "Le matin, en groupe",
+     "arabic": "صَلَاةُ الْعِيدِ"
+    }
+   ],
+   "narration": "En résumé : l'Aïd al-Fitr après Ramadan, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd.",
+   "tts": "En résumé : l'Aïd al-Fitr après Ramadan, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "next_title": "Les anges",
+   "next_arabic": "الْمَلَائِكَةُ",
+   "narration": "Prochain épisode : les anges. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : les anges. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

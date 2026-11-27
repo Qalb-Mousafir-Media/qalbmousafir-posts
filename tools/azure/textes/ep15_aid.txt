@@ -1,0 +1,11 @@
+# Voix off - ep15_aid - Les deux fêtes de l'islam
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|En islam, il y a deux grandes fêtes. Tu connais les deux ?
+02|Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à la place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud.
+03|Un : l'Aïd al-Fitr, la fête de la rupture. Elle arrive juste après le mois de Ramadan.
+04|Deux : avant la prière de l'Aïd, on donne la zakat al-fitr, pour soi et pour sa famille à charge, pour que les pauvres puissent aussi fêter.
+05|Trois : l'Aïd al-Adha, la fête du sacrifice, le dix du mois de [ar:ذُو الحِجَّة|Dhou al-Hijja]. Elle rappelle l'obéissance du Prophète [ar:إِبْرَاهِيم|Ibrahim], paix sur lui, et Allah a remplacé son fils par un bélier.
+06|Quatre : ceux qui le peuvent sacrifient une bête, et partagent la viande avec la famille, les voisins et les pauvres.
+07|Cinq : les deux fêtes commencent le matin par une prière en groupe, suivie d'un sermon. Puis on se souhaite : Aïd moubarak !
+08|En résumé : l'Aïd al-Fitr après Ramadan, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd.
+09|Prochain épisode : les anges. Abonne-toi pour ne pas le rater !

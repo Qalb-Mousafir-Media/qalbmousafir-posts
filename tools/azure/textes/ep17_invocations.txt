@@ -1,0 +1,11 @@
+# Voix off - ep17_invocations - Les invocations du quotidien
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|Quatre petites phrases qui transforment ta journée.
+02|Allah, exalté soit-Il, dit : « Souvenez-vous de Moi, Je Me souviendrai de vous. »
+03|Un : avant de manger, on dit : [ar:بِسْمِ الله|Bismillah]. Au nom d'Allah.
+04|Deux : après le repas, on dit : [ar:الحَمْدُ لِله|al-hamdu lillah]. Louange à Allah.
+05|Trois : au réveil : « Louange à Allah qui nous a redonné la vie après nous avoir fait mourir, et vers Lui est la résurrection. » Le sommeil est comme une petite mort.
+06|Quatre : avant de dormir : « C'est en Ton nom que je meurs et que je vis. » Ces deux invocations sont rapportées par [ar:البُخَارِي|al-Bukhari].
+07|Cinq : ces phrases sont courtes, mais elles relient chaque geste à Allah. Commence par une seule cette semaine, puis ajoute les autres.
+08|En résumé : [ar:بِسْمِ الله|Bismillah] avant de manger, [ar:الحَمْدُ لِله|al-hamdu lillah] après, l'invocation du réveil, et celle du coucher.
+09|Prochain épisode : le halal et le haram. Abonne-toi pour ne pas le rater !

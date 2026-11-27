@@ -1,0 +1,127 @@
+{
+ "episode": 17,
+ "slug": "ep17_invocations",
+ "title": "Les invocations du quotidien",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 17 · LES BASES",
+   "arabic": "الْأَذْكَارُ",
+   "title": "Les invocations",
+   "subtitle": "Du réveil au coucher",
+   "narration": "Quatre petites phrases qui transforment ta journée.",
+   "tts": "Quatre petites phrases qui transforment ta journée."
+  },
+  {
+   "type": "quote",
+   "intro": "Allah, exalté soit-Il, dit :",
+   "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+   "translation": "« Souvenez-vous de Moi, Je Me souviendrai de vous. »",
+   "source": "Coran, sourate al-Baqara (2:152)",
+   "narration": "Allah, exalté soit-Il, dit : « Souvenez-vous de Moi, Je Me souviendrai de vous. »",
+   "tts": "Allah, exalté soit-Il, dit : « Souvenez-vous de Moi, Je Me souviendrai de vous. »"
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "INVOCATION",
+   "arabic": "بِسْمِ اللهِ",
+   "title": "Bismillah",
+   "subtitle": "Avant de manger",
+   "text": "Avant de manger, on dit « Bismillah » : au nom d'Allah.",
+   "narration": "Un : avant de manger, on dit : Bismillah. Au nom d'Allah.",
+   "tts": "Un : avant de manger, on dit : Bismillah. Au nom d'Allah."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "INVOCATION",
+   "arabic": "الْحَمْدُ لِلَّهِ",
+   "title": "Al-hamdu lillah",
+   "subtitle": "Après le repas",
+   "text": "Après le repas, on dit « Al-hamdu lillah » : louange à Allah.",
+   "narration": "Deux : après le repas, on dit : al-hamdu lillah. Louange à Allah.",
+   "tts": "Deux : après le repas, on dit : al-hamdu lillah. Louange à Allah."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "INVOCATION",
+   "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا",
+   "title": "Au réveil",
+   "subtitle": "Après le sommeil",
+   "text": "« Louange à Allah qui nous a redonné la vie après nous avoir fait mourir, et vers Lui est la résurrection. »",
+   "narration": "Trois : au réveil : « Louange à Allah qui nous a redonné la vie après nous avoir fait mourir, et vers Lui est la résurrection. » Le sommeil est comme une petite mort.",
+   "tts": "Trois : au réveil : « Louange à Allah qui nous a redonné la vie après nous avoir fait mourir, et vers Lui est la résurrection. » Le sommeil est comme une petite mort."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "INVOCATION",
+   "arabic": "بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+   "title": "Avant de dormir",
+   "subtitle": "Le soir",
+   "text": "« C'est en Ton nom que je meurs et que je vis. » (al-Bukhari, n° 6312)",
+   "narration": "Quatre : avant de dormir : « C'est en Ton nom que je meurs et que je vis. » Ces deux invocations sont rapportées par al-Bukhari.",
+   "tts": "Quatre : avant de dormir : « C'est en Ton nom que je meurs et que je vis. » Ces deux invocations sont rapportées par al-Bukhari."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "INVOCATION",
+   "arabic": "خُطْوَةً خُطْوَةً",
+   "title": "Petit à petit",
+   "subtitle": "Une par semaine",
+   "text": "Commence par une seule invocation cette semaine, puis ajoute les autres.",
+   "narration": "Cinq : ces phrases sont courtes, mais elles relient chaque geste à Allah. Commence par une seule cette semaine, puis ajoute les autres.",
+   "tts": "Cinq : ces phrases sont courtes, mais elles relient chaque geste à Allah. Commence par une seule cette semaine, puis ajoute les autres."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Bismillah",
+     "subtitle": "Avant de manger",
+     "arabic": "بِسْمِ اللهِ"
+    },
+    {
+     "title": "Al-hamdu lillah",
+     "subtitle": "Après le repas",
+     "arabic": "الْحَمْدُ لِلَّهِ"
+    },
+    {
+     "title": "Au réveil",
+     "subtitle": "Après le sommeil",
+     "arabic": "الِاسْتِيقَاظُ"
+    },
+    {
+     "title": "Avant de dormir",
+     "subtitle": "Le soir",
+     "arabic": "النَّوْمُ"
+    },
+    {
+     "title": "Petit à petit",
+     "subtitle": "Une par semaine",
+     "arabic": "خُطْوَةً خُطْوَةً"
+    }
+   ],
+   "narration": "En résumé : Bismillah avant de manger, al-hamdu lillah après, l'invocation du réveil, et celle du coucher.",
+   "tts": "En résumé : Bismillah avant de manger, al-hamdu lillah après, l'invocation du réveil, et celle du coucher."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "next_title": "Le halal et le haram",
+   "next_arabic": "الْحَلَالُ وَالْحَرَامُ",
+   "narration": "Prochain épisode : le halal et le haram. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : le halal et le haram. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}
