@@ -1,11 +1,11 @@
 # Voix off - ep13_hajj - Le hajj
 # numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
-01|Des millions de personnes, habillées pareil, au même endroit, au même moment. C'est le hajj.
+01|Plus d'un million et demi de pèlerins, en tenue simple, au même endroit, au même moment. C'est le hajj.
 02|Allah, exalté soit-Il, dit : « C'est un devoir envers Allah, pour les gens qui en ont les moyens, de faire le pèlerinage de la Maison. »
 03|Un : c'est le cinquième pilier. Il est obligatoire une fois dans la vie, pour le musulman adulte qui en a les moyens physiques et financiers.
 04|Deux : il a lieu chaque année, au mois de [ar:ذُو الحِجَّة|Dhou al-Hijja], à La Mecque et dans les lieux autour.
 05|Trois : le pèlerin entre dans [ar:الإِحْرَام|l'ihram], un état sacré. Les hommes portent deux tissus simples, non cousus, souvent blancs. Riches ou pauvres, tout le monde est égal.
 06|Quatre : le [ar:طَوَاف|tawaf], sept tours autour de la [ar:كَعْبَة|Kaaba], et le [ar:سَعْي|sa'y], la marche entre [ar:الصَّفَا|Safa] et [ar:المَرْوَة|Marwa].
-07|Cinq : la journée d'Arafat est le cœur du hajj. Et tout le pèlerinage suit les traces du Prophète [ar:إِبْرَاهِيم|Ibrahim], paix sur lui, et du Prophète [ar:مُحَمَّد|Muhammad], paix et salut sur lui.
-08|En résumé : un pilier, au mois de [ar:ذُو الحِجَّة|Dhou al-Hijja], [ar:الإِحْرَام|l'ihram], le [ar:طَوَاف|tawaf] et le [ar:سَعْي|sa'y], et la journée d'Arafat.
+07|Cinq : la journée [ar:عَرَفَة|d'Arafat] est le cœur du hajj. Et tout le pèlerinage suit les traces du Prophète [ar:إِبْرَاهِيم|Ibrahim], paix sur lui, et du Prophète [ar:مُحَمَّد|Muhammad], paix et salut sur lui.
+08|En résumé : un pilier, au mois de [ar:ذُو الحِجَّة|Dhou al-Hijja], [ar:الإِحْرَام|l'ihram], le [ar:طَوَاف|tawaf] et le [ar:سَعْي|sa'y], et la journée [ar:عَرَفَة|d'Arafat].
 09|Prochain épisode : la prière du vendredi. Abonne-toi pour ne pas le rater !

@@ -29,9 +29,9 @@
    "arabic": "الْجُمُعَةُ",
    "title": "La jumu'a",
    "subtitle": "À l'heure de Dhuhr",
-   "text": "Le vendredi, à l'heure de Dhuhr, les musulmans se réunissent à la mosquée. Elle remplace Dhuhr.",
-   "narration": "Un : le vendredi, à l'heure du Dhuhr, les musulmans se réunissent à la mosquée pour la jumu'a. Elle remplace la prière du Dhuhr.",
-   "tts": "Un : le vendredi, à l'heure du Dhuhr, les musulmans se réunissent à la mosquée pour la jumu'a. Elle remplace la prière du Dhuhr."
+   "text": "Le vendredi, à l'heure de Dhuhr, les musulmans se réunissent à la mosquée (62:9). Elle remplace Dhuhr.",
+   "narration": "Un : le vendredi, à l'heure du Dhuhr, les musulmans se réunissent à la mosquée pour la jumu'a, comme Allah, exalté soit-Il, l'ordonne dans le Coran. Elle remplace la prière du Dhuhr.",
+   "tts": "Un : le vendredi, à l'heure du Dhuhr, les musulmans se réunissent à la mosquée pour la jumu'a, comme Allah, exalté soit-Il, l'ordonne dans le Coran. Elle remplace la prière du Dhuhr."
   },
   {
    "type": "step",
@@ -65,7 +65,7 @@
    "arabic": "السُّنَنُ",
    "title": "Les bons gestes",
    "subtitle": "Pour se préparer",
-   "text": "Se laver, bien s'habiller, venir tôt, et multiplier les prières sur le Prophète ﷺ.",
+   "text": "Se laver, bien s'habiller, venir tôt, et multiplier les prières sur le Prophète ﷺ ce jour-là.",
    "narration": "Quatre : il est recommandé de se laver, de bien s'habiller, de venir tôt, et de multiplier les prières sur le Prophète, paix et salut sur lui.",
    "tts": "Quatre : il est recommandé de se laver, de bien s'habiller, de venir tôt, et de multiplier les prières sur le Prophète, paix et salut sur lui."
   },

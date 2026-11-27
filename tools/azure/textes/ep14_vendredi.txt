@@ -2,7 +2,7 @@
 # numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
 01|Pour un musulman, le vendredi est le meilleur jour de la semaine. Voici pourquoi.
 02|Le Prophète, paix et salut sur lui, a dit : « Le meilleur jour sur lequel le soleil s'est levé est le vendredi. » Rapporté par [ar:مُسْلِم|Muslim].
-03|Un : le vendredi, à l'heure du [ar:ظُهْر|Dhuhr], les musulmans se réunissent à la mosquée pour la [ar:جُمُعَة|jumu'a]. Elle remplace la prière du [ar:ظُهْر|Dhuhr].
+03|Un : le vendredi, à l'heure du [ar:ظُهْر|Dhuhr], les musulmans se réunissent à la mosquée pour la [ar:جُمُعَة|jumu'a], comme Allah, exalté soit-Il, l'ordonne dans le Coran. Elle remplace la prière du [ar:ظُهْر|Dhuhr].
 04|Deux : elle commence par le sermon de l'imam, la [ar:خُطْبَة|khutba], puis on prie deux [ar:رَكَعَات|rak'at] en groupe.
 05|Trois : elle est obligatoire pour les hommes adultes, sauf le voyageur et le malade. Les femmes peuvent y assister : leur prière est valable et remplace le [ar:ظُهْر|Dhuhr].
 06|Quatre : il est recommandé de se laver, de bien s'habiller, de venir tôt, et de multiplier les prières sur le Prophète, paix et salut sur lui.

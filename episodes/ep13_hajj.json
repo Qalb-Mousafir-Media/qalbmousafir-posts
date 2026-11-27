@@ -9,8 +9,8 @@
    "arabic": "الْحَجُّ",
    "title": "Le hajj",
    "subtitle": "Le grand pèlerinage",
-   "narration": "Des millions de personnes, habillées pareil, au même endroit, au même moment. C'est le hajj.",
-   "tts": "Des millions de personnes, habillées pareil, au même endroit, au même moment. C'est le hajj."
+   "narration": "Plus d'un million et demi de pèlerins, en tenue simple, au même endroit, au même moment. C'est le hajj.",
+   "tts": "Plus d'un million et demi de pèlerins, en tenue simple, au même endroit, au même moment. C'est le hajj."
   },
   {
    "type": "quote",
@@ -41,7 +41,7 @@
    "arabic": "ذُو الْحِجَّةِ",
    "title": "Le moment",
    "subtitle": "Le mois de Dhou al-Hijja",
-   "text": "Il a lieu chaque année, pendant les premiers jours du mois de Dhou al-Hijja, à La Mecque.",
+   "text": "Il a lieu chaque année, au mois de Dhou al-Hijja, surtout du 8 au 13, à La Mecque et dans les lieux autour.",
    "narration": "Deux : il a lieu chaque année, au mois de Dhou al-Hijja, à La Mecque et dans les lieux autour.",
    "tts": "Deux : il a lieu chaque année, au mois de Dhou al-Hijja, à La Mecque et dans les lieux autour."
   },
@@ -64,7 +64,7 @@
    "label": "POINT",
    "arabic": "الطَّوَافُ وَالسَّعْيُ",
    "title": "Tawaf et sa'y",
-   "subtitle": "Autour de la Kaaba",
+   "subtitle": "À la Mosquée sacrée",
    "text": "Le tawaf : sept tours autour de la Kaaba. Le sa'y : la marche entre Safa et Marwa.",
    "narration": "Quatre : le tawaf, sept tours autour de la Kaaba, et le sa'y, la marche entre Safa et Marwa.",
    "tts": "Quatre : le tawaf, sept tours autour de la Kaaba, et le sa'y, la marche entre Safa et Marwa."
@@ -102,7 +102,7 @@
     },
     {
      "title": "Tawaf et sa'y",
-     "subtitle": "Autour de la Kaaba",
+     "subtitle": "À la Mosquée sacrée",
      "arabic": "الطَّوَافُ وَالسَّعْيُ"
     },
     {

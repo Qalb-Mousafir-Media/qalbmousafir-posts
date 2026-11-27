@@ -52,10 +52,10 @@
    "label": "POINT",
    "arabic": "رُبْعُ الْعُشْرِ",
    "title": "2,5 %",
-   "subtitle": "Pour l'argent et l'or",
-   "text": "Pour l'argent et l'or, le taux est de 2,5 %. D'autres biens (bétail, récoltes) ont leurs propres règles.",
-   "narration": "Trois : pour l'argent et l'or, le taux est de deux virgule cinq pour cent. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles.",
-   "tts": "Trois : pour l'argent et l'or, le taux est de deux virgule cinq pour cent. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles."
+   "subtitle": "Argent, or, marchandises",
+   "text": "Pour l'argent, l'or et les marchandises, le taux est de 2,5 %. Bétail et récoltes ont leurs propres règles.",
+   "narration": "Trois : pour l'argent, l'or et les marchandises, le taux est de deux virgule cinq pour cent, le quart du dixième. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles.",
+   "tts": "Trois : pour l'argent, l'or et les marchandises, le taux est de deux virgule cinq pour cent, le quart du dixième. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles."
   },
   {
    "type": "step",
@@ -97,7 +97,7 @@
     },
     {
      "title": "2,5 %",
-     "subtitle": "Pour l'argent et l'or",
+     "subtitle": "Argent, or, marchandises",
      "arabic": "رُبْعُ الْعُشْرِ"
     },
     {
@@ -111,8 +111,8 @@
      "arabic": "طُهْرَةٌ"
     }
    ],
-   "narration": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent et l'or, des bénéficiaires précis, et une purification.",
-   "tts": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent et l'or, des bénéficiaires précis, et une purification."
+   "narration": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent, l'or et les marchandises, des bénéficiaires précis, et une purification.",
+   "tts": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent, l'or et les marchandises, des bénéficiaires précis, et une purification."
   },
   {
    "type": "outro",
