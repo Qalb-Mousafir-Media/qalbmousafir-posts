@@ -1,0 +1,11 @@
+# Voix off - ep12_zakat - La zakat
+# numero|texte ; [ar:ARABE|francais] = mot dit en arabe (mode ar) ou en francais (mode fr)
+01|En islam, une partie de ton argent est le droit des pauvres. Ça s'appelle la zakat.
+02|Allah, exalté soit-Il, dit : « Accomplissez la prière et acquittez la zakat. » Dans le Coran, les deux sont souvent cités ensemble.
+03|Un : la zakat est le troisième pilier de l'islam. Le mot veut dire purification, et croissance.
+04|Deux : elle concerne le musulman dont les biens soumis à la zakat, comme l'argent, l'or ou les marchandises, atteignent un seuil minimum, le [ar:نِصَاب|nisab], pendant une année lunaire.
+05|Trois : pour l'argent et l'or, le taux est de deux virgule cinq pour cent. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles.
+06|Quatre : elle va à des catégories citées dans le Coran : les pauvres, les nécessiteux, les endettés, et d'autres encore.
+07|Cinq : elle ne diminue pas ta richesse : elle la purifie, et elle rapproche les riches et les pauvres. Pour le calcul, demande à un imam ou à une organisation de confiance.
+08|En résumé : un pilier, le [ar:نِصَاب|nisab], deux virgule cinq pour cent pour l'argent et l'or, des bénéficiaires précis, et une purification.
+09|Prochain épisode : le hajj, le grand pèlerinage. Abonne-toi pour ne pas le rater !

@@ -1,0 +1,127 @@
+{
+ "episode": 12,
+ "slug": "ep12_zakat",
+ "title": "La zakat",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 12 · LES BASES",
+   "arabic": "الزَّكَاةُ",
+   "title": "La zakat",
+   "subtitle": "L'aumône obligatoire",
+   "narration": "En islam, une partie de ton argent est le droit des pauvres. Ça s'appelle la zakat.",
+   "tts": "En islam, une partie de ton argent est le droit des pauvres. Ça s'appelle la zakat."
+  },
+  {
+   "type": "quote",
+   "intro": "Allah, exalté soit-Il, dit :",
+   "arabic": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ",
+   "translation": "« Accomplissez la prière et acquittez la zakat. »",
+   "source": "Coran, sourate al-Baqara (2:43)",
+   "narration": "Allah, exalté soit-Il, dit : « Accomplissez la prière et acquittez la zakat. » Dans le Coran, les deux sont souvent cités ensemble.",
+   "tts": "Allah, exalté soit-Il, dit : « Accomplissez la prière et acquittez la zakat. » Dans le Coran, les deux sont souvent cités ensemble."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الرُّكْنُ الثَّالِثُ",
+   "title": "Un pilier",
+   "subtitle": "Le 3e pilier de l'islam",
+   "text": "La zakat est le troisième pilier. Le mot veut dire purification et croissance.",
+   "narration": "Un : la zakat est le troisième pilier de l'islam. Le mot veut dire purification, et croissance.",
+   "tts": "Un : la zakat est le troisième pilier de l'islam. Le mot veut dire purification, et croissance."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "النِّصَابُ",
+   "title": "Le nisab",
+   "subtitle": "Un seuil minimum",
+   "text": "Biens soumis à la zakat (argent, or, marchandises) qui atteignent le nisab pendant une année lunaire.",
+   "narration": "Deux : elle concerne le musulman dont les biens soumis à la zakat, comme l'argent, l'or ou les marchandises, atteignent un seuil minimum, le nisab, pendant une année lunaire.",
+   "tts": "Deux : elle concerne le musulman dont les biens soumis à la zakat, comme l'argent, l'or ou les marchandises, atteignent un seuil minimum, le nisab, pendant une année lunaire."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "رُبْعُ الْعُشْرِ",
+   "title": "2,5 %",
+   "subtitle": "Pour l'argent et l'or",
+   "text": "Pour l'argent et l'or, le taux est de 2,5 %. D'autres biens (bétail, récoltes) ont leurs propres règles.",
+   "narration": "Trois : pour l'argent et l'or, le taux est de deux virgule cinq pour cent. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles.",
+   "tts": "Trois : pour l'argent et l'or, le taux est de deux virgule cinq pour cent. D'autres biens, comme le bétail ou les récoltes, ont leurs propres règles."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "لِمَنْ؟",
+   "title": "Pour qui ?",
+   "subtitle": "Des catégories précises",
+   "text": "Le Coran cite les bénéficiaires : les pauvres, les nécessiteux, les endettés, et d'autres (9:60).",
+   "narration": "Quatre : elle va à des catégories citées dans le Coran : les pauvres, les nécessiteux, les endettés, et d'autres encore.",
+   "tts": "Quatre : elle va à des catégories citées dans le Coran : les pauvres, les nécessiteux, les endettés, et d'autres encore."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "طُهْرَةٌ",
+   "title": "Une purification",
+   "subtitle": "Pas une perte",
+   "text": "Elle purifie tes biens et rapproche riches et pauvres. Pour le calcul, demande à un imam de confiance.",
+   "narration": "Cinq : elle ne diminue pas ta richesse : elle la purifie, et elle rapproche les riches et les pauvres. Pour le calcul, demande à un imam ou à une organisation de confiance.",
+   "tts": "Cinq : elle ne diminue pas ta richesse : elle la purifie, et elle rapproche les riches et les pauvres. Pour le calcul, demande à un imam ou à une organisation de confiance."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Un pilier",
+     "subtitle": "Le 3e pilier de l'islam",
+     "arabic": "الرُّكْنُ الثَّالِثُ"
+    },
+    {
+     "title": "Le nisab",
+     "subtitle": "Un seuil minimum",
+     "arabic": "النِّصَابُ"
+    },
+    {
+     "title": "2,5 %",
+     "subtitle": "Pour l'argent et l'or",
+     "arabic": "رُبْعُ الْعُشْرِ"
+    },
+    {
+     "title": "Pour qui ?",
+     "subtitle": "Des catégories précises",
+     "arabic": "لِمَنْ؟"
+    },
+    {
+     "title": "Une purification",
+     "subtitle": "Pas une perte",
+     "arabic": "طُهْرَةٌ"
+    }
+   ],
+   "narration": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent et l'or, des bénéficiaires précis, et une purification.",
+   "tts": "En résumé : un pilier, le nisab, deux virgule cinq pour cent pour l'argent et l'or, des bénéficiaires précis, et une purification."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "next_title": "Le hajj, le grand pèlerinage",
+   "next_arabic": "الْحَجُّ",
+   "narration": "Prochain épisode : le hajj, le grand pèlerinage. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : le hajj, le grand pèlerinage. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

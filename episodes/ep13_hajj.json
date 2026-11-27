@@ -1,0 +1,127 @@
+{
+ "episode": 13,
+ "slug": "ep13_hajj",
+ "title": "Le hajj",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 13 · LES BASES",
+   "arabic": "الْحَجُّ",
+   "title": "Le hajj",
+   "subtitle": "Le grand pèlerinage",
+   "narration": "Des millions de personnes, habillées pareil, au même endroit, au même moment. C'est le hajj.",
+   "tts": "Des millions de personnes, habillées pareil, au même endroit, au même moment. C'est le hajj."
+  },
+  {
+   "type": "quote",
+   "intro": "Allah, exalté soit-Il, dit :",
+   "arabic": "وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا",
+   "translation": "« C'est un devoir envers Allah, pour les gens qui en ont les moyens, de faire le pèlerinage de la Maison. »",
+   "source": "Coran, sourate Al 'Imran (3:97)",
+   "narration": "Allah, exalté soit-Il, dit : « C'est un devoir envers Allah, pour les gens qui en ont les moyens, de faire le pèlerinage de la Maison. »",
+   "tts": "Allah, exalté soit-Il, dit : « C'est un devoir envers Allah, pour les gens qui en ont les moyens, de faire le pèlerinage de la Maison. »"
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الرُّكْنُ الْخَامِسُ",
+   "title": "Un pilier",
+   "subtitle": "Une fois dans la vie",
+   "text": "Le 5e pilier : obligatoire une fois dans la vie, pour le musulman adulte qui en a les moyens.",
+   "narration": "Un : c'est le cinquième pilier. Il est obligatoire une fois dans la vie, pour le musulman adulte qui en a les moyens physiques et financiers.",
+   "tts": "Un : c'est le cinquième pilier. Il est obligatoire une fois dans la vie, pour le musulman adulte qui en a les moyens physiques et financiers."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "ذُو الْحِجَّةِ",
+   "title": "Le moment",
+   "subtitle": "Le mois de Dhou al-Hijja",
+   "text": "Il a lieu chaque année, pendant les premiers jours du mois de Dhou al-Hijja, à La Mecque.",
+   "narration": "Deux : il a lieu chaque année, au mois de Dhou al-Hijja, à La Mecque et dans les lieux autour.",
+   "tts": "Deux : il a lieu chaque année, au mois de Dhou al-Hijja, à La Mecque et dans les lieux autour."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْإِحْرَامُ",
+   "title": "L'ihram",
+   "subtitle": "Un état sacré",
+   "text": "Le pèlerin entre en état d'ihram. Les hommes portent deux tissus simples, non cousus, souvent blancs.",
+   "narration": "Trois : le pèlerin entre dans l'ihram, un état sacré. Les hommes portent deux tissus simples, non cousus, souvent blancs. Riches ou pauvres, tout le monde est égal.",
+   "tts": "Trois : le pèlerin entre dans l'ihram, un état sacré. Les hommes portent deux tissus simples, non cousus, souvent blancs. Riches ou pauvres, tout le monde est égal."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الطَّوَافُ وَالسَّعْيُ",
+   "title": "Tawaf et sa'y",
+   "subtitle": "Autour de la Kaaba",
+   "text": "Le tawaf : sept tours autour de la Kaaba. Le sa'y : la marche entre Safa et Marwa.",
+   "narration": "Quatre : le tawaf, sept tours autour de la Kaaba, et le sa'y, la marche entre Safa et Marwa.",
+   "tts": "Quatre : le tawaf, sept tours autour de la Kaaba, et le sa'y, la marche entre Safa et Marwa."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "عَرَفَةُ",
+   "title": "Arafat",
+   "subtitle": "Le cœur du hajj",
+   "text": "La journée d'Arafat est le moment le plus important. Le hajj suit les traces d'Ibrahim, paix sur lui.",
+   "narration": "Cinq : la journée d'Arafat est le cœur du hajj. Et tout le pèlerinage suit les traces du Prophète Ibrahim, paix sur lui, et du Prophète Muhammad, paix et salut sur lui.",
+   "tts": "Cinq : la journée d'Arafat est le cœur du hajj. Et tout le pèlerinage suit les traces du Prophète Ibrahim, paix sur lui, et du Prophète Muhammad, paix et salut sur lui."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Un pilier",
+     "subtitle": "Une fois dans la vie",
+     "arabic": "الرُّكْنُ الْخَامِسُ"
+    },
+    {
+     "title": "Le moment",
+     "subtitle": "Le mois de Dhou al-Hijja",
+     "arabic": "ذُو الْحِجَّةِ"
+    },
+    {
+     "title": "L'ihram",
+     "subtitle": "Un état sacré",
+     "arabic": "الْإِحْرَامُ"
+    },
+    {
+     "title": "Tawaf et sa'y",
+     "subtitle": "Autour de la Kaaba",
+     "arabic": "الطَّوَافُ وَالسَّعْيُ"
+    },
+    {
+     "title": "Arafat",
+     "subtitle": "Le cœur du hajj",
+     "arabic": "عَرَفَةُ"
+    }
+   ],
+   "narration": "En résumé : un pilier, au mois de Dhou al-Hijja, l'ihram, le tawaf et le sa'y, et la journée d'Arafat.",
+   "tts": "En résumé : un pilier, au mois de Dhou al-Hijja, l'ihram, le tawaf et le sa'y, et la journée d'Arafat."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "next_title": "La prière du vendredi",
+   "next_arabic": "صَلَاةُ الْجُمُعَةِ",
+   "narration": "Prochain épisode : la prière du vendredi. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : la prière du vendredi. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}
