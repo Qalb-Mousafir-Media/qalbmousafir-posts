@@ -30,8 +30,8 @@
    "title": "Un pilier",
    "subtitle": "De la foi",
    "text": "Croire aux anges est l'un des six piliers de la foi, vus à l'épisode 4.",
-   "narration": "Un : croire aux anges est l'un des six piliers de la foi, vus à l'épisode quatre.",
-   "tts": "Un : croire aux anges est l'un des six piliers de la foi, vus à l'épisode quatre."
+   "narration": "Un : croire aux anges, paix sur eux, est l'un des six piliers de la foi, vus à l'épisode quatre.",
+   "tts": "Un : croire aux anges, paix sur eux, est l'un des six piliers de la foi, vus à l'épisode quatre."
   },
   {
    "type": "step",
@@ -53,9 +53,9 @@
    "arabic": "جِبْرِيلُ",
    "title": "Jibril",
    "subtitle": "L'ange de la révélation",
-   "text": "Jibril, paix sur lui, a apporté la révélation aux prophètes.",
-   "narration": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes.",
-   "tts": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes."
+   "text": "Jibril, paix sur lui, a apporté la révélation aux prophètes, paix sur eux.",
+   "narration": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes, paix sur eux.",
+   "tts": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes, paix sur eux."
   },
   {
    "type": "step",
@@ -77,7 +77,7 @@
    "arabic": "كِرَامًا كَاتِبِينَ",
    "title": "Les nobles scribes",
    "subtitle": "Ils notent nos actes",
-   "text": "Deux anges notent nos actes, bons et mauvais (Coran 82:10-11). Même quand on est seul.",
+   "text": "Des anges nobles notent nos actes, bons et mauvais (Coran 82:10-12). Même quand on est seul.",
    "narration": "Cinq : Allah, exalté soit-Il, nous dit que des anges notent nos actes, bons et mauvais. Savoir ça change notre manière d'agir, même quand on est seul.",
    "tts": "Cinq : Allah, exalté soit-Il, nous dit que des anges notent nos actes, bons et mauvais. Savoir ça change notre manière d'agir, même quand on est seul."
   },
@@ -111,8 +111,8 @@
      "arabic": "كِرَامًا كَاتِبِينَ"
     }
    ],
-   "narration": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, d'autres rôles, et les nobles scribes.",
-   "tts": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, d'autres rôles, et les nobles scribes."
+   "narration": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, paix sur lui, d'autres rôles, et les nobles scribes.",
+   "tts": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, paix sur lui, d'autres rôles, et les nobles scribes."
   },
   {
    "type": "outro",

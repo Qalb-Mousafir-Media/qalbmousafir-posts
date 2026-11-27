@@ -19,6 +19,8 @@ MOTS = [
     # Les bases, ép. 15 à 17
     ("Bismillah", "بِسْمِ الله"),
     ("al-hamdu lillah", "الحَمْدُ لِله"),
+    ("Abu Dawud", "أَبُو دَاوُد"),
+    ("an-Nasa'i", "النَّسَائِي"),
     # Les bases, ép. 12 à 14
     ("Dhou al-Hijja", "ذُو الحِجَّة"),
     ("nisab", "نِصَاب"),

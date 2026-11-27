@@ -29,7 +29,7 @@
    "arabic": "بِسْمِ اللهِ",
    "title": "Bismillah",
    "subtitle": "Avant de manger",
-   "text": "Avant de manger, on dit « Bismillah » : au nom d'Allah.",
+   "text": "Avant de manger, on dit « Bismillah » : au nom d'Allah (al-Bukhari 5376, Muslim 2022).",
    "narration": "Un : avant de manger, on dit : Bismillah. Au nom d'Allah.",
    "tts": "Un : avant de manger, on dit : Bismillah. Au nom d'Allah."
   },
@@ -41,7 +41,7 @@
    "arabic": "الْحَمْدُ لِلَّهِ",
    "title": "Al-hamdu lillah",
    "subtitle": "Après le repas",
-   "text": "Après le repas, on dit « Al-hamdu lillah » : louange à Allah.",
+   "text": "Après le repas, on dit « Al-hamdu lillah » : louange à Allah (Muslim 2734).",
    "narration": "Deux : après le repas, on dit : al-hamdu lillah. Louange à Allah.",
    "tts": "Deux : après le repas, on dit : al-hamdu lillah. Louange à Allah."
   },

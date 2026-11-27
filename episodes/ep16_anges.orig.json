@@ -1,0 +1,127 @@
+{
+ "episode": 16,
+ "slug": "ep16_anges",
+ "title": "Les anges",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 16 · LES BASES",
+   "arabic": "الْمَلَائِكَةُ",
+   "title": "Les anges",
+   "subtitle": "Un pilier de la foi",
+   "narration": "Ils sont autour de toi en ce moment, et tu ne les vois pas.",
+   "tts": "Ils sont autour de toi en ce moment, et tu ne les vois pas."
+  },
+  {
+   "type": "quote",
+   "intro": "Le Prophète ﷺ a dit :",
+   "arabic": "خُلِقَتِ الْمَلَائِكَةُ مِنْ نُورٍ",
+   "translation": "« Les anges ont été créés de lumière. »",
+   "source": "Rapporté par Muslim (n° 2996)",
+   "narration": "Le Prophète, paix et salut sur lui, a dit : « Les anges ont été créés de lumière. » Rapporté par Muslim.",
+   "tts": "Le Prophète, paix et salut sur lui, a dit : « Les anges ont été créés de lumière. » Rapporté par Muslim."
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "الْإِيمَانُ بِالْمَلَائِكَةِ",
+   "title": "Un pilier",
+   "subtitle": "De la foi",
+   "text": "Croire aux anges est l'un des six piliers de la foi, vus à l'épisode 4.",
+   "narration": "Un : croire aux anges est l'un des six piliers de la foi, vus à l'épisode quatre.",
+   "tts": "Un : croire aux anges est l'un des six piliers de la foi, vus à l'épisode quatre."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "لَا يَعْصُونَ",
+   "title": "Obéissants",
+   "subtitle": "Ils n'ont jamais désobéi",
+   "text": "Ils ne désobéissent jamais à Allah et font ce qui leur est ordonné (Coran 66:6).",
+   "narration": "Deux : ils ne désobéissent jamais à Allah, et font ce qui leur est ordonné.",
+   "tts": "Deux : ils ne désobéissent jamais à Allah, et font ce qui leur est ordonné."
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "جِبْرِيلُ",
+   "title": "Jibril",
+   "subtitle": "L'ange de la révélation",
+   "text": "Jibril, paix sur lui, a apporté la révélation aux prophètes.",
+   "narration": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes.",
+   "tts": "Trois : Jibril, paix sur lui, a apporté la révélation aux prophètes."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "أَدْوَارٌ",
+   "title": "D'autres rôles",
+   "subtitle": "Selon les textes",
+   "text": "D'autres anges ont un rôle connu : celui qui reprend les âmes, ou celui qui soufflera dans la trompe.",
+   "narration": "Quatre : d'autres anges ont un rôle connu : l'ange de la mort reprend les âmes, et un ange soufflera dans la trompe le Jour dernier. Paix sur eux.",
+   "tts": "Quatre : d'autres anges ont un rôle connu : l'ange de la mort reprend les âmes, et un ange soufflera dans la trompe le Jour dernier. Paix sur eux."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "كِرَامًا كَاتِبِينَ",
+   "title": "Les nobles scribes",
+   "subtitle": "Ils notent nos actes",
+   "text": "Deux anges notent nos actes, bons et mauvais (Coran 82:10-11). Même quand on est seul.",
+   "narration": "Cinq : Allah, exalté soit-Il, nous dit que des anges notent nos actes, bons et mauvais. Savoir ça change notre manière d'agir, même quand on est seul.",
+   "tts": "Cinq : Allah, exalté soit-Il, nous dit que des anges notent nos actes, bons et mauvais. Savoir ça change notre manière d'agir, même quand on est seul."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "Un pilier",
+     "subtitle": "De la foi",
+     "arabic": "الْإِيمَانُ بِالْمَلَائِكَةِ"
+    },
+    {
+     "title": "Obéissants",
+     "subtitle": "Ils n'ont jamais désobéi",
+     "arabic": "لَا يَعْصُونَ"
+    },
+    {
+     "title": "Jibril",
+     "subtitle": "L'ange de la révélation",
+     "arabic": "جِبْرِيلُ"
+    },
+    {
+     "title": "D'autres rôles",
+     "subtitle": "Selon les textes",
+     "arabic": "أَدْوَارٌ"
+    },
+    {
+     "title": "Les nobles scribes",
+     "subtitle": "Ils notent nos actes",
+     "arabic": "كِرَامًا كَاتِبِينَ"
+    }
+   ],
+   "narration": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, d'autres rôles, et les nobles scribes.",
+   "tts": "En résumé : un pilier de la foi, des créatures obéissantes, Jibril, d'autres rôles, et les nobles scribes."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "next_title": "Les invocations du quotidien",
+   "next_arabic": "أَذْكَارُ الْيَوْمِ",
+   "narration": "Prochain épisode : les invocations du quotidien. Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : les invocations du quotidien. Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

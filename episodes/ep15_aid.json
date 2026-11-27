@@ -15,11 +15,11 @@
   {
    "type": "quote",
    "intro": "Anas, qu'Allah l'agrée, rapporte que le Prophète ﷺ a dit :",
-   "arabic": "قَدْ أَبْدَلَكُمُ اللهُ بِهِمَا خَيْرًا مِنْهُمَا: يَوْمَ الْأَضْحَى وَيَوْمَ الْفِطْرِ",
-   "translation": "« Allah vous les a remplacées par deux jours meilleurs : le jour de l'Adha et le jour du Fitr. »",
-   "source": "Rapporté par Abu Dawud (n° 1134)",
-   "narration": "Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à la place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud.",
-   "tts": "Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à la place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud."
+   "arabic": "إِنَّ اللَّهَ قَدْ أَبْدَلَكُمْ بِهِمَا خَيْرًا مِنْهُمَا: يَوْمَ الْأَضْحَى وَيَوْمَ الْفِطْرِ",
+   "translation": "« Allah vous a donné à leur place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. »",
+   "source": "Rapporté par Abu Dawud (n° 1134) et an-Nasa'i (n° 1556) ; authentifié par al-Albani",
+   "narration": "À Médine, les gens avaient deux jours de jeux d'avant l'islam. Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à leur place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud et an-Nasa'i.",
+   "tts": "À Médine, les gens avaient deux jours de jeux d'avant l'islam. Le Prophète, paix et salut sur lui, a dit : « Allah vous a donné à leur place deux jours meilleurs : le jour de l'Adha et le jour du Fitr. » Rapporté par Abu Dawud et an-Nasa'i."
   },
   {
    "type": "step",
@@ -54,8 +54,8 @@
    "title": "L'Aïd al-Adha",
    "subtitle": "La fête du sacrifice",
    "text": "Le 10 du mois de Dhou al-Hijja, pendant le hajj. Elle rappelle l'obéissance d'Ibrahim, paix sur lui.",
-   "narration": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix du mois de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui, et Allah a remplacé son fils par un bélier.",
-   "tts": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix du mois de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui, et Allah a remplacé son fils par un bélier."
+   "narration": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui. Allah, exalté soit-Il, a racheté son fils par un sacrifice immense.",
+   "tts": "Trois : l'Aïd al-Adha, la fête du sacrifice, le dix de Dhou al-Hijja. Elle rappelle l'obéissance du Prophète Ibrahim, paix sur lui. Allah, exalté soit-Il, a racheté son fils par un sacrifice immense."
   },
   {
    "type": "step",
@@ -111,8 +111,8 @@
      "arabic": "صَلَاةُ الْعِيدِ"
     }
    ],
-   "narration": "En résumé : l'Aïd al-Fitr après Ramadan, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd.",
-   "tts": "En résumé : l'Aïd al-Fitr après Ramadan, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd."
+   "narration": "En résumé : l'Aïd al-Fitr, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd.",
+   "tts": "En résumé : l'Aïd al-Fitr, la zakat al-fitr, l'Aïd al-Adha, le sacrifice, et la prière de l'Aïd."
   },
   {
    "type": "outro",
