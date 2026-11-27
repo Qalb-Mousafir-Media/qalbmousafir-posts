@@ -42,8 +42,8 @@
    "title": "De l'aube au coucher",
    "subtitle": "Du Fajr au Maghrib",
    "text": "Avec l'intention de jeûner pour Allah : ni manger, ni boire, ni relations intimes, de l'aube au coucher.",
-   "narration": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube, le Fajr, au coucher du soleil, le Maghrib.",
-   "tts": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube, le Fajr, au coucher du soleil, le Maghrib."
+   "narration": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube au coucher du soleil.",
+   "tts": "Deux : avec l'intention de jeûner pour Allah, ni manger, ni boire, ni relations intimes, de l'aube au coucher du soleil."
   },
   {
    "type": "step",
@@ -65,9 +65,9 @@
    "arabic": "الرُّخْصَةُ",
    "title": "Les dispenses",
    "subtitle": "Malades, voyageurs, règles",
-   "text": "Malade, voyageur, femme en période de règles : on rattrape plus tard. Si c'est impossible à vie : la fidya.",
-   "narration": "Quatre : le malade, le voyageur et la femme pendant ses règles rattrapent les jours plus tard. Celui qui ne pourra jamais jeûner nourrit un pauvre pour chaque jour.",
-   "tts": "Quatre : le malade, le voyageur et la femme pendant ses règles rattrapent les jours plus tard. Celui qui ne pourra jamais jeûner nourrit un pauvre pour chaque jour."
+   "text": "Malade ou voyageur : on peut rompre ; en période de règles, on ne jeûne pas. Les jours se rattrapent ensuite.",
+   "narration": "Quatre : le malade et le voyageur peuvent rompre, la femme ne jeûne pas pendant ses règles, et tous rattrapent ensuite. Qui ne pourra jamais jeûner nourrit un pauvre par jour : obligatoire ou conseillé, selon les écoles.",
+   "tts": "Quatre : le malade et le voyageur peuvent rompre, la femme ne jeûne pas pendant ses règles, et tous rattrapent ensuite. Qui ne pourra jamais jeûner nourrit un pauvre par jour : obligatoire ou conseillé, selon les écoles."
   },
   {
    "type": "step",
@@ -76,10 +76,10 @@
    "label": "POINT",
    "arabic": "أَكْثَرُ مِنَ الطَّعَامِ",
    "title": "Pas que le ventre",
-   "subtitle": "La langue et les actes",
-   "text": "« Qui ne délaisse pas le mensonge… Allah n'a pas besoin qu'il délaisse sa nourriture » (al-Bukhari 1903).",
-   "narration": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : celui qui ne délaisse pas le mensonge, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson.",
-   "tts": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : celui qui ne délaisse pas le mensonge, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson."
+   "subtitle": "Rapporté par al-Bukhari (n° 1903)",
+   "text": "« Qui ne délaisse pas le mensonge en paroles et en actes, Allah n'a pas besoin qu'il délaisse sa nourriture… »",
+   "narration": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : « Celui qui ne délaisse pas le mensonge, en paroles et en actes, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson. »",
+   "tts": "Cinq : le jeûne, ce n'est pas que le ventre. Le Prophète, paix et salut sur lui, a dit : « Celui qui ne délaisse pas le mensonge, en paroles et en actes, Allah n'a pas besoin qu'il délaisse sa nourriture et sa boisson. »"
   },
   {
    "type": "recap",
@@ -111,8 +111,8 @@
      "arabic": "أَكْثَرُ مِنَ الطَّعَامِ"
     }
    ],
-   "narration": "En résumé : un pilier, de l'aube au coucher du soleil, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps.",
-   "tts": "En résumé : un pilier, de l'aube au coucher du soleil, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps."
+   "narration": "En résumé : un pilier, du Fajr au Maghrib, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps.",
+   "tts": "En résumé : un pilier, du Fajr au Maghrib, le sahour et l'iftar, des dispenses, et un jeûne de tout le corps."
   },
   {
    "type": "outro",

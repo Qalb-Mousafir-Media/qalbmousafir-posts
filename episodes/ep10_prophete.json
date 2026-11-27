@@ -7,7 +7,7 @@
    "type": "hook",
    "pill": "ÉPISODE 10 · LES BASES",
    "arabic": "مُحَمَّدٌ رَسُولُ اللهِ ﷺ",
-   "title": "Qui est le Prophète ?",
+   "title": "Qui est le Prophète ﷺ ?",
    "subtitle": "Sa vie en une minute",
    "narration": "Le Prophète Muhammad, paix et salut sur lui : sa vie en une minute.",
    "tts": "Le Prophète Muhammad, paix et salut sur lui : sa vie en une minute."
@@ -15,7 +15,7 @@
   {
    "type": "quote",
    "intro": "Allah, exalté soit-Il, dit :",
-   "arabic": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ",
+   "arabic": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ",
    "translation": "« Et Nous ne t'avons envoyé qu'en miséricorde pour les mondes. »",
    "source": "Coran, sourate al-Anbiya' (21:107)",
    "narration": "Allah, exalté soit-Il, dit : « Et Nous ne t'avons envoyé qu'en miséricorde pour les mondes. »",
@@ -50,7 +50,7 @@
    "index": 3,
    "total": 5,
    "label": "ÉTAPE",
-   "arabic": "حِرَاءُ",
+   "arabic": "غَارُ حِرَاءٍ",
    "title": "La révélation",
    "subtitle": "À 40 ans, à Hira",
    "text": "À 40 ans, dans la grotte de Hira, il reçoit la première révélation.",
@@ -98,7 +98,7 @@
     {
      "title": "La révélation",
      "subtitle": "À 40 ans, à Hira",
-     "arabic": "حِرَاءُ"
+     "arabic": "غَارُ حِرَاءٍ"
     },
     {
      "title": "La Hijra",

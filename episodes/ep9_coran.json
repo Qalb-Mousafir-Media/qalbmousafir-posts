@@ -53,9 +53,9 @@
    "arabic": "٢٣ سَنَةً",
    "title": "23 ans",
    "subtitle": "Une révélation progressive",
-   "text": "La révélation a duré environ 23 ans, verset après verset, selon les événements.",
-   "narration": "Trois : la révélation a duré environ vingt-trois ans, verset après verset, selon les événements.",
-   "tts": "Trois : la révélation a duré environ vingt-trois ans, verset après verset, selon les événements."
+   "text": "La révélation a duré environ 23 ans, par passages, souvent en lien avec les événements.",
+   "narration": "Trois : la révélation a duré environ vingt-trois ans, par passages, souvent en lien avec les événements.",
+   "tts": "Trois : la révélation a duré environ vingt-trois ans, par passages, souvent en lien avec les événements."
   },
   {
    "type": "step",
@@ -111,13 +111,13 @@
      "arabic": "بِلِسَانٍ عَرَبِيٍّ"
     }
    ],
-   "narration": "En résumé : la parole d'Allah, révélée par Jibril, pendant vingt-trois ans, en cent quatorze sourates, en arabe.",
-   "tts": "En résumé : la parole d'Allah, révélée par Jibril, pendant vingt-trois ans, en cent quatorze sourates, en arabe."
+   "narration": "En résumé : la parole d'Allah, révélée par Jibril, paix sur lui, pendant vingt-trois ans, en cent quatorze sourates, en arabe.",
+   "tts": "En résumé : la parole d'Allah, révélée par Jibril, paix sur lui, pendant vingt-trois ans, en cent quatorze sourates, en arabe."
   },
   {
    "type": "outro",
    "next_label": "Prochain épisode",
-   "next_title": "Qui est le Prophète Muhammad",
+   "next_title": "Qui est le Prophète Muhammad ﷺ",
    "next_arabic": "مُحَمَّدٌ رَسُولُ اللهِ ﷺ",
    "cta": "Abonne-toi pour ne pas le rater",
    "narration": "Prochain épisode : qui est le Prophète Muhammad, paix et salut sur lui ? Abonne-toi pour ne pas le rater !",

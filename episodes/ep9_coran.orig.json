@@ -1,0 +1,127 @@
+{
+ "episode": 9,
+ "slug": "ep9_coran",
+ "title": "Le Coran, la parole d'Allah",
+ "scenes": [
+  {
+   "type": "hook",
+   "pill": "ÉPISODE 9 · LES BASES",
+   "arabic": "الْقُرْآنُ الْكَرِيمُ",
+   "title": "Le Coran",
+   "subtitle": "La parole d'Allah",
+   "narration": "Le livre le plus appris par cœur au monde. Tu sais comment il est arrivé ?",
+   "tts": "Le livre le plus appris par cœur au monde. Tu sais comment il est arrivé ?"
+  },
+  {
+   "type": "quote",
+   "intro": "Allah, exalté soit-Il, dit :",
+   "arabic": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+   "translation": "« C'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes les gardiens. »",
+   "source": "Coran, sourate al-Hijr (15:9)",
+   "narration": "Allah, exalté soit-Il, dit : « C'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes les gardiens. »",
+   "tts": "Allah, exalté soit-Il, dit : « C'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes les gardiens. »"
+  },
+  {
+   "type": "step",
+   "index": 1,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "كَلَامُ اللهِ",
+   "title": "La parole d'Allah",
+   "subtitle": "Par l'ange Jibril",
+   "text": "Le Coran est la parole d'Allah, révélée au Prophète Muhammad ﷺ par l'ange Jibril.",
+   "narration": "Un : le Coran est la parole d'Allah, révélée au Prophète Muhammad, paix et salut sur lui, par l'ange Jibril, paix sur lui.",
+   "tts": "Un : le Coran est la parole d'Allah, révélée au Prophète Muhammad, paix et salut sur lui, par l'ange Jibril, paix sur lui."
+  },
+  {
+   "type": "step",
+   "index": 2,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "اقْرَأْ",
+   "title": "« Iqra' »",
+   "subtitle": "Le premier mot révélé",
+   "text": "Tout commence dans la grotte de Hira, près de La Mecque, par un mot : « Lis ! » (96:1).",
+   "narration": "Deux : tout commence dans la grotte de Hira, près de La Mecque, par un seul mot : « Lis ! »",
+   "tts": "Deux : tout commence dans la grotte de Hira, près de La Mecque, par un seul mot : « Lis ! »"
+  },
+  {
+   "type": "step",
+   "index": 3,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "٢٣ سَنَةً",
+   "title": "23 ans",
+   "subtitle": "Une révélation progressive",
+   "text": "La révélation a duré environ 23 ans, verset après verset, selon les événements.",
+   "narration": "Trois : la révélation a duré environ vingt-trois ans, verset après verset, selon les événements.",
+   "tts": "Trois : la révélation a duré environ vingt-trois ans, verset après verset, selon les événements."
+  },
+  {
+   "type": "step",
+   "index": 4,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "١١٤ سُورَةً",
+   "title": "114 sourates",
+   "subtitle": "De al-Fatiha à an-Nas",
+   "text": "Dans l'ordre du Mushaf : al-Fatiha est la première sourate, an-Nas la dernière.",
+   "narration": "Quatre : cent quatorze sourates. Dans l'ordre du Mushaf, al-Fatiha est la première, et an-Nas la dernière.",
+   "tts": "Quatre : cent quatorze sourates. Dans l'ordre du Mushaf, al-Fatiha est la première, et an-Nas la dernière."
+  },
+  {
+   "type": "step",
+   "index": 5,
+   "total": 5,
+   "label": "POINT",
+   "arabic": "بِلِسَانٍ عَرَبِيٍّ",
+   "title": "En arabe",
+   "subtitle": "Préservé et appris par cœur",
+   "text": "Les traductions aident à comprendre le sens. La récitation se fait en arabe.",
+   "narration": "Cinq : il a été révélé en arabe, et des millions de musulmans le connaissent par cœur, en entier. Les traductions aident à comprendre le sens, mais on le récite en arabe.",
+   "tts": "Cinq : il a été révélé en arabe, et des millions de musulmans le connaissent par cœur, en entier. Les traductions aident à comprendre le sens, mais on le récite en arabe."
+  },
+  {
+   "type": "recap",
+   "title": "En résumé",
+   "items": [
+    {
+     "title": "La parole d'Allah",
+     "subtitle": "Par l'ange Jibril",
+     "arabic": "كَلَامُ اللهِ"
+    },
+    {
+     "title": "« Iqra' »",
+     "subtitle": "Le premier mot révélé",
+     "arabic": "اقْرَأْ"
+    },
+    {
+     "title": "23 ans",
+     "subtitle": "Une révélation progressive",
+     "arabic": "٢٣ سَنَةً"
+    },
+    {
+     "title": "114 sourates",
+     "subtitle": "De al-Fatiha à an-Nas",
+     "arabic": "١١٤ سُورَةً"
+    },
+    {
+     "title": "En arabe",
+     "subtitle": "Préservé et appris par cœur",
+     "arabic": "بِلِسَانٍ عَرَبِيٍّ"
+    }
+   ],
+   "narration": "En résumé : la parole d'Allah, révélée par Jibril, pendant vingt-trois ans, en cent quatorze sourates, en arabe.",
+   "tts": "En résumé : la parole d'Allah, révélée par Jibril, pendant vingt-trois ans, en cent quatorze sourates, en arabe."
+  },
+  {
+   "type": "outro",
+   "next_label": "Prochain épisode",
+   "next_title": "Qui est le Prophète Muhammad",
+   "next_arabic": "مُحَمَّدٌ رَسُولُ اللهِ ﷺ",
+   "cta": "Abonne-toi pour ne pas le rater",
+   "narration": "Prochain épisode : qui est le Prophète Muhammad, paix et salut sur lui ? Abonne-toi pour ne pas le rater !",
+   "tts": "Prochain épisode : qui est le Prophète Muhammad, paix et salut sur lui ? Abonne-toi pour ne pas le rater !"
+  }
+ ]
+}

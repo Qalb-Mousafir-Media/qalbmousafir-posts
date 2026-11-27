@@ -26,6 +26,7 @@ MOTS = [
     ("an-Nas", "النَّاس"),
     ("sahour", "سَحُور"),
     ("L'iftar", "الإِفْطَار"),
+    ("l'iftar", "الإِفْطَار"),
     ("ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah", "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا الله، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ الله"),
     ("wa ash-hadu anna Muhammadan", "وَأَشْهَدُ أَنَّ مُحَمَّدًا"),
     ("ash-hadu", "أَشْهَدُ"),
